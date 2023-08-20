@@ -1,0 +1,121 @@
+
+
+#' Converts a flextable-part to a tibble styles
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#'
+#' @param ftpart a [flextable][flextable::flextable-package] part
+#'
+#' @return a [tibble][tibble::tibble-package]
+#'
+#' @examples
+#' flextable::flextable(mtcars) -> ft
+#' ftpart_to_tibble(ft$header, "header")
+#'
+ftpart_to_style_tibble <- function(ft_part,
+                             part = c("header",
+                                      "body",
+                                      "footer")) {
+  ## map styles to data.frames -----
+
+  ### Cells --------
+  lapply(ft_part$styles$cells,
+         \(x) {
+           if("data" %in% names(x))
+             return(as.vector(x$data))
+           return(NULL)
+         }) |>
+    data.frame() -> df_styles_cells
+  df_styles_cells$rowheight <- round(ft_part$rowheights * 91.4400, 0)
+
+  ### Pars --------
+  lapply(ft_part$styles$pars,
+         \(x) {
+           if("data" %in% names(x))
+             return(as.vector(x$data))
+           return(NULL)
+         }) |>
+    data.frame() -> df_styles_pars
+
+  ### Text --------
+  lapply(ft_part$styles$text,
+         \(x) {
+           if("data" %in% names(x))
+             return(as.vector(x$data))
+           return(NULL)
+         }) |>
+    data.frame() -> df_styles_text
+
+  ## Merge -----
+  df_styles <- dplyr::bind_cols(df_styles_cells,
+                                dplyr::rename(df_styles_text, "text.vertical.align" = dplyr::all_of("vertical.align")),
+                                dplyr::select(df_styles_pars, dplyr::all_of("text.align")))
+
+  ## determine spans -------
+  df_styles$span.rows <- ft_part$spans$rows |> as.vector()
+  df_styles$span.cols <- ft_part$spans$columns |> as.vector()
+
+  ## Add row and col id --------
+  idims <- dim(ft_part$content$content$data)
+  df_styles$col_id <- sort(rep(seq_len(idims[2]), idims[1]))
+  df_styles$row_id <- rep(seq_len(idims[1]), idims[2])
+
+  ## Add content --------
+  df_styles$content <- lapply(seq_len(nrow(df_styles)), function(i) {
+    ft_part$content$content$data[[df_styles$row_id[i], df_styles$col_id[i]]]
+  })
+
+  ## arrange -----
+  df_styles <- dplyr::arrange(df_styles, row_id, col_id)
+
+  return(df_styles)
+}
+
+
+#' Converts a flextable to a tibble with style information
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#'
+#' @param ft a [flextable][flextable::flextable-package]
+#'
+#' @return a [tibble][tibble::tibble-package]
+#'
+#' @examples
+#' ft_to_style_tibble(flextable::flextable(mtcars))
+ft_to_style_tibble <- function(ft) {
+  has_caption <- length(ft$caption$value) > 0
+  has_footer <- length(ft$footer$content) > 0
+
+  # Caption
+  df_caption <- if(has_caption) tibble::tibble(row_id = 1, col_id = 1) else tibble::tibble()
+
+  # Header
+  df_header <- ftpart_to_style_tibble(ft$header)
+  # Offset row-id based on caption rows
+  if(has_caption)
+    df_header$row_id <- df_header$row_id + max(df_caption$row_id)
+
+  # Body
+  df_body <- ftpart_to_style_tibble(ft$body)
+  df_body$row_id <- df_body$row_id + max(df_header$row_id)
+
+  # Footer
+  if(has_footer) {
+    df_footer <- ftpart_to_style_tibble(ft$footer)
+    df_footer$row_id <- df_footer$row_id + max(df_body$row_id)
+  } else {
+    df_footer <- tibble::tibble()
+  }
+
+  df_style <- dplyr::bind_rows(df_caption,
+                                 df_header,
+                                 df_body,
+                                 df_footer)
+
+  df_style$col_name <- paste0(openxlsx2::int2col(df_style$col_id),
+                            df_style$row_id)
+
+  return(df_style)
+}
