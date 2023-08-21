@@ -2,16 +2,17 @@
 
 #' Converts a flextable-part to a tibble styles
 #'
+#' @param ft_part the part of the flextable to extract the style from
+#' @param part the name of the part
+#'
 #' @description
 #' `r lifecycle::badge("experimental")`
 #'
-#' @param ftpart a [flextable][flextable::flextable-package] part
-#'
 #' @return a [tibble][tibble::tibble-package]
 #'
-#' @examples
-#' flextable::flextable(mtcars) -> ft
-#' ftpart_to_tibble(ft$header, "header")
+#' @importFrom dplyr bind_cols select rename all_of arrange
+#' @importFrom openxlsx2 int2col
+#' @importFrom rlang .data
 #'
 ftpart_to_style_tibble <- function(ft_part,
                              part = c("header",
@@ -67,7 +68,7 @@ ftpart_to_style_tibble <- function(ft_part,
   })
 
   ## arrange -----
-  df_styles <- dplyr::arrange(df_styles, row_id, col_id)
+  df_styles <- dplyr::arrange(df_styles, .data$row_id, .data$col_id)
 
   return(df_styles)
 }
@@ -82,8 +83,9 @@ ftpart_to_style_tibble <- function(ft_part,
 #'
 #' @return a [tibble][tibble::tibble-package]
 #'
-#' @examples
-#' ft_to_style_tibble(flextable::flextable(mtcars))
+#' @importFrom dplyr bind_rows
+#' @importFrom openxlsx2 int2col
+#'
 ft_to_style_tibble <- function(ft) {
   has_caption <- length(ft$caption$value) > 0
   has_footer <- length(ft$footer$content) > 0

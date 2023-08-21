@@ -7,16 +7,13 @@
 ftpart_to_style_tibble(ft_part, part = c("header", "body", "footer"))
 }
 \arguments{
-\item{ftpart}{a \link[flextable:flextable-package]{flextable} part}
+\item{ft_part}{the part of the flextable to extract the style from}
+
+\item{part}{the name of the part}
 }
 \value{
 a \link[tibble:tibble-package]{tibble}
 }
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
-}
-\examples{
-flextable::flextable(mtcars) -> ft
-ftpart_to_tibble(ft$header, "header")
-
 }

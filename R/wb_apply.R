@@ -43,6 +43,12 @@ handle_null_border <- function(border_width) {
 #' @param sheet the sheet of the workbook
 #' @param df_style the styling tibble from [ft_to_style_tibble]
 #'
+#' @importFrom dplyr select mutate all_of starts_with across
+#' @importFrom dplyr if_else
+#' @importFrom purrr pluck
+#' @importFrom openxlsx2 wb_color
+#' @importFrom rlang .data
+#'
 #' @examples
 #' ft <- flextable::as_flextable(table(mtcars[,1:2]))
 #' df_style <- ft_to_style_tibble(ft)
@@ -60,18 +66,18 @@ wb_apply_border <- function(wb, sheet, df_style) {
                                   "row_id"))) |>
     dplyr::mutate(dplyr::across(dplyr::starts_with("border.width"),
                                 ~ ft_to_xlsx_border_width(.x)),
-                  border.width.top = dplyr::if_else(border.color.top == "transparent",
+                  border.width.top = dplyr::if_else(.data$border.color.top == "transparent",
                                                     "no border",
-                                                    border.width.top),
-                  border.width.bottom = dplyr::if_else(border.color.bottom == "transparent",
+                                                    .data$border.width.top),
+                  border.width.bottom = dplyr::if_else(.data$border.color.bottom == "transparent",
                                                        "no border",
-                                                       border.width.bottom),
-                  border.width.left = dplyr::if_else(border.color.left == "transparent",
+                                                       .data$border.width.bottom),
+                  border.width.left = dplyr::if_else(.data$border.color.left == "transparent",
                                                        "no border",
-                                                       border.width.left),
-                  border.width.right = dplyr::if_else(border.color.right == "transparent",
+                                                     .data$border.width.left),
+                  border.width.right = dplyr::if_else(.data$border.color.right == "transparent",
                                                        "no border",
-                                                       border.width.right),
+                                                      .data$border.width.right),
                   dplyr::across(dplyr::starts_with("border.color."),
                                 ~ dplyr::if_else(.x == "transparent",
                                                  "black", .x)))
@@ -127,6 +133,9 @@ wb_apply_border <- function(wb, sheet, df_style) {
 #' @param sheet the sheet of the workbook
 #' @param df_style the styling tibble from [ft_to_style_tibble]
 #'
+#' @importFrom dplyr select all_of
+#' @importFrom openxlsx2 wb_color
+#'
 #' @examples
 #' ft <- flextable::as_flextable(table(mtcars[,1:2]))
 #' df_style <- ft_to_style_tibble(ft)
@@ -175,6 +184,10 @@ wb_apply_text_styles <- function(wb, sheet, df_style) {
 #' @param sheet the sheet of the workbook
 #' @param df_style the styling tibble from [ft_to_style_tibble]
 #'
+#' @importFrom dplyr select all_of mutate
+#' @importFrom openxlsx2 wb_color
+#' @importFrom rlang .data
+#'
 #' @examples
 #' ft <- flextable::as_flextable(table(mtcars[,1:2]))
 #' df_style <- ft_to_style_tibble(ft)
@@ -187,11 +200,11 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
 
   ## aggregate borders
   df_cell_styles <- df_style |>
-    dplyr::mutate(background.color = ifelse(shading.color != "transparent",
-                                            shading.color,
-                                            background.color),
-                  text.direction = dplyr::case_when(text.direction == "tbrl" ~ "180",
-                                                    text.direction == "btrl" ~ "90",
+    dplyr::mutate(background.color = ifelse(.data$shading.color != "transparent",
+                                            .data$shading.color,
+                                            .data$background.color),
+                  text.direction = dplyr::case_when(.data$text.direction == "tbrl" ~ "180",
+                                                    .data$text.direction == "btrl" ~ "90",
                                                     T ~ "")) |>
     dplyr::select(dplyr::all_of(c("col_id",
                                   "row_id",
@@ -216,7 +229,7 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
     if(crow$background.color != "transparent")
       wb$add_fill(
         dims  = crow$dims,
-        color = wb_colour(crow$background.color)
+        color = openxlsx2::wb_color(crow$background.color)
       )
   }
   return(invisible(NULL))
@@ -232,6 +245,10 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
 #'
 #' @return NULL
 #'
+#' @importFrom dplyr select all_of mutate filter
+#' @importFrom openxlsx2 wb_color
+#' @importFrom rlang .data
+#'
 #' @examples
 #' ft <- flextable::as_flextable(table(mtcars[,1:2]))
 #' df_style <- ft_to_style_tibble(ft)
@@ -242,14 +259,15 @@ wb_apply_merge <- function(wb, sheet, df_style) {
 
   ## cols (& rows merge)
   df_cols_to_merge <- df_style |>
-    dplyr::filter(span.rows > 1)  |>
-    dplyr::select(span.rows,
-                  span.cols,
-                  row_id,
-                  col_id) |>
+    dplyr::filter(.data$span.rows > 1)  |>
+    dplyr::select(dplyr::all_of(c("span.rows",
+                                  "span.cols",
+                                  "row_id",
+                                  "col_id"))) |>
     dplyr::mutate(dims = paste0(
-      openxlsx2::int2col(col_id), row_id, ":",
-      openxlsx2::int2col(col_id + span.rows - 1), row_id + pmax(span.cols - 1,0)
+      openxlsx2::int2col(.data$col_id), .data$row_id, ":",
+      openxlsx2::int2col(.data$col_id + .data$span.rows - 1),
+      .data$row_id + pmax(.data$span.cols - 1,0)
     ))
 
   for(i in seq_len(nrow(df_cols_to_merge)))
@@ -258,15 +276,16 @@ wb_apply_merge <- function(wb, sheet, df_style) {
 
   ## rows merge only!
   df_rows_to_merge <- df_style |>
-    dplyr::filter(span.cols > 1,
-                  span.rows <= 1) |>
-    dplyr::select(span.rows,
-                  span.cols,
-                  row_id,
-                  col_id) |>
+    dplyr::filter(.data$span.cols > 1,
+                  .data$span.rows <= 1) |>
+    dplyr::select(dplyr::all_of(c("span.rows",
+                                  "span.cols",
+                                  "row_id",
+                                  "col_id"))) |>
     dplyr::mutate(dims = paste0(
-      openxlsx2::int2col(col_id), row_id, ":",
-      openxlsx2::int2col(col_id + pmax(span.rows - 1,0)), row_id + span.cols - 1
+      openxlsx2::int2col(.data$col_id), .data$row_id, ":",
+      openxlsx2::int2col(.data$col_id + pmax(.data$span.rows - 1,0)),
+      .data$row_id + .data$span.cols - 1
     ))
 
   for(i in seq_len(nrow(df_rows_to_merge)))
@@ -285,6 +304,13 @@ wb_apply_merge <- function(wb, sheet, df_style) {
 #' @param wb the [workbook][openxlsx2::wbWorkbook]
 #' @param sheet the sheet of the workbook
 #' @param df_style the styling tibble from [ft_to_style_tibble]
+#'
+#' @importFrom dplyr select all_of mutate filter coalesce
+#' @importFrom dplyr group_by summarize arrange left_join
+#' @importFrom dplyr rowwise
+#' @importFrom openxlsx2 wb_color
+#' @importFrom rlang .data
+#' @importFrom tidyr unnest_legacy
 #'
 #' @examples
 #' ft <- flextable::as_flextable(table(mtcars[,1:2]))
@@ -325,30 +351,33 @@ wb_apply_content <- function(wb, sheet, df_style) {
 
 
   df_content <- dplyr::mutate(df_content,
-                              italic.y = dplyr::coalesce(italic.x,italic.y),
-                              bold.y = dplyr::coalesce(bold.x,bold.y),
-                              underlined.y = dplyr::coalesce(underlined.x,underlined.y))
+                              italic.y = dplyr::coalesce(.data$italic.x,
+                                                         .data$italic.y),
+                              bold.y = dplyr::coalesce(.data$bold.x,
+                                                       .data$bold.y),
+                              underlined.y = dplyr::coalesce(.data$underlined.x,
+                                                             .data$underlined.y))
 
   df_content |>
-    dplyr::mutate(color.y = dplyr::if_else(color.y == "transparent",
-                                         NA_character_,
-                                         color.y)) |>
+    dplyr::mutate(color.y = dplyr::if_else(.data$color.y == "transparent",
+                                            NA_character_,
+                                            .data$color.y)) |>
     dplyr::rowwise() |>
     dplyr::mutate(txt = paste0(openxlsx2::fmt_txt(
-                                    txt,
-                                    bold = bold.y,
-                                    italic = italic.y,
-                                    underline = underlined.y,
-                                    size = if(is.na(font.size.y)) NULL else font.size.y[[1]],
-                                    color = if(is.na(color.y)) NULL else openxlsx2::wb_color(color.y[[1]]),
-                                    font = if(is.na(font.family.y)) NULL else font.family.y[[1]],
-                                    vert_align = if(is.na(vertical.align.y)) NULL else vertical.align.y[[1]]
+                                    .data$txt,
+                                    bold = .data$bold.y,
+                                    italic = .data$italic.y,
+                                    underline = .data$underlined.y,
+                                    size = if(is.na(.data$font.size.y)) NULL else .data$font.size.y[[1]],
+                                    color = if(is.na(.data$color.y)) NULL else openxlsx2::wb_color(.data$color.y[[1]]),
+                                    font = if(is.na(.data$font.family.y)) NULL else .data$font.family.y[[1]],
+                                    vert_align = if(is.na(.data$vertical.align.y)) NULL else .data$vertical.align.y[[1]]
                                     ))) |>
     dplyr::ungroup() |>
-    dplyr::mutate(txt = ifelse(span.rows == 0 | span.cols == 0,
-                               "", txt)) |>
-    dplyr::group_by(col_id,row_id) |>
-    dplyr::summarize(txt = paste0(txt, collapse = ""),
+    dplyr::mutate(txt = ifelse(.data$span.rows == 0 | .data$span.cols == 0,
+                               "", .data$txt)) |>
+    dplyr::group_by(.data$col_id,.data$row_id) |>
+    dplyr::summarize(txt = paste0(.data$txt, collapse = ""),
                      .groups = "drop")  -> content
 
   min_col_id <- min(content$col_id)
@@ -405,24 +434,4 @@ wb_add_flextable <- function(wb, sheet, ft) {
 }
 
 
-test_it <- function() {
-  ft <- flextable::as_flextable(table(mtcars[,1:2]))
 
-  ft_titanic <- tibble::as_tibble(Titanic)|>
-    tidyr::uncount(n) |>
-    gtsummary::tbl_strata(strata = Class,
-                          .tbl_fun = ~gtsummary::tbl_summary(.x, by = Sex)) |>
-    gtsummary::tbl_butcher() |>
-    gtsummary::bold_labels() |>
-    gtsummary::italicize_levels() |>
-    gtsummary::as_flex_table()
-
-  wb <- openxlsx2::wb_workbook()$
-    add_worksheet("mtcars")$
-    add_worksheet("titanic")
-
-  wb <- wb_add_flextable(wb, "mtcars", ft)
-  wb <- wb_add_flextable(wb, "titanic", ft_titanic)
-
-  wb$save("~/text.xlsx")
-}
