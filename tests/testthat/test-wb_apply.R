@@ -17,3 +17,31 @@ test_that("Offsets work", {
   wb <- wb_add_flextable(wb, "mtcars_offset_B3", ft, dims = "B3")
   wb_add_flextable(wb, "mtcars_offset_52", ft, start_col = 5, start_row = 2)$save(tmpfile)
 })
+
+
+
+test_that("Simple Caption works", {
+  tmpfile <- tempfile(fileext = ".xlsx")
+
+  ft <- flextable::as_flextable(table(mtcars[,1:2]))
+  ft <- flextable::set_caption(ft, "Simple Caption")
+  wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+  wb_add_flextable(wb, "mtcars", ft)$save(tmpfile)
+})
+
+test_that("Complex Caption works", {
+  tmpfile <- tempfile(fileext = ".xlsx")
+
+  ft <- flextable::as_flextable(table(mtcars[,1:2]))
+  ft <- flextable::set_caption(ft,
+                                       caption = flextable::as_paragraph('a ', flextable::as_b('bold'),
+                                                                         " and ",
+                                                                         flextable::as_i('italic'),
+                                                                         ' text with ',
+                                                                         flextable::as_chunk("Variations!", props = flextable::fp_text_default(color = "orange",
+                                                                                                                                               font.family = "Courier",
+                                                                                                                                               underlined = T))
+                                       ))
+  wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+  wb_add_flextable(wb, "mtcars", ft, offset_caption_rows = 1L)$save(tmpfile)
+})

@@ -73,7 +73,6 @@ ftpart_to_style_tibble <- function(ft_part,
   return(df_styles)
 }
 
-
 #' Converts a flextable to a tibble with style information
 #'
 #' @description
@@ -82,13 +81,14 @@ ftpart_to_style_tibble <- function(ft_part,
 #' @param ft a [flextable][flextable::flextable-package]
 #' @param offset_rows offsets the start-row
 #' @param offset_cols offsets the start-columns
+#' @param offset_caption_rows number of rows to offset the caption by
 #'
 #' @return a [tibble][tibble::tibble-package]
 #'
 #' @importFrom dplyr bind_rows
 #' @importFrom openxlsx2 int2col
 #'
-ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L) {
+ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L, offset_caption_rows = 0L) {
   has_caption <- length(ft$caption$value) > 0
   has_footer <- length(ft$footer$content) > 0
 
@@ -119,11 +119,13 @@ ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L) {
                                  df_footer)
 
   # offset the rows
-  df_style$row_id <- df_style$row_id + offset_rows
+  df_style$row_id <- df_style$row_id + offset_rows + offset_caption_rows
   df_style$col_id <- df_style$col_id + offset_cols
 
   df_style$col_name <- paste0(openxlsx2::int2col(df_style$col_id),
                             df_style$row_id)
+
+  df_style <- df_style[-1,]
 
   return(df_style)
 }

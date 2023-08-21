@@ -6,6 +6,8 @@
 \alias{flexlsx-package}
 \title{flexlsx: Exporting flextables to Excel}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Exports flextables to Excel-Sheets using openxlsx2. Objects that can be converted to flextables (e.g. gtsummary) can be exported as well.
 }
 \author{

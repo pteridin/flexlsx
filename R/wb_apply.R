@@ -402,6 +402,73 @@ wb_apply_content <- function(wb, sheet, df_style) {
 
 
 
+#' Adds a caption to an excel file
+#'
+#' @inheritParams wb_add_flextable
+#'
+#' @return NULL
+wb_add_caption <- function(wb, sheet,
+                           ft,
+                           offset_rows=offset_rows,
+                           offset_cols=offset_cols) {
+  idims <- dim(ft$body$content$content$data)
+
+  # Default values from header
+  lapply(ft$header$styles$text,
+         \(x) {
+           if("default" %in% names(x))
+             return(as.vector(x$data))
+           return(NULL)
+         }) |>
+    data.frame() -> df_styles_default
+  df_styles_default <- df_styles_default[1,]
+
+
+  if(ft$caption$simple_caption) {
+      content <- openxlsx2::fmt_txt(
+        ft$caption$value,
+        bold = df_styles_default$bold,
+        italic = df_styles_default$italic,
+        underline = df_styles_default$underlined,
+        size = df_styles_default$font.size,
+        color = openxlsx2::wb_color(df_styles_default$color),
+        font = df_styles_default$font.family,
+        vert_align = df_styles_default$vertical.align
+      )
+  } else {
+    content <- purrr::map_chr(1:nrow(ft$caption$value),
+                   \(i) {
+                     ft$caption$value[i,] -> x
+                     openxlsx2::fmt_txt(
+                       x$txt,
+                       bold = x$bold,
+                       italic = x$italic,
+                       underline = x$underlined,
+                       size = x$font.size,
+                       color = openxlsx2::wb_color(x$color),
+                       font = x$font.family,
+                       vert_align = x$vertical.align
+                     ) |>
+                       paste0()
+                   })
+  }
+
+  wb$add_data(sheet = sheet,
+              x = paste0(content, collapse = ""),
+              dims = paste0(int2col(offset_cols + 1),
+                            offset_rows + 1))
+  wb$merge_cells(sheet = sheet, dims = paste0(int2col(offset_cols + 1),
+                                              offset_rows + 1,
+                                              ":",
+                                              int2col(offset_cols + 1 + idims[2]),
+                                              offset_rows + 1))
+
+
+  return(invisible(NULL))
+}
+
+
+
 #' Adds a flextable to an openxlsx2 workbook sheet
 #'
 #' @param wb an openxlsx2 workbook
@@ -410,6 +477,7 @@ wb_apply_content <- function(wb, sheet, df_style) {
 #' @param start_col a vector specifying the starting column to write to.
 #' @param start_row a vector specifying the starting row to write to.
 #' @param dims Spreadsheet dimensions that will determine start_col and start_row: "A1", "A1:B2", "A:B"
+#' @param offset_caption_rows number of rows to offset the caption by
 #'
 #' @return an openxlsx2 workbook
 #' @export
@@ -423,6 +491,7 @@ wb_apply_content <- function(wb, sheet, df_style) {
 wb_add_flextable <- function(wb, sheet, ft,
                              start_col = 1,
                              start_row = 1,
+                             offset_caption_rows = 0L,
                              dims = NULL) {
   # Check inputs
   stopifnot("wbWorkbook" %in% class(wb))
@@ -455,9 +524,13 @@ wb_add_flextable <- function(wb, sheet, ft,
 
   df_style <- ft_to_style_tibble(ft,
                                  offset_rows=offset_rows,
-                                 offset_cols=offset_cols)
+                                 offset_cols=offset_cols,
+                                 offset_caption_rows=offset_caption_rows)
 
   # Apply styles & add content
+  wb_add_caption(wb, sheet = sheet, ft = ft,
+                 offset_rows=offset_rows,
+                 offset_cols=offset_cols)
   wb_apply_border(wb, sheet, df_style)
   wb_apply_text_styles(wb, sheet, df_style)
   wb_apply_cell_styles(wb, sheet, df_style)
