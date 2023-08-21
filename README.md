@@ -9,14 +9,19 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of flexlsx is to export flextables into Excel.
+The primary objective of `flexlsx` is to offer an effortless interface
+for exporting `flextable` objects directly to Microsoft Excel. Building
+upon the robust foundation provided by `openxlsx2` and `flextable`,
+`flexlsx` ensures compatibility, precision, and efficiency when working
+with both trivial and complex tables.
 
 ## Installation
 
-You can install the development version of flexlsx like so:
+You can install the development version of `flexlsx` like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("remotes")
+remotes::install_github("JanMarvin/flexlsx")
 ```
 
 ## Example
@@ -25,5 +30,17 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(flexlsx)
-## basic example code
+
+# Create a flextable and an openxlsx2 workbook
+ft <- flextable::as_flextable(table(mtcars[,1:2]))
+wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+
+# add the flextable ft to the workbook, sheet "mtcars"
+# offset the table to cell 'C2'
+wb <- wb_add_flextable(wb, "mtcars", ft, dims = "C2")
+
+# save the workbook to a temporary xlsx file
+tmpfile <- tempfile(fileext = ".xlsx")
+wb$save(tmpfile)
+
 ```
