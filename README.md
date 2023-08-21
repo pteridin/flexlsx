@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# flexmlx
+# flexlsx
 
 <!-- badges: start -->
 
@@ -9,11 +9,11 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of flexmlx is to export flextables into Excel.
+The goal of flexlsx is to export flextables into Excel.
 
 ## Installation
 
-You can install the development version of flexmlx like so:
+You can install the development version of flexlsx like so:
 
 ``` r
 # FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
@@ -24,6 +24,6 @@ You can install the development version of flexmlx like so:
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(flexmlx)
+library(flexlsx)
 ## basic example code
 ```
