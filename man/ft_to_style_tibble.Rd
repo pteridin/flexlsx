@@ -4,10 +4,14 @@
 \alias{ft_to_style_tibble}
 \title{Converts a flextable to a tibble with style information}
 \usage{
-ft_to_style_tibble(ft)
+ft_to_style_tibble(ft, offset_rows = 0L, offset_cols = 0L)
 }
 \arguments{
 \item{ft}{a \link[flextable:flextable-package]{flextable}}
+
+\item{offset_rows}{offsets the start-row}
+
+\item{offset_cols}{offsets the start-columns}
 }
 \value{
 a \link[tibble:tibble-package]{tibble}

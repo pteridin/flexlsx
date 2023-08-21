@@ -407,22 +407,57 @@ wb_apply_content <- function(wb, sheet, df_style) {
 #' @param wb an openxlsx2 workbook
 #' @param sheet an openxlsx2 workbook sheet
 #' @param ft a flextable
+#' @param start_col a vector specifying the starting column to write to.
+#' @param start_row a vector specifying the starting row to write to.
+#' @param dims Spreadsheet dimensions that will determine start_col and start_row: "A1", "A1:B2", "A:B"
 #'
-#' @return NULL
+#' @return an openxlsx2 workbook
 #' @export
+#'
+#' @importFrom openxlsx2 dims_to_rowcol
 #'
 #' @examples
 #' ft <- flextable::as_flextable(table(mtcars[,1:2]))
 #' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
 #' wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
-wb_add_flextable <- function(wb, sheet, ft) {
+wb_add_flextable <- function(wb, sheet, ft,
+                             start_col = 1,
+                             start_row = 1,
+                             dims = NULL) {
+  # Check inputs
+  stopifnot("wbWorkbook" %in% class(wb))
+  stopifnot((is.character(sheet) &&
+              nchar(sheet) > 0) ||
+              is.numeric(sheet) &&
+              sheet == as.integer(sheet))
+  stopifnot("flextable" %in% class(ft))
+
+  # Retrieve offsets
+  if (!is.null(dims)) {
+    dims <- openxlsx2::dims_to_rowcol(dims, as_integer = TRUE)
+    offset_cols <- min(dims[[1]]) - 1
+    offset_rows <- min(dims[[2]]) - 1
+  } else {
+    stopifnot(is.numeric(start_col),
+              start_col >= 1,
+              as.integer(start_col) == start_col,
+              length(start_col) == 1)
+    stopifnot(is.numeric(start_row) &&
+                start_row >= 1 &&
+                as.integer(start_col) == start_col,
+              length(start_col) == 1)
+
+    offset_cols <- start_col - 1
+    offset_rows <- start_row - 1
+  }
 
   wb <- wb$clone()
-  stopifnot(is.character(sheet),
-            length(sheet) == 1)
 
-  df_style <- ft_to_style_tibble(ft)
+  df_style <- ft_to_style_tibble(ft,
+                                 offset_rows=offset_rows,
+                                 offset_cols=offset_cols)
 
+  # Apply styles & add content
   wb_apply_border(wb, sheet, df_style)
   wb_apply_text_styles(wb, sheet, df_style)
   wb_apply_cell_styles(wb, sheet, df_style)

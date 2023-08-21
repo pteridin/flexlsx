@@ -80,13 +80,15 @@ ftpart_to_style_tibble <- function(ft_part,
 #' `r lifecycle::badge("experimental")`
 #'
 #' @param ft a [flextable][flextable::flextable-package]
+#' @param offset_rows offsets the start-row
+#' @param offset_cols offsets the start-columns
 #'
 #' @return a [tibble][tibble::tibble-package]
 #'
 #' @importFrom dplyr bind_rows
 #' @importFrom openxlsx2 int2col
 #'
-ft_to_style_tibble <- function(ft) {
+ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L) {
   has_caption <- length(ft$caption$value) > 0
   has_footer <- length(ft$footer$content) > 0
 
@@ -115,6 +117,10 @@ ft_to_style_tibble <- function(ft) {
                                  df_header,
                                  df_body,
                                  df_footer)
+
+  # offset the rows
+  df_style$row_id <- df_style$row_id + offset_rows
+  df_style$col_id <- df_style$col_id + offset_cols
 
   df_style$col_name <- paste0(openxlsx2::int2col(df_style$col_id),
                             df_style$row_id)

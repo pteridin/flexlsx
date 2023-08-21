@@ -22,6 +22,8 @@ Imports:
     tibble,
     tidyr
 Suggests: 
-    gtsummary
+    gtsummary,
+    testthat (>= 3.0.0)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Config/testthat/edition: 3

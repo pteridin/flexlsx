@@ -4,7 +4,7 @@
 \alias{wb_add_flextable}
 \title{Adds a flextable to an openxlsx2 workbook sheet}
 \usage{
-wb_add_flextable(wb, sheet, ft)
+wb_add_flextable(wb, sheet, ft, start_col = 1, start_row = 1, dims = NULL)
 }
 \arguments{
 \item{wb}{an openxlsx2 workbook}
@@ -12,6 +12,15 @@ wb_add_flextable(wb, sheet, ft)
 \item{sheet}{an openxlsx2 workbook sheet}
 
 \item{ft}{a flextable}
+
+\item{start_col}{a vector specifying the starting column to write to.}
+
+\item{start_row}{a vector specifying the starting row to write to.}
+
+\item{dims}{Spreadsheet dimensions that will determine start_col and start_row: "A1", "A1:B2", "A:B"}
+}
+\value{
+an openxlsx2 workbook
 }
 \description{
 Adds a flextable to an openxlsx2 workbook sheet
