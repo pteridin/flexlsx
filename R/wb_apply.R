@@ -423,7 +423,7 @@ wb_add_caption <- function(wb, sheet,
     data.frame() -> df_styles_default
   df_styles_default <- df_styles_default[1,]
 
-
+  # create content
   if(ft$caption$simple_caption) {
       content <- openxlsx2::fmt_txt(
         ft$caption$value,
@@ -453,6 +453,7 @@ wb_add_caption <- function(wb, sheet,
                    })
   }
 
+  # add to wb & merge
   wb$add_data(sheet = sheet,
               x = paste0(content, collapse = ""),
               dims = paste0(int2col(offset_cols + 1),
@@ -520,6 +521,11 @@ wb_add_flextable <- function(wb, sheet, ft,
     offset_rows <- start_row - 1
   }
 
+  # ignore offset if there is no caption
+  if(length(ft$caption$value) == 0) {
+    offset_caption_rows <- 0L
+  }
+
   wb <- wb$clone()
 
   df_style <- ft_to_style_tibble(ft,
@@ -528,9 +534,10 @@ wb_add_flextable <- function(wb, sheet, ft,
                                  offset_caption_rows=offset_caption_rows)
 
   # Apply styles & add content
-  wb_add_caption(wb, sheet = sheet, ft = ft,
-                 offset_rows=offset_rows,
-                 offset_cols=offset_cols)
+  if(length(ft$caption$value) > 0)
+    wb_add_caption(wb, sheet = sheet, ft = ft,
+                   offset_rows=offset_rows,
+                   offset_cols=offset_cols)
   wb_apply_border(wb, sheet, df_style)
   wb_apply_text_styles(wb, sheet, df_style)
   wb_apply_cell_styles(wb, sheet, df_style)

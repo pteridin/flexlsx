@@ -45,3 +45,23 @@ test_that("Complex Caption works", {
   wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
   wb_add_flextable(wb, "mtcars", ft, offset_caption_rows = 1L)$save(tmpfile)
 })
+
+test_that("Complex gtsummary works", {
+  tmpfile <- tempfile(fileext = ".xlsx")
+
+  data("Titanic")
+  tibble::as_tibble(Titanic) |>
+    tidyr::uncount(n) |>
+    gtsummary::tbl_strata(strata = "Class",
+                          .tbl_fun = \(x) {
+                            gtsummary::tbl_summary(x, by="Sex") |>
+                              gtsummary::add_difference(everything() ~ "smd")
+                          }) |>
+    gtsummary::tbl_butcher() |>
+    gtsummary::bold_labels() |>
+    gtsummary::italicize_levels() |>
+    gtsummary::as_flex_table() -> ft
+
+  wb <- openxlsx2::wb_workbook()$add_worksheet("titanic")
+  wb_add_flextable(wb, "titanic", ft, offset_caption_rows = 1L)$save(tmpfile)
+})

@@ -125,7 +125,8 @@ ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L, offset_ca
   df_style$col_name <- paste0(openxlsx2::int2col(df_style$col_id),
                             df_style$row_id)
 
-  df_style <- df_style[-1,]
+  if(has_caption)
+    df_style <- df_style[-1,]
 
   return(df_style)
 }
