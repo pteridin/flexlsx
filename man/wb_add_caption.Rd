@@ -18,6 +18,10 @@ wb_add_caption(
 \item{sheet}{an openxlsx2 workbook sheet}
 
 \item{ft}{a flextable}
+
+\item{offset_rows}{zero-based row offset}
+
+\item{offset_cols}{zero-based column offset}
 }
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}

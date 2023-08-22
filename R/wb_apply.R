@@ -8,8 +8,6 @@
 #'
 #' @return a factor of xlsx border styles
 #'
-#' @examples
-#' ft_to_xlsx_border_width(c(0, .75, 1, 1.75))
 ft_to_xlsx_border_width <- function(border_width) {
   cut(border_width,
       c(-Inf, 0, .9999, 1.25, Inf),
@@ -49,11 +47,6 @@ handle_null_border <- function(border_width) {
 #' @importFrom openxlsx2 wb_color
 #' @importFrom rlang .data
 #'
-#' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,1:2]))
-#' df_style <- ft_to_style_tibble(ft)
-#' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#' wb_apply_border(wb, "mtcars", df_style)
 wb_apply_border <- function(wb, sheet, df_style) {
 
   if(!sheet %in% wb$get_sheet_names())
@@ -136,11 +129,6 @@ wb_apply_border <- function(wb, sheet, df_style) {
 #' @importFrom dplyr select all_of
 #' @importFrom openxlsx2 wb_color
 #'
-#' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,1:2]))
-#' df_style <- ft_to_style_tibble(ft)
-#' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#' wb_apply_text_styles(wb, "mtcars", df_style)
 wb_apply_text_styles <- function(wb, sheet, df_style) {
 
   if(!sheet %in% wb$get_sheet_names())
@@ -188,11 +176,6 @@ wb_apply_text_styles <- function(wb, sheet, df_style) {
 #' @importFrom openxlsx2 wb_color
 #' @importFrom rlang .data
 #'
-#' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,1:2]))
-#' df_style <- ft_to_style_tibble(ft)
-#' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#' wb_apply_cell_styles(wb, "mtcars", df_style)
 wb_apply_cell_styles <- function(wb, sheet, df_style) {
 
   if(!sheet %in% wb$get_sheet_names())
@@ -248,12 +231,6 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
 #' @importFrom dplyr select all_of mutate filter
 #' @importFrom openxlsx2 wb_color
 #' @importFrom rlang .data
-#'
-#' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,1:2]))
-#' df_style <- ft_to_style_tibble(ft)
-#' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#' ft_style_merge(wb, "mtcars", df_style)
 #'
 wb_apply_merge <- function(wb, sheet, df_style) {
 
@@ -312,11 +289,6 @@ wb_apply_merge <- function(wb, sheet, df_style) {
 #' @importFrom rlang .data
 #' @importFrom tidyr unnest_legacy
 #'
-#' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,1:2]))
-#' df_style <- ft_to_style_tibble(ft)
-#' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#' wb_apply_content(wb, "mtcars", df_style)
 wb_apply_content <- function(wb, sheet, df_style) {
 
   if(!sheet %in% wb$get_sheet_names())
@@ -407,8 +379,11 @@ wb_apply_content <- function(wb, sheet, df_style) {
 #' `r lifecycle::badge("experimental")`
 #'
 #' @inheritParams wb_add_flextable
+#' @param offset_rows zero-based row offset
+#' @param offset_cols zero-based column offset
 #'
 #' @return NULL
+#'
 wb_add_caption <- function(wb, sheet,
                            ft,
                            offset_rows=offset_rows,

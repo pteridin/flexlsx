@@ -15,6 +15,3 @@ a factor of xlsx border styles
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
-\examples{
-ft_to_xlsx_border_width(c(0, .75, 1, 1.75))
-}

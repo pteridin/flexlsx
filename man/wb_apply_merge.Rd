@@ -16,10 +16,3 @@ wb_apply_merge(wb, sheet, df_style)
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
-\examples{
-ft <- flextable::as_flextable(table(mtcars[,1:2]))
-df_style <- ft_to_style_tibble(ft)
-wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-ft_style_merge(wb, "mtcars", df_style)
-
-}

@@ -1,20 +1,40 @@
 # Generation from start to finish works
 
-    ["1325b36b599b952cf9d9b7925ae74e7e", "e1211322cde6455fcbcb089f0429bc9a", "4bb69892e2c2430f518a85f02440fa7d"]
+    [
+      "04988f3f0204c6f4ca792a79d28d5eda",
+      "a4a68e5512383e19b8fa8a14b3bb3ace",
+      "966bf7ca68a6599e384f2ee543d3c0be"
+    ]
 
 # Offsets work
 
-    ["f1f3451e3edc8ccf033ee4536b2fd0a2", "ac9c26b0b9fa0ef997975f2d118c150c", "e2e447ba0092153e87831138713c2cba"]
+    [
+      "7f27aafdba7867d5d564eb7033f7b96b",
+      "82a89341726f34657d7088380dd5f22f",
+      "8991559a666fd0b6b52eb66f8d0d7c89"
+    ]
 
 # Simple Caption works
 
-    ["1325b36b599b952cf9d9b7925ae74e7e", "e1211322cde6455fcbcb089f0429bc9a", "b501cce932ca07a6006bc29fc1d31ce5"]
+    [
+      "04988f3f0204c6f4ca792a79d28d5eda",
+      "a4a68e5512383e19b8fa8a14b3bb3ace",
+      "f8ab894f70649fc33a5db43c89e72736"
+    ]
 
 # Complex Caption works
 
-    ["1325b36b599b952cf9d9b7925ae74e7e", "e1211322cde6455fcbcb089f0429bc9a", "3aaa2c9d3394d8c720037747115661b9"]
+    [
+      "04988f3f0204c6f4ca792a79d28d5eda",
+      "a4a68e5512383e19b8fa8a14b3bb3ace",
+      "05e0631cd47c81a0a89a648077d33d6a"
+    ]
 
 # Complex gtsummary works
 
-    ["660d90850b440b4fec8ca6c4a7c03620", "030370284af5ed4907f00c20565aabba", "babaf823607b84e7d4a1cd28157d9375"]
+    [
+      "3a0fd738aed49b2872c95412d664547c",
+      "d489147dfcb0cfa387f121f1c94e418a",
+      "904ae52d663c5c9c75092af78a83d165"
+    ]
 

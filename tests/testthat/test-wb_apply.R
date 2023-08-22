@@ -1,22 +1,9 @@
-compare_xlsx <- function(tmpfile) {
-
-  lapply(c("xl/workbook.xml",
-           "xl/styles.xml",
-           "xl/worksheets/sheet1.xml"),
-         \(x) {
-          rlang::hash(as.character(xml2::read_xml(unz(tmpfile, x))))
-         })
-}
 
 test_that("Generation from start to finish works", {
   tmpfile <- tempfile(fileext = ".xlsx")
 
   ft <- flextable::as_flextable(table(mtcars[,1:2]))
-  wb <- openxlsx2::wb_workbook(creator = "Test",
-                               title = "Test",
-                               subject = "Test",
-                               category = "Test",
-                               datetime_created = as.POSIXct("2023-01-01"))$add_worksheet("mtcars")
+  wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
   wb_add_flextable(wb, "mtcars", ft)$save(tmpfile)
 
   y <- compare_xlsx(tmpfile)
@@ -75,12 +62,13 @@ test_that("Complex gtsummary works", {
   tmpfile <- tempfile(fileext = ".xlsx")
 
   data("Titanic")
+
   tibble::as_tibble(Titanic) |>
     tidyr::uncount(n) |>
     gtsummary::tbl_strata(strata = "Class",
                           .tbl_fun = \(x) {
                             gtsummary::tbl_summary(x, by="Sex") |>
-                              gtsummary::add_difference(everything() ~ "smd")
+                              gtsummary::add_difference(everything() ~ "prop.test")
                           }) |>
     gtsummary::tbl_butcher() |>
     gtsummary::bold_labels() |>
