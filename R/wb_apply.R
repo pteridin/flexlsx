@@ -349,14 +349,13 @@ wb_apply_content <- function(wb, sheet, df_style) {
                      by = c("row_id", "col_id"),
                      relationship = "one-to-many")
 
-
   df_content <- dplyr::mutate(df_content,
-                              italic.y = dplyr::coalesce(.data$italic.x,
-                                                         .data$italic.y),
-                              bold.y = dplyr::coalesce(.data$bold.x,
-                                                       .data$bold.y),
-                              underlined.y = dplyr::coalesce(.data$underlined.x,
-                                                             .data$underlined.y))
+                              italic.y = dplyr::coalesce(.data$italic.y,
+                                                         .data$italic.x),
+                              bold.y = dplyr::coalesce(.data$bold.y,
+                                                       .data$bold.x),
+                              underlined.y = dplyr::coalesce(.data$underlined.y,
+                                                             .data$underlined.x))
 
   df_content |>
     dplyr::mutate(color.y = dplyr::if_else(.data$color.y == "transparent",
