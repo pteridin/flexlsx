@@ -33,7 +33,7 @@ wb_add_flextable(
 an openxlsx2 workbook
 }
 \description{
-Adds a flextable to an openxlsx2 workbook sheet
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
 ft <- flextable::as_flextable(table(mtcars[,1:2]))

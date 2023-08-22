@@ -20,5 +20,5 @@ wb_add_caption(
 \item{ft}{a flextable}
 }
 \description{
-Adds a caption to an excel file
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
