@@ -3,3 +3,5 @@
 ^README\.Rmd$
 ^LICENSE\.md$
 ^R/test.R$
+^codecov\.yml$
+^\.github$

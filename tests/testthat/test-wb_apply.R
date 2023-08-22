@@ -1,10 +1,26 @@
+compare_xlsx <- function(tmpfile) {
+
+  lapply(c("xl/workbook.xml",
+           "xl/styles.xml",
+           "xl/worksheets/sheet1.xml"),
+         \(x) {
+          rlang::hash(as.character(xml2::read_xml(unz(tmpfile, x))))
+         })
+}
+
 test_that("Generation from start to finish works", {
   tmpfile <- tempfile(fileext = ".xlsx")
 
   ft <- flextable::as_flextable(table(mtcars[,1:2]))
-  wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+  wb <- openxlsx2::wb_workbook(creator = "Test",
+                               title = "Test",
+                               subject = "Test",
+                               category = "Test",
+                               datetime_created = as.POSIXct("2023-01-01"))$add_worksheet("mtcars")
   wb_add_flextable(wb, "mtcars", ft)$save(tmpfile)
 
+  y <- compare_xlsx(tmpfile)
+  expect_snapshot_value(y)
 })
 
 test_that("Offsets work", {
@@ -16,6 +32,9 @@ test_that("Offsets work", {
     add_worksheet("mtcars_offset_52")
   wb <- wb_add_flextable(wb, "mtcars_offset_B3", ft, dims = "B3")
   wb_add_flextable(wb, "mtcars_offset_52", ft, start_col = 5, start_row = 2)$save(tmpfile)
+
+  y <- compare_xlsx(tmpfile)
+  expect_snapshot_value(y)
 })
 
 
@@ -27,6 +46,9 @@ test_that("Simple Caption works", {
   ft <- flextable::set_caption(ft, "Simple Caption")
   wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
   wb_add_flextable(wb, "mtcars", ft)$save(tmpfile)
+
+  y <- compare_xlsx(tmpfile)
+  expect_snapshot_value(y)
 })
 
 test_that("Complex Caption works", {
@@ -44,6 +66,9 @@ test_that("Complex Caption works", {
                                        ))
   wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
   wb_add_flextable(wb, "mtcars", ft, offset_caption_rows = 1L)$save(tmpfile)
+
+  y <- compare_xlsx(tmpfile)
+  expect_snapshot_value(y)
 })
 
 test_that("Complex gtsummary works", {
@@ -64,4 +89,7 @@ test_that("Complex gtsummary works", {
 
   wb <- openxlsx2::wb_workbook()$add_worksheet("titanic")
   wb_add_flextable(wb, "titanic", ft, offset_caption_rows = 1L)$save(tmpfile)
+
+  y <- compare_xlsx(tmpfile)
+  expect_snapshot_value(y)
 })
