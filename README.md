@@ -21,7 +21,7 @@ You can install the development version of `flexlsx` like so:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("JanMarvin/flexlsx")
+remotes::install_github("pteridin/flexlsx")
 ```
 
 ## Example
