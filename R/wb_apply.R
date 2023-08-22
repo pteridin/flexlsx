@@ -403,6 +403,9 @@ wb_apply_content <- function(wb, sheet, df_style) {
 
 #' Adds a caption to an excel file
 #'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#'
 #' @inheritParams wb_add_flextable
 #'
 #' @return NULL
@@ -470,6 +473,9 @@ wb_add_caption <- function(wb, sheet,
 
 
 #' Adds a flextable to an openxlsx2 workbook sheet
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
 #'
 #' @param wb an openxlsx2 workbook
 #' @param sheet an openxlsx2 workbook sheet

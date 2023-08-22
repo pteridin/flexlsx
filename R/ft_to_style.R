@@ -2,6 +2,9 @@
 
 #' Converts a flextable-part to a tibble styles
 #'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#'
 #' @param ft_part the part of the flextable to extract the style from
 #' @param part the name of the part
 #'
