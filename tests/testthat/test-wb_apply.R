@@ -81,3 +81,22 @@ test_that("Complex gtsummary works", {
   y <- compare_xlsx(tmpfile)
   expect_snapshot_value(y)
 })
+
+
+test_that("Illegal XML characters work", {
+  tmpfile <- tempfile(fileext = ".xlsx")
+  to_check <- c("1 (<0.1%)",
+                "1 > 100",
+                "&amp; 1 == 1",
+                "'Hallo'")
+
+  data.frame(IllegalXML = to_check) |>
+    flextable::flextable() -> ft
+
+  wb <- openxlsx2::wb_workbook()$add_worksheet("titanic")
+  wb_add_flextable(wb, "titanic", ft, offset_caption_rows = 1L)$save(tmpfile)
+
+  y <- openxlsx2::wb_read(wb, "titanic")
+  expect_equal(to_check,
+               y$IllegalXML)
+})

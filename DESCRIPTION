@@ -1,7 +1,7 @@
 Package: flexlsx
 Type: Package
 Title: Exporting flextables to Excel
-Version: 0.1.1
+Version: 0.1.1.1
 Authors@R: c(person(given = "Tobias",
                    family = "Heidler",
                    role = c("aut", "cre"),
@@ -18,8 +18,10 @@ Imports:
     openxlsx2,
     purrr,
     rlang,
+    stringi,
     tibble,
-    tidyr
+    tidyr,
+    utils
 Suggests: 
     covr,
     gtsummary,
