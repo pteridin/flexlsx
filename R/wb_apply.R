@@ -367,7 +367,9 @@ wb_apply_content <- function(wb, sheet, df_style) {
                               bold.y = dplyr::coalesce(.data$bold.y,
                                                        .data$bold.x),
                               underlined.y = dplyr::coalesce(.data$underlined.y,
-                                                             .data$underlined.x))
+                                                             .data$underlined.x),
+                              color.y = dplyr::coalesce(.data$color.y,
+                                                      .data$color.x))
 
   df_content |>
     dplyr::mutate(color.y = dplyr::if_else(.data$color.y == "transparent",
@@ -401,13 +403,17 @@ wb_apply_content <- function(wb, sheet, df_style) {
                     nrow = max_row_id - min_row_id + 1,
                     ncol = max_col_id - min_col_id + 1)
 
+  dims <- paste0(openxlsx2::int2col(min_col_id),
+                 min_row_id, ":",
+                 openxlsx2::int2col(max_col_id),
+                 max_row_id)
+
   wb$add_data(sheet = sheet,
               x = content,
-              dims = paste0(openxlsx2::int2col(min_col_id),
-                            min_row_id, ":",
-                            openxlsx2::int2col(max_col_id),
-                            max_row_id),
+              dims = dims,
               col_names = F)
+
+  wb$add_ignore_error(dims = dims, number_stored_as_text = TRUE)
 
   return(invisible(NULL))
 }
@@ -481,8 +487,6 @@ wb_add_caption <- function(wb, sheet,
                                               ":",
                                               int2col(offset_cols + 1 + idims[2]),
                                               offset_rows + 1))
-
-
   return(invisible(NULL))
 }
 
@@ -560,7 +564,7 @@ wb_add_flextable <- function(wb, sheet, ft,
                    offset_rows=offset_rows,
                    offset_cols=offset_cols)
   wb_apply_border(wb, sheet, df_style)
-  wb_apply_text_styles(wb, sheet, df_style)
+  #wb_apply_text_styles(wb, sheet, df_style)
   wb_apply_cell_styles(wb, sheet, df_style)
   wb_apply_content(wb, sheet, df_style)
   wb_apply_merge(wb, sheet, df_style)
