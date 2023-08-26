@@ -401,13 +401,17 @@ wb_apply_content <- function(wb, sheet, df_style) {
                     nrow = max_row_id - min_row_id + 1,
                     ncol = max_col_id - min_col_id + 1)
 
+  dims <- paste0(openxlsx2::int2col(min_col_id),
+                 min_row_id, ":",
+                 openxlsx2::int2col(max_col_id),
+                 max_row_id)
+
   wb$add_data(sheet = sheet,
               x = content,
-              dims = paste0(openxlsx2::int2col(min_col_id),
-                            min_row_id, ":",
-                            openxlsx2::int2col(max_col_id),
-                            max_row_id),
+              dims = dims,
               col_names = F)
+
+  wb$add_ignore_error(dims = dims, number_stored_as_text = TRUE)
 
   return(invisible(NULL))
 }
