@@ -29,6 +29,7 @@ bugfix_openxlsx2_fmt_text <- function(x) {
     if (any(bad)) {
       x[bad] <- stringi::stri_conv(x[bad], from = "", to = "UTF-8")
     }
+
     legal_chars <- c("&",  "\"", "'",  "<",  ">",  "\a", "\b", "\v", "\f")
     legal_sub <- c("&amp;",  "&quot;", "&apos;", "&lt;",   "&gt;",   "",       "",       "",       ""      )
 
@@ -266,7 +267,7 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
 #'
 #' @inheritParams wb_apply_border
 #'
-#' @return NULL
+#' @return df_style tibble
 #'
 #' @importFrom dplyr select all_of mutate filter
 #' @importFrom openxlsx2 wb_color
@@ -281,15 +282,35 @@ wb_apply_merge <- function(wb, sheet, df_style) {
                                   "span.cols",
                                   "row_id",
                                   "col_id"))) |>
-    dplyr::mutate(dims = paste0(
+    dplyr::mutate(
+      span.rows = pmax(.data$span.rows - 1, 0),
+      span.cols = pmax(.data$span.cols - 1, 0),
+
+      dims = paste0(
       openxlsx2::int2col(.data$col_id), .data$row_id, ":",
-      openxlsx2::int2col(.data$col_id + .data$span.rows - 1),
-      .data$row_id + pmax(.data$span.cols - 1,0)
+      openxlsx2::int2col(.data$col_id + .data$span.rows),
+      .data$row_id + .data$span.cols
     ))
 
-  for(i in seq_len(nrow(df_cols_to_merge)))
+  for(i in seq_len(nrow(df_cols_to_merge))) {
+    df_style_def <- df_cols_to_merge[i,]
+
+    # Override style of merged columns with merging row
+    df_style_info <- df_style[df_style$row_id == df_style_def$row_id &
+                              df_style$col_id == df_style_def$col_id,] |>
+      select(-all_of(c("row_id", "col_id", "content")))
+
+    df_style[df_style$row_id >= df_style_def$row_id &
+               df_style$row_id <= df_style_def$row_id + df_style_def$span.cols &
+               df_style$col_id >= df_style_def$col_id &
+               df_style$col_id <= df_style_def$col_id + df_style_def$span.rows ,
+             -which(names(df_style) %in% c("row_id", "col_id", "content"))] <- df_style_info
+
+    # Apply merge
     wb$merge_cells(sheet = sheet,
-                   dims = df_cols_to_merge[i,]$dims)
+                   dims = df_style_def$dims)
+  }
+
 
   ## rows merge only!
   df_rows_to_merge <- df_style |>
@@ -299,17 +320,36 @@ wb_apply_merge <- function(wb, sheet, df_style) {
                                   "span.cols",
                                   "row_id",
                                   "col_id"))) |>
-    dplyr::mutate(dims = paste0(
+    dplyr::mutate(
+      span.rows = pmax(.data$span.rows - 1, 0),
+      span.cols = pmax(.data$span.cols - 1, 0),
+
+      dims = paste0(
       openxlsx2::int2col(.data$col_id), .data$row_id, ":",
-      openxlsx2::int2col(.data$col_id + pmax(.data$span.rows - 1,0)),
-      .data$row_id + .data$span.cols - 1
+      openxlsx2::int2col(.data$col_id + .data$span.rows),
+      .data$row_id + .data$span.cols
     ))
 
-  for(i in seq_len(nrow(df_rows_to_merge)))
-    wb$merge_cells(sheet = sheet,
-                   dims = df_rows_to_merge[i,]$dims)
+  for(i in seq_len(nrow(df_rows_to_merge))) {
+    df_style_def <- df_rows_to_merge[i,]
 
-  return(invisible(NULL))
+    # Override style of merged columns with merging row
+    df_style_info <- df_style[df_style$row_id == df_style_def$row_id &
+                                df_style$col_id == df_style_def$col_id,] |>
+      select(-all_of(c("row_id", "col_id", "content")))
+
+    df_style[df_style$row_id >= df_style_def$row_id &
+               df_style$row_id <= df_style_def$row_id + df_style_def$span.cols &
+               df_style$col_id >= df_style_def$col_id &
+               df_style$col_id <= df_style_def$col_id + df_style_def$span.rows,
+             -which(names(df_style) %in% c("row_id", "col_id", "content"))] <- df_style_info
+
+    # Apply merge
+    wb$merge_cells(sheet = sheet,
+                   dims = df_style_def$dims)
+  }
+
+  return(df_style)
 }
 
 
@@ -368,6 +408,9 @@ wb_apply_content <- function(wb, sheet, df_style) {
                                                        .data$bold.x),
                               underlined.y = dplyr::coalesce(.data$underlined.y,
                                                              .data$underlined.x))
+
+  # Replace <br> in flextables with newlines
+  df_content$txt <- gsub("<br *\\/{0,1}>", "\n", df_content$txt)
 
   df_content |>
     dplyr::mutate(color.y = dplyr::if_else(.data$color.y == "transparent",
@@ -441,8 +484,14 @@ wb_add_caption <- function(wb, sheet,
     data.frame() -> df_styles_default
   df_styles_default <- df_styles_default[1,]
 
+
+
+
   # create content
   if(ft$caption$simple_caption) {
+      # Replace <br> in flextables with newlines
+      ft$caption$value <- gsub("<br *\\/{0,1}>", "\n", ft$caption$value)
+
       content <- openxlsx2::fmt_txt(
         ft$caption$value,
         bold = df_styles_default$bold,
@@ -454,6 +503,7 @@ wb_add_caption <- function(wb, sheet,
         vert_align = df_styles_default$vertical.align
       )
   } else {
+    ft$caption$value$txt <- gsub("<br *\\/{0,1}>", "\n", ft$caption$value$txt)
     content <- purrr::map_chr(1:nrow(ft$caption$value),
                    \(i) {
                      ft$caption$value[i,] -> x
@@ -479,13 +529,32 @@ wb_add_caption <- function(wb, sheet,
   wb$merge_cells(sheet = sheet, dims = paste0(int2col(offset_cols + 1),
                                               offset_rows + 1,
                                               ":",
-                                              int2col(offset_cols + 1 + idims[2]),
+                                              int2col(offset_cols + idims[2]),
                                               offset_rows + 1))
-
 
   return(invisible(NULL))
 }
 
+
+#' Changes the cell width
+#'
+#' @inheritParams wb_add_caption
+#'
+#' @return
+#'
+#' @examples
+wb_change_cell_width <- function(wb, sheet, ft, offset_cols) {
+  # change cell width
+  cwidths <- ft$header$colwidths * 2.54 * 4 # Tell me why? Ain't nothing but a constant
+
+  sapply(1:length(cwidths),
+         \(i) {
+           wb$set_col_widths(sheet = sheet,
+                              cols = openxlsx2::int2col(i + offset_cols),
+                              widths = cwidths[i])
+         })
+  return(invisible(NULL))
+}
 
 
 #' Adds a flextable to an openxlsx2 workbook sheet
@@ -559,11 +628,14 @@ wb_add_flextable <- function(wb, sheet, ft,
     wb_add_caption(wb, sheet = sheet, ft = ft,
                    offset_rows=offset_rows,
                    offset_cols=offset_cols)
+
+  df_style <- wb_apply_merge(wb, sheet, df_style)
   wb_apply_border(wb, sheet, df_style)
   wb_apply_text_styles(wb, sheet, df_style)
   wb_apply_cell_styles(wb, sheet, df_style)
   wb_apply_content(wb, sheet, df_style)
-  wb_apply_merge(wb, sheet, df_style)
+  wb_change_cell_width(wb, sheet, ft, offset_cols)
+
 
 
   return(wb)
