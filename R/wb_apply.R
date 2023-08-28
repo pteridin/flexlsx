@@ -353,6 +353,32 @@ wb_apply_merge <- function(wb, sheet, df_style) {
 }
 
 
+#' Prepares the color for content style
+#'
+#' Converts a color name to the hexadecimal RGB-value
+#' Removes "transparent" color
+#'
+#' @param color_name The name of the color
+#'
+#' @return The hexadecimal RGB-value
+#'
+#' @importFrom grDevices col2rgb rgb
+#' @importFrom dplyr if_else
+#'
+prepare_color <- function(color_name) {
+
+  color_name <- dplyr::if_else(color_name == "transparent",
+                               NA_character_,
+                               color_name)
+
+  colors <- grDevices::col2rgb(color_name)/255
+  colors <-  grDevices::rgb(red   = colors[1,],
+                              green = colors[2,],
+                              blue  = colors[3,])
+  colors[is.na(color_name)] <- NA_character_
+  return(colors)
+}
+
 #' Applies the content
 #'
 #' @description
@@ -402,20 +428,31 @@ wb_apply_content <- function(wb, sheet, df_style) {
                      relationship = "one-to-many")
 
   df_content <- dplyr::mutate(df_content,
+
                               italic.y = dplyr::coalesce(.data$italic.y,
                                                          .data$italic.x),
                               bold.y = dplyr::coalesce(.data$bold.y,
                                                        .data$bold.x),
                               underlined.y = dplyr::coalesce(.data$underlined.y,
-                                                             .data$underlined.x))
+                                                             .data$underlined.x),
+
+                              # colors, font-size, font-family & vertical align will only be applied when different from the default
+                              dplyr::across(dplyr::all_of(c("color.x","color.y")),
+                                     ~ prepare_color(.x)),
+
+                              color.y = dplyr::coalesce(.data$color.y, .data$color.x),
+                              color.y = dplyr::if_else(.data$color.y == "#000000" & .data$color.x == "#000000",
+                                                        NA_character_,
+                                                        .data$color.y))
+
+
+
+
 
   # Replace <br> in flextables with newlines
   df_content$txt <- gsub("<br *\\/{0,1}>", "\n", df_content$txt)
 
   df_content |>
-    dplyr::mutate(color.y = dplyr::if_else(.data$color.y == "transparent",
-                                            NA_character_,
-                                            .data$color.y)) |>
     mutate(txt = bugfix_openxlsx2_fmt_text(.data$txt)) |>
     dplyr::rowwise() |>
     dplyr::mutate(txt = paste0(openxlsx2::fmt_txt(
@@ -433,16 +470,12 @@ wb_apply_content <- function(wb, sheet, df_style) {
                                "", .data$txt)) |>
     dplyr::group_by(.data$col_id,.data$row_id) |>
     dplyr::summarize(txt = paste0(.data$txt, collapse = ""),
-                     .groups = "drop")  -> content
+                     .groups = "drop")  -> df_content
 
-  min_col_id <- min(content$col_id)
-  max_col_id <- max(content$col_id)
-  min_row_id <- min(content$row_id)
-  max_row_id <- max(content$row_id)
-
-  content <- matrix(content$txt,
-                    nrow = max_row_id - min_row_id + 1,
-                    ncol = max_col_id - min_col_id + 1)
+  min_col_id <- min(df_content$col_id)
+  max_col_id <- max(df_content$col_id)
+  min_row_id <- min(df_content$row_id)
+  max_row_id <- max(df_content$row_id)
 
   dims <- paste0(openxlsx2::int2col(min_col_id),
                  min_row_id, ":",
@@ -450,11 +483,22 @@ wb_apply_content <- function(wb, sheet, df_style) {
                  max_row_id)
 
   wb$add_data(sheet = sheet,
-              x = content,
+              x = matrix(df_content$txt,
+                         nrow = max_row_id - min_row_id + 1,
+                         ncol = max_col_id - min_col_id + 1),
               dims = dims,
               col_names = F)
 
   wb$add_ignore_error(dims = dims, number_stored_as_text = TRUE)
+
+  # wrap text if necessary
+  to_apply_text_wrap <- grep("\\\\n", df_content$txt)
+  if(length(to_apply_text_wrap) > 0) {
+    wb$add_cell_style(sheet = sheet,
+                      wrap_text = T,
+                      dims = paste0(int2col(to_apply_text_wrap$col_id),
+                                    to_apply_text_wrap$row_id))
+  }
 
   return(invisible(NULL))
 }
@@ -487,9 +531,6 @@ wb_add_caption <- function(wb, sheet,
          }) |>
     data.frame() -> df_styles_default
   df_styles_default <- df_styles_default[1,]
-
-
-
 
   # create content
   if(ft$caption$simple_caption) {
@@ -525,6 +566,15 @@ wb_add_caption <- function(wb, sheet,
                    })
   }
 
+  # wrap text if necessary
+  to_apply_text_wrap <- grep("\\\\n", ft$caption$value)
+  if(length(to_apply_text_wrap) > 0) {
+    wb$add_cell_style(sheet = sheet,
+                        wrap_text = T,
+                        dims = paste0(int2col(offset_cols + 1),
+                                     offset_rows + 1))
+  }
+
   # add to wb & merge
   wb$add_data(sheet = sheet,
               x = paste0(content, collapse = ""),
@@ -544,9 +594,8 @@ wb_add_caption <- function(wb, sheet,
 #'
 #' @inheritParams wb_add_caption
 #'
-#' @return
+#' @return NULL
 #'
-#' @examples
 wb_change_cell_width <- function(wb, sheet, ft, offset_cols) {
   # change cell width
   cwidths <- ft$header$colwidths * 2.54 * 4 # Tell me why? Ain't nothing but a constant
