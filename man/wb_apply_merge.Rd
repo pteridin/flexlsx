@@ -13,6 +13,9 @@ wb_apply_merge(wb, sheet, df_style)
 
 \item{df_style}{the styling tibble from \link{ft_to_style_tibble}}
 }
+\value{
+df_style tibble
+}
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
