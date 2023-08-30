@@ -1,7 +1,7 @@
 Package: flexlsx
 Type: Package
 Title: Exporting flextables to Excel
-Version: 0.1.1.1
+Version: 0.1.2
 Authors@R: c(person(given = "Tobias",
                    family = "Heidler",
                    role = c("aut", "cre"),
@@ -15,6 +15,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr (>= 1.1.1),
+    grDevices,
     openxlsx2,
     purrr,
     rlang,
