@@ -677,7 +677,7 @@ wb_change_row_height <- function(wb, sheet, df_style) {
 #' @importFrom openxlsx2 dims_to_rowcol
 #'
 #' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,1:2]))
+#' ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
 #' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
 #' wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
 wb_add_flextable <- function(wb, sheet, ft,
