@@ -5,3 +5,4 @@
 ^R/test.R$
 ^codecov\.yml$
 ^\.github$
+^cran-comments\.md$
