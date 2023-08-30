@@ -33,6 +33,10 @@ ftpart_to_style_tibble <- function(ft_part,
     data.frame() -> df_styles_cells
   df_styles_cells$rowheight <- round(ft_part$rowheights * 91.4400, 0)
 
+  df_styles_cells <- df_styles_cells |>
+    dplyr::select(-dplyr::starts_with("margin"),
+                  -all_of(c("width","height")))
+
   ### Pars --------
   lapply(ft_part$styles$pars,
          \(x) {
@@ -50,6 +54,11 @@ ftpart_to_style_tibble <- function(ft_part,
            return(NULL)
          }) |>
     data.frame() -> df_styles_text
+
+  df_styles_text <- df_styles_text |>
+    dplyr::select(-all_of(c("eastasia.family",
+                            "hansi.family",
+                            "cs.family")))
 
   ## Merge -----
   df_styles <- dplyr::bind_cols(df_styles_cells,
