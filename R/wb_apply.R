@@ -243,6 +243,7 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
     crow <- df_cell_styles_aggregated[i, ]
 
     wb$add_cell_style(
+      sheet = sheet,
       dims       = crow$dims,
       horizontal = crow$text.align,
       vertical   = crow$vertical.align,
@@ -252,9 +253,11 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
 
     if(crow$background.color != "transparent")
       wb$add_fill(
+        sheet = sheet,
         dims  = crow$dims,
         color = openxlsx2::wb_color(crow$background.color)
       )
+
   }
   return(invisible(NULL))
 }
@@ -470,6 +473,8 @@ wb_apply_content <- function(wb, sheet, df_style) {
                                "", .data$txt)) |>
     dplyr::group_by(.data$col_id,.data$row_id) |>
     dplyr::summarize(txt = paste0(.data$txt, collapse = ""),
+                     max_font_size = max(coalesce(.data$font.size.y, .data$font.size.x),
+                                         na.rm=T),
                      .groups = "drop")  -> df_content
 
   min_col_id <- min(df_content$col_id)
@@ -491,15 +496,6 @@ wb_apply_content <- function(wb, sheet, df_style) {
 
   wb$add_ignore_error(dims = dims, number_stored_as_text = TRUE)
 
-  # wrap text if necessary
-  to_apply_text_wrap <- grep("\\\\n", df_content$txt)
-  if(length(to_apply_text_wrap) > 0) {
-    wb$add_cell_style(sheet = sheet,
-                      wrap_text = T,
-                      dims = paste0(int2col(to_apply_text_wrap$col_id),
-                                    to_apply_text_wrap$row_id))
-  }
-
   return(invisible(NULL))
 }
 
@@ -513,6 +509,10 @@ wb_apply_content <- function(wb, sheet, df_style) {
 #' @inheritParams wb_add_flextable
 #' @param offset_rows zero-based row offset
 #' @param offset_cols zero-based column offset
+#'
+#' @importFrom openxlsx2 fmt_txt
+#' @importFrom purrr map_chr
+#' @importFrom stringi stri_count
 #'
 #' @return NULL
 #'
@@ -567,12 +567,18 @@ wb_add_caption <- function(wb, sheet,
   }
 
   # wrap text if necessary
-  to_apply_text_wrap <- grep("\\\\n", ft$caption$value)
-  if(length(to_apply_text_wrap) > 0) {
+  to_apply_text_wrap <- ifelse(ft$caption$simple_caption,
+                               stringi::stri_count(ft$caption$value, regex = "\\n"),
+                               sum(stringi::stri_count(ft$caption$value$txt, regex = "\\n"))) + 1
+  if(to_apply_text_wrap > 0) {
     wb$add_cell_style(sheet = sheet,
                         wrap_text = T,
                         dims = paste0(int2col(offset_cols + 1),
                                      offset_rows + 1))
+
+    wb$set_row_heights(sheet = sheet,
+                       heights = to_apply_text_wrap*15,
+                       rows = offset_rows + 1)
   }
 
   # add to wb & merge
@@ -597,16 +603,58 @@ wb_add_caption <- function(wb, sheet,
 #' @return NULL
 #'
 wb_change_cell_width <- function(wb, sheet, ft, offset_cols) {
-  # change cell width
-  cwidths <- ft$header$colwidths * 2.54 * 4 # Tell me why? Ain't nothing but a constant
 
-  sapply(1:length(cwidths),
-         \(i) {
-           wb$set_col_widths(sheet = sheet,
-                              cols = openxlsx2::int2col(i + offset_cols),
-                              widths = cwidths[i])
-         })
+  # Tell me why?
+  cwidths <- rbind(ft$header$colwidths,
+                    ft$body$colwidths,
+                    ft$footer$colwidths) |>
+                apply(2,max) * 2.54 * 4 / 16 * 20 # Ain't nothing but a constant
+
+
+  wb$set_col_widths(sheet = sheet,
+                    cols = paste0(openxlsx2::int2col(1 + offset_cols), ":",
+                                  openxlsx2::int2col(length(cwidths) + offset_cols)),
+                    widths = cwidths)
+
   return(invisible(NULL))
+}
+
+#' Changes the row height
+#'
+#' @inheritParams wb_add_caption
+#' @param df_style the styling tibble from [ft_to_style_tibble]
+#'
+#' @return NULL
+#'
+#' @importFrom dplyr select mutate group_by all_of summarize
+#' @importFrom rlang .data
+#' @importFrom stringi stri_count
+#'
+wb_change_row_height <- function(wb, sheet, df_style) {
+
+  font_sizes <- vapply(df_style$content,
+                       \(x) ifelse(all(is.na(x$font.size)),
+                                   NA_real_,
+                                   max(x$font.size, na.rm=T)),
+                       FUN.VALUE = numeric(1))
+
+  newline_counts <- vapply(df_style$content,
+                           \(x) sum(stringi::stri_count(x$txt, regex = "<br */{0,1}>") +
+                                      stringi::stri_count(x$txt, regex = "\n")),
+                           FUN.VALUE = numeric(1)) + 1
+
+  row_heights <- newline_counts*coalesce(font_sizes,df_style$font.size)/11*15
+
+  df_row_heights <- df_style |>
+    dplyr::select(dplyr::all_of("row_id")) |>
+    dplyr::mutate(rh = row_heights) |>
+    dplyr::group_by(.data$row_id) |>
+    dplyr::summarize(row_heights = max(.data$rh),
+              .groups = "drop")
+
+  wb$set_row_heights(sheet = sheet,
+                     rows = df_row_heights$row_id,
+                     heights = df_row_heights$row_heights)
 }
 
 
@@ -688,8 +736,7 @@ wb_add_flextable <- function(wb, sheet, ft,
   wb_apply_cell_styles(wb, sheet, df_style)
   wb_apply_content(wb, sheet, df_style)
   wb_change_cell_width(wb, sheet, ft, offset_cols)
-
-
+  wb_change_row_height(wb, sheet, df_style)
 
   return(wb)
 }

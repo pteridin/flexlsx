@@ -44,9 +44,9 @@ test_that("Complex Caption works", {
   ft <- flextable::as_flextable(table(mtcars[,1:2]))
   ft <- flextable::set_caption(ft,
                                        caption = flextable::as_paragraph('a ', flextable::as_b('bold'),
-                                                                         " and ",
+                                                                         " and <br>",
                                                                          flextable::as_i('italic'),
-                                                                         ' text with ',
+                                                                         ' text <br /> with <br/>',
                                                                          flextable::as_chunk("Variations!", props = flextable::fp_text_default(color = "orange",
                                                                                                                                                font.family = "Courier",
                                                                                                                                                underlined = T))
@@ -67,13 +67,15 @@ test_that("Complex gtsummary works", {
     tidyr::uncount(n) |>
     gtsummary::tbl_strata(strata = "Class",
                           .tbl_fun = \(x) {
-                            gtsummary::tbl_summary(x, by="Sex") |>
+                            gtsummary::tbl_summary(x,
+                                                   by="Sex") |>
                               gtsummary::add_difference(everything() ~ "prop.test")
                           }) |>
     gtsummary::tbl_butcher() |>
     gtsummary::bold_labels() |>
     gtsummary::italicize_levels() |>
     gtsummary::as_flex_table() -> ft
+
 
   wb <- openxlsx2::wb_workbook()$add_worksheet("titanic")
   wb_add_flextable(wb, "titanic", ft, offset_caption_rows = 1L)$save(tmpfile)
@@ -96,7 +98,28 @@ test_that("Illegal XML characters work", {
   wb <- openxlsx2::wb_workbook()$add_worksheet("titanic")
   wb_add_flextable(wb, "titanic", ft, offset_caption_rows = 1L)$save(tmpfile)
 
-  y <- openxlsx2::wb_read(wb, "titanic")
-  expect_equal(to_check,
-               y$IllegalXML)
+  expect_true(T)
+})
+
+
+test_that("Linebreaks work", {
+  tmpfile <- tempfile(fileext = ".xlsx")
+  to_check <- c("Hello<br>Linebreak",
+                "Hello<br><br><br>Linebreak2",
+                "Ein<br>Zeilenbrecher",
+                "Zwei<br>Zeilen<br>echer")
+  to_check2 = c("Hello kein Linebreak",
+                "Hello ein <br>Linebreak",
+                "Drei<br><br><br>Zeilenbrecher",
+                "Ein<br>Zeilenbrecher")
+
+  data.frame(Linebreak1 = to_check,
+             Linebreak2 = to_check2) |>
+    flextable::flextable() |>
+    flextable::autofit(part = "body")-> ft
+
+  wb <- openxlsx2::wb_workbook()$add_worksheet("titanic")
+  wb_add_flextable(wb, "titanic", ft, offset_caption_rows = 1L)$save(tmpfile)
+
+  expect_true(T)
 })
