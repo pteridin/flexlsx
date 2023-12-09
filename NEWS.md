@@ -1,3 +1,7 @@
+# flexlsx 0.1.3
+
+* Release candidate for CRAN
+
 # flexlsx 0.1.2
 
 * Column width will now be set (#3)

@@ -36,7 +36,7 @@ an openxlsx2 workbook
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }
 \examples{
-ft <- flextable::as_flextable(table(mtcars[,1:2]))
+ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
 wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
 wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
 }
