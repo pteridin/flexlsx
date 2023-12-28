@@ -1,7 +1,7 @@
 Package: flexlsx
 Type: Package
 Title: Exporting 'flextable' to Excel
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(person(given = "Tobias",
                    family = "Heidler",
                    role = c("aut", "cre", "cph"),

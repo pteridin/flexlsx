@@ -677,15 +677,17 @@ wb_change_row_height <- function(wb, sheet, df_style) {
 #' @importFrom openxlsx2 dims_to_rowcol
 #'
 #' @examples
-#' ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
-#' wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#' wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
+#' if(requireNamespace("flextable", quietly = TRUE)) {
+#'    ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
+#'    wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+#'    wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
+#' }
 wb_add_flextable <- function(wb, sheet, ft,
                              start_col = 1,
                              start_row = 1,
                              offset_caption_rows = 0L,
                              dims = NULL) {
-  # Check inputs
+  # Check input
   stopifnot("wbWorkbook" %in% class(wb))
   stopifnot((is.character(sheet) &&
               nchar(sheet) > 0) ||
