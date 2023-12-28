@@ -15,7 +15,6 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr (>= 1.1.1),
-    flextable,
     grDevices,
     openxlsx2,
     purrr,
@@ -27,6 +26,7 @@ Imports:
 Suggests: 
     covr,
     gtsummary,
+    flextable,
     testthat (>= 3.0.0)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
