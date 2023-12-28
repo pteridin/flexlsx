@@ -20,7 +20,13 @@ with both trivial and complex tables.
 
 ## Installation
 
-You can install the development version of `flexlsx` like so:
+You can install the stable version of `flexlsx` with:
+
+``` r
+install.packages('flexlsx')
+```
+
+You can install the development version of `flexlsx` from GitHub like so:
 
 ``` r
 # install.packages("remotes")

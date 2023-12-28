@@ -1,7 +1,6 @@
 
 test_that("Generation from start to finish works", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
 
@@ -14,8 +13,7 @@ test_that("Generation from start to finish works", {
 })
 
 test_that("Offsets work", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
 
@@ -33,8 +31,7 @@ test_that("Offsets work", {
 
 
 test_that("Simple Caption works", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
 
@@ -48,8 +45,7 @@ test_that("Simple Caption works", {
 })
 
 test_that("Complex Caption works", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
 
@@ -71,8 +67,7 @@ test_that("Complex Caption works", {
 })
 
 test_that("Complex gtsummary works", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
 
@@ -101,8 +96,7 @@ test_that("Complex gtsummary works", {
 
 
 test_that("Illegal XML characters work", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
   to_check <- c("1 (<0.1%)",
@@ -121,8 +115,7 @@ test_that("Illegal XML characters work", {
 
 
 test_that("Linebreaks work", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   tmpfile <- tempfile(fileext = ".xlsx")
   to_check <- c("Hello<br>Linebreak",

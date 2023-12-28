@@ -1,7 +1,6 @@
 
 test_that("ft_to_style_tibble does not break", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   ft <- as_flextable(table(mtcars[,1:2]))
 
@@ -11,8 +10,7 @@ test_that("ft_to_style_tibble does not break", {
 })
 
 test_that("ft_to_style_tibble does not break with offsets", {
-  skip_if(!require("flextable", quietly=TRUE),
-          "flextable not available")
+  skip_if_not_installed("flextable")
 
   ft <- as_flextable(table(mtcars[,1:2]))
   flexlsx:::ft_to_style_tibble(ft,

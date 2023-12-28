@@ -4,14 +4,14 @@
 \name{flexlsx-package}
 \alias{flexlsx}
 \alias{flexlsx-package}
-\title{flexlsx: Exporting Flextables to Excel}
+\title{flexlsx: Exporting 'flextable' to Excel}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Exports flextables to Excel-Sheets using openxlsx2. Objects that can be converted to flextables (e.g. gtsummary) can be exported as well.
+Exports 'flextable' tables to Excel-Sheets using 'openxlsx2'. Objects that can be converted to 'flextable' objects (e.g. 'gtsummary') can be exported as well.
 }
 \author{
-\strong{Maintainer}: Tobias Heidler \email{tobias.heidler@googlemail.com} (\href{https://orcid.org/0000-0001-9193-0980}{ORCID})
+\strong{Maintainer}: Tobias Heidler \email{tobias.heidler@googlemail.com} (\href{https://orcid.org/0000-0001-9193-0980}{ORCID}) [copyright holder]
 
 }
 \keyword{internal}
