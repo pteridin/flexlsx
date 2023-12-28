@@ -4,7 +4,7 @@
 \name{flexlsx-package}
 \alias{flexlsx}
 \alias{flexlsx-package}
-\title{flexlsx: Exporting flextables to Excel}
+\title{flexlsx: Exporting Flextables to Excel}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
