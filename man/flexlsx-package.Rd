@@ -10,6 +10,14 @@
 
 Exports 'flextable' tables to Excel-Sheets using 'openxlsx2'. Objects that can be converted to 'flextable' objects (e.g. 'gtsummary') can be exported as well.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/pteridin/flexlsx}
+  \item Report bugs at \url{https://github.com/pteridin/flexlsx/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Tobias Heidler \email{tobias.heidler@googlemail.com} (\href{https://orcid.org/0000-0001-9193-0980}{ORCID}) [copyright holder]
 

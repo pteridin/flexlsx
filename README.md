@@ -9,7 +9,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![Codecov test
 coverage](https://codecov.io/gh/pteridin/flexlsx/branch/main/graph/badge.svg)](https://app.codecov.io/gh/pteridin/flexlsx?branch=main)
-
+[![R-CMD-check](https://github.com/pteridin/flexlsx/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pteridin/flexlsx/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The primary objective of `flexlsx` is to offer an effortless interface
@@ -20,13 +20,7 @@ with both trivial and complex tables.
 
 ## Installation
 
-You can install the stable version of `flexlsx` with:
-
-``` r
-install.packages('flexlsx')
-```
-
-You can install the development version of `flexlsx` from GitHub like so:
+You can install the development version of `flexlsx` like so:
 
 ``` r
 # install.packages("remotes")
