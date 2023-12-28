@@ -1,21 +1,20 @@
 Package: flexlsx
 Type: Package
-Title: Exporting flextables to Excel
-Version: 0.1.3
+Title: Exporting 'flextable' to Excel
+Version: 0.1.4
 Authors@R: c(person(given = "Tobias",
                    family = "Heidler",
-                   role = c("aut", "cre"),
+                   role = c("aut", "cre", "cph"),
                    email = "tobias.heidler@googlemail.com",
                    comment = c(ORCID = "0000-0001-9193-0980")))
-Description: Exports flextables to Excel-Sheets using openxlsx2.
-    Objects that can be converted to flextables (e.g. gtsummary) 
+Description: Exports 'flextable' tables to Excel-Sheets using 'openxlsx2'.
+    Objects that can be converted to 'flextable' objects (e.g. 'gtsummary') 
     can be exported as well.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
     dplyr (>= 1.1.1),
-    flextable,
     grDevices,
     openxlsx2,
     purrr,
@@ -27,6 +26,7 @@ Imports:
 Suggests: 
     covr,
     gtsummary,
+    flextable,
     testthat (>= 3.0.0)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
