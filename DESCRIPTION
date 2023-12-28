@@ -1,6 +1,6 @@
 Package: flexlsx
 Type: Package
-Title: Exporting flextables to Excel
+Title: Exporting Flextables to Excel
 Version: 0.1.3
 Authors@R: c(person(given = "Tobias",
                    family = "Heidler",
