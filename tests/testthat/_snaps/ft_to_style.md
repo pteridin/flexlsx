@@ -190,7 +190,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -311,7 +311,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -432,7 +432,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -553,7 +553,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -674,7 +674,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -795,7 +795,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -916,7 +916,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -1037,12 +1037,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [2]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -1158,12 +1158,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [3]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -1279,12 +1279,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [4]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -1400,12 +1400,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [5]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -1521,12 +1521,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [6]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -1642,7 +1642,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -1763,7 +1763,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -1884,7 +1884,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2008,7 +2008,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2132,7 +2132,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2256,7 +2256,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2380,7 +2380,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2501,7 +2501,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2613,7 +2613,7 @@
                   ]
                 },
                 {
-                  "type": "double",
+                  "type": "integer",
                   "attributes": {},
                   "value": [1, 2]
                 }
@@ -2625,7 +2625,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2749,7 +2749,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2873,7 +2873,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -2997,7 +2997,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3121,7 +3121,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3242,7 +3242,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3363,7 +3363,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3487,7 +3487,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3611,7 +3611,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3735,7 +3735,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3859,7 +3859,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -3980,7 +3980,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4101,7 +4101,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4225,7 +4225,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4349,7 +4349,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4473,7 +4473,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4597,7 +4597,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4718,7 +4718,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4839,7 +4839,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -4963,7 +4963,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5087,7 +5087,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5211,7 +5211,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5335,7 +5335,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5456,7 +5456,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5577,7 +5577,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5701,7 +5701,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5825,7 +5825,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -5949,7 +5949,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6073,7 +6073,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6194,7 +6194,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6315,7 +6315,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6439,7 +6439,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6563,7 +6563,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6687,7 +6687,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6811,7 +6811,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -6932,7 +6932,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7053,7 +7053,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7177,7 +7177,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7301,7 +7301,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7425,7 +7425,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7549,7 +7549,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7670,7 +7670,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7791,7 +7791,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -7915,7 +7915,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8039,7 +8039,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8163,7 +8163,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8287,7 +8287,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8408,7 +8408,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8529,7 +8529,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8653,7 +8653,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8777,7 +8777,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -8901,7 +8901,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9025,7 +9025,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9146,7 +9146,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9267,7 +9267,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9391,7 +9391,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9515,7 +9515,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9639,7 +9639,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9763,7 +9763,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -9884,7 +9884,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10005,7 +10005,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10129,7 +10129,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10253,7 +10253,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10377,7 +10377,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10501,7 +10501,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10622,7 +10622,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10743,7 +10743,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10867,7 +10867,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -10991,7 +10991,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11115,7 +11115,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11239,7 +11239,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11360,7 +11360,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11481,7 +11481,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11605,7 +11605,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11729,7 +11729,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11853,7 +11853,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -11977,7 +11977,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12098,7 +12098,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12219,7 +12219,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12343,7 +12343,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12467,7 +12467,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12591,7 +12591,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12715,7 +12715,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12836,7 +12836,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -12957,7 +12957,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13081,7 +13081,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13205,7 +13205,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13329,7 +13329,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13453,7 +13453,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13574,7 +13574,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13695,7 +13695,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13819,7 +13819,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -13943,7 +13943,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14067,7 +14067,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14191,7 +14191,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14312,7 +14312,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14433,7 +14433,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14557,7 +14557,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14681,7 +14681,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14805,7 +14805,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -14929,7 +14929,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15050,7 +15050,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15171,7 +15171,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15295,7 +15295,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15419,7 +15419,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15543,7 +15543,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15667,7 +15667,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15788,7 +15788,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -15909,7 +15909,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16033,7 +16033,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16157,7 +16157,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16281,7 +16281,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16405,7 +16405,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16526,7 +16526,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16647,7 +16647,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16771,7 +16771,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -16895,7 +16895,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17019,7 +17019,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17143,7 +17143,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17264,7 +17264,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17385,7 +17385,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17509,7 +17509,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17633,7 +17633,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17757,7 +17757,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -17881,7 +17881,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18002,7 +18002,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18123,7 +18123,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18247,7 +18247,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18371,7 +18371,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18495,7 +18495,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18619,7 +18619,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18740,7 +18740,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18861,7 +18861,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -18985,7 +18985,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19109,7 +19109,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19233,7 +19233,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19357,7 +19357,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19478,7 +19478,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19599,7 +19599,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19723,7 +19723,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19847,7 +19847,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -19971,7 +19971,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20095,7 +20095,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20216,7 +20216,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20337,7 +20337,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20461,7 +20461,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20585,7 +20585,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20709,7 +20709,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20833,7 +20833,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -20954,7 +20954,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21075,7 +21075,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21199,7 +21199,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21323,7 +21323,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21447,7 +21447,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21571,7 +21571,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21692,7 +21692,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21813,7 +21813,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -21937,7 +21937,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22061,7 +22061,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22185,7 +22185,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22309,7 +22309,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22430,7 +22430,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22551,7 +22551,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22675,7 +22675,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22799,7 +22799,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -22923,7 +22923,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23047,7 +23047,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23168,7 +23168,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23289,7 +23289,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23413,7 +23413,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23537,7 +23537,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23661,7 +23661,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23785,7 +23785,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -23906,7 +23906,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24027,7 +24027,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24151,7 +24151,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24275,7 +24275,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24399,7 +24399,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24523,7 +24523,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24644,7 +24644,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24765,7 +24765,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -24889,7 +24889,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25013,7 +25013,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25137,7 +25137,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25261,7 +25261,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25382,7 +25382,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25503,7 +25503,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25627,7 +25627,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25751,7 +25751,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25875,7 +25875,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -25999,7 +25999,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26120,7 +26120,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26241,7 +26241,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26365,7 +26365,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26489,7 +26489,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26613,7 +26613,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26737,7 +26737,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26858,7 +26858,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -26979,7 +26979,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27103,7 +27103,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27227,7 +27227,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27351,7 +27351,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27475,7 +27475,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27596,7 +27596,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27717,7 +27717,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27841,7 +27841,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -27965,7 +27965,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28089,7 +28089,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28213,7 +28213,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28334,7 +28334,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28455,7 +28455,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28579,7 +28579,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28703,7 +28703,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28827,7 +28827,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -28951,7 +28951,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29072,7 +29072,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29193,7 +29193,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29317,7 +29317,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29441,7 +29441,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29565,7 +29565,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29689,7 +29689,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29810,7 +29810,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -29931,7 +29931,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30055,7 +30055,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30179,7 +30179,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30303,7 +30303,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30427,7 +30427,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30548,7 +30548,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30669,7 +30669,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30793,7 +30793,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -30917,7 +30917,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31041,7 +31041,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31165,7 +31165,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31286,7 +31286,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31407,7 +31407,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31531,7 +31531,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31655,7 +31655,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31779,7 +31779,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -31903,7 +31903,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32024,7 +32024,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32145,7 +32145,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32269,7 +32269,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32393,7 +32393,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32517,7 +32517,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32641,7 +32641,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32762,7 +32762,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -32883,7 +32883,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33007,7 +33007,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33131,7 +33131,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33255,7 +33255,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33379,7 +33379,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33500,7 +33500,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33621,7 +33621,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33745,7 +33745,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33869,7 +33869,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -33993,7 +33993,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34117,7 +34117,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34238,7 +34238,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34359,7 +34359,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34483,7 +34483,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34607,7 +34607,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34731,7 +34731,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34855,7 +34855,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -34976,7 +34976,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35097,7 +35097,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35221,7 +35221,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35345,7 +35345,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35469,7 +35469,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35593,7 +35593,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35714,7 +35714,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35835,7 +35835,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -35959,7 +35959,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36083,7 +36083,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36207,7 +36207,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36331,7 +36331,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36452,7 +36452,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36573,7 +36573,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36697,7 +36697,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36821,7 +36821,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -36945,7 +36945,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37069,7 +37069,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37190,7 +37190,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37311,7 +37311,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37435,7 +37435,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37559,7 +37559,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37683,7 +37683,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37807,7 +37807,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -37928,7 +37928,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38049,7 +38049,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38173,7 +38173,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38297,7 +38297,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38421,7 +38421,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38545,7 +38545,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38666,7 +38666,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38787,7 +38787,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -38911,7 +38911,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39035,7 +39035,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39159,7 +39159,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39283,7 +39283,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39407,7 +39407,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39424,7 +39424,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -39528,7 +39528,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39545,7 +39545,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -39649,7 +39649,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39666,7 +39666,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -39770,7 +39770,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39787,7 +39787,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -39891,7 +39891,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -39908,7 +39908,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -40208,7 +40208,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -40329,7 +40329,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -40450,7 +40450,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -40571,7 +40571,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -40692,7 +40692,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -40813,7 +40813,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -40934,7 +40934,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -41055,12 +41055,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [2]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -41176,12 +41176,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [3]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -41297,12 +41297,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [4]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -41418,12 +41418,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [5]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -41539,12 +41539,12 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
                   "attributes": {},
-                  "value": [6]
+                  "value": [1]
                 },
                 "class": {
                   "type": "character",
@@ -41660,7 +41660,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -41781,7 +41781,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -41902,7 +41902,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42026,7 +42026,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42150,7 +42150,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42274,7 +42274,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42398,7 +42398,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42519,7 +42519,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42631,7 +42631,7 @@
                   ]
                 },
                 {
-                  "type": "double",
+                  "type": "integer",
                   "attributes": {},
                   "value": [1, 2]
                 }
@@ -42643,7 +42643,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42767,7 +42767,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -42891,7 +42891,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43015,7 +43015,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43139,7 +43139,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43260,7 +43260,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43381,7 +43381,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43505,7 +43505,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43629,7 +43629,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43753,7 +43753,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43877,7 +43877,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -43998,7 +43998,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44119,7 +44119,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44243,7 +44243,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44367,7 +44367,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44491,7 +44491,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44615,7 +44615,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44736,7 +44736,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44857,7 +44857,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -44981,7 +44981,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45105,7 +45105,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45229,7 +45229,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45353,7 +45353,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45474,7 +45474,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45595,7 +45595,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45719,7 +45719,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45843,7 +45843,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -45967,7 +45967,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46091,7 +46091,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46212,7 +46212,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46333,7 +46333,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46457,7 +46457,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46581,7 +46581,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46705,7 +46705,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46829,7 +46829,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -46950,7 +46950,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47071,7 +47071,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47195,7 +47195,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47319,7 +47319,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47443,7 +47443,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47567,7 +47567,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47688,7 +47688,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47809,7 +47809,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -47933,7 +47933,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48057,7 +48057,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48181,7 +48181,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48305,7 +48305,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48426,7 +48426,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48547,7 +48547,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48671,7 +48671,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48795,7 +48795,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -48919,7 +48919,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49043,7 +49043,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49164,7 +49164,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49285,7 +49285,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49409,7 +49409,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49533,7 +49533,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49657,7 +49657,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49781,7 +49781,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -49902,7 +49902,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50023,7 +50023,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50147,7 +50147,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50271,7 +50271,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50395,7 +50395,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50519,7 +50519,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50640,7 +50640,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50761,7 +50761,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -50885,7 +50885,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51009,7 +51009,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51133,7 +51133,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51257,7 +51257,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51378,7 +51378,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51499,7 +51499,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51623,7 +51623,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51747,7 +51747,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51871,7 +51871,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -51995,7 +51995,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52116,7 +52116,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52237,7 +52237,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52361,7 +52361,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52485,7 +52485,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52609,7 +52609,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52733,7 +52733,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52854,7 +52854,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -52975,7 +52975,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53099,7 +53099,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53223,7 +53223,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53347,7 +53347,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53471,7 +53471,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53592,7 +53592,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53713,7 +53713,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53837,7 +53837,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -53961,7 +53961,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54085,7 +54085,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54209,7 +54209,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54330,7 +54330,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54451,7 +54451,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54575,7 +54575,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54699,7 +54699,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54823,7 +54823,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -54947,7 +54947,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55068,7 +55068,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55189,7 +55189,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55313,7 +55313,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55437,7 +55437,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55561,7 +55561,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55685,7 +55685,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55806,7 +55806,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -55927,7 +55927,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56051,7 +56051,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56175,7 +56175,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56299,7 +56299,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56423,7 +56423,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56544,7 +56544,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56665,7 +56665,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56789,7 +56789,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -56913,7 +56913,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57037,7 +57037,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57161,7 +57161,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57282,7 +57282,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57403,7 +57403,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57527,7 +57527,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57651,7 +57651,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57775,7 +57775,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -57899,7 +57899,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58020,7 +58020,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58141,7 +58141,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58265,7 +58265,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58389,7 +58389,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58513,7 +58513,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58637,7 +58637,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58758,7 +58758,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -58879,7 +58879,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59003,7 +59003,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59127,7 +59127,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59251,7 +59251,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59375,7 +59375,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59496,7 +59496,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59617,7 +59617,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59741,7 +59741,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59865,7 +59865,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -59989,7 +59989,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60113,7 +60113,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60234,7 +60234,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60355,7 +60355,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60479,7 +60479,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60603,7 +60603,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60727,7 +60727,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60851,7 +60851,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -60972,7 +60972,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61093,7 +61093,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61217,7 +61217,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61341,7 +61341,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61465,7 +61465,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61589,7 +61589,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61710,7 +61710,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61831,7 +61831,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -61955,7 +61955,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62079,7 +62079,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62203,7 +62203,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62327,7 +62327,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62448,7 +62448,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62569,7 +62569,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62693,7 +62693,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62817,7 +62817,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -62941,7 +62941,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63065,7 +63065,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63186,7 +63186,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63307,7 +63307,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63431,7 +63431,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63555,7 +63555,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63679,7 +63679,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63803,7 +63803,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -63924,7 +63924,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64045,7 +64045,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64169,7 +64169,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64293,7 +64293,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64417,7 +64417,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64541,7 +64541,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64662,7 +64662,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64783,7 +64783,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -64907,7 +64907,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65031,7 +65031,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65155,7 +65155,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65279,7 +65279,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65400,7 +65400,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65521,7 +65521,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65645,7 +65645,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65769,7 +65769,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -65893,7 +65893,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66017,7 +66017,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66138,7 +66138,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66259,7 +66259,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66383,7 +66383,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66507,7 +66507,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66631,7 +66631,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66755,7 +66755,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66876,7 +66876,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -66997,7 +66997,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67121,7 +67121,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67245,7 +67245,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67369,7 +67369,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67493,7 +67493,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67614,7 +67614,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67735,7 +67735,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67859,7 +67859,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -67983,7 +67983,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68107,7 +68107,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68231,7 +68231,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68352,7 +68352,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68473,7 +68473,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68597,7 +68597,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68721,7 +68721,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68845,7 +68845,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -68969,7 +68969,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69090,7 +69090,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69211,7 +69211,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69335,7 +69335,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69459,7 +69459,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69583,7 +69583,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69707,7 +69707,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69828,7 +69828,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -69949,7 +69949,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70073,7 +70073,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70197,7 +70197,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70321,7 +70321,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70445,7 +70445,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70566,7 +70566,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70687,7 +70687,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70811,7 +70811,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -70935,7 +70935,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71059,7 +71059,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71183,7 +71183,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71304,7 +71304,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71425,7 +71425,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71549,7 +71549,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71673,7 +71673,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71797,7 +71797,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -71921,7 +71921,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72042,7 +72042,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72163,7 +72163,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72287,7 +72287,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72411,7 +72411,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72535,7 +72535,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72659,7 +72659,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72780,7 +72780,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -72901,7 +72901,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73025,7 +73025,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73149,7 +73149,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73273,7 +73273,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73397,7 +73397,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73518,7 +73518,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73639,7 +73639,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73763,7 +73763,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -73887,7 +73887,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74011,7 +74011,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74135,7 +74135,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74256,7 +74256,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74377,7 +74377,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74501,7 +74501,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74625,7 +74625,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74749,7 +74749,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74873,7 +74873,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -74994,7 +74994,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75115,7 +75115,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75239,7 +75239,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75363,7 +75363,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75487,7 +75487,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75611,7 +75611,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75732,7 +75732,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75853,7 +75853,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -75977,7 +75977,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76101,7 +76101,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76225,7 +76225,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76349,7 +76349,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76470,7 +76470,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76591,7 +76591,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76715,7 +76715,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76839,7 +76839,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -76963,7 +76963,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77087,7 +77087,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77208,7 +77208,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77329,7 +77329,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77453,7 +77453,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77577,7 +77577,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77701,7 +77701,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77825,7 +77825,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -77946,7 +77946,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78067,7 +78067,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78191,7 +78191,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78315,7 +78315,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78439,7 +78439,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78563,7 +78563,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78684,7 +78684,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78805,7 +78805,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -78929,7 +78929,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79053,7 +79053,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79177,7 +79177,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79301,7 +79301,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79425,7 +79425,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79442,7 +79442,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -79546,7 +79546,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79563,7 +79563,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -79667,7 +79667,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79684,7 +79684,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -79788,7 +79788,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79805,7 +79805,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",
@@ -79909,7 +79909,7 @@
                 "names": {
                   "type": "character",
                   "attributes": {},
-                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", "seq_index"]
+                  "value": ["txt", "font.size", "italic", "bold", "underlined", "color", "shading.color", "font.family", "hansi.family", "eastasia.family", "cs.family", "vertical.align", "width", "height", "url", "eq_data", "word_field_data", "img_data", ".chunk_index"]
                 },
                 "row.names": {
                   "type": "integer",
@@ -79926,7 +79926,7 @@
                 {
                   "type": "character",
                   "attributes": {},
-                  "value": [" (1)"]
+                  "value": [""]
                 },
                 {
                   "type": "double",

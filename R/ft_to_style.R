@@ -61,13 +61,13 @@ ftpart_to_style_tibble <- function(ft_part,
   df_styles$span.cols <- ft_part$spans$columns |> as.vector()
 
   ## Add row and col id --------
-  idims <- dim(ft_part$content$content$data)
+  idims <- dim(ft_part$content$data)
   df_styles$col_id <- sort(rep(seq_len(idims[2]), idims[1]))
   df_styles$row_id <- rep(seq_len(idims[1]), idims[2])
 
   ## Add content --------
   df_styles$content <- lapply(seq_len(nrow(df_styles)), function(i) {
-    ft_part$content$content$data[[df_styles$row_id[i], df_styles$col_id[i]]]
+    ft_part$content$data[[df_styles$row_id[i], df_styles$col_id[i]]]
   })
 
   ## arrange -----
