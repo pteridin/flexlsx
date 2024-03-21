@@ -520,7 +520,7 @@ wb_add_caption <- function(wb, sheet,
                            ft,
                            offset_rows=offset_rows,
                            offset_cols=offset_cols) {
-  idims <- dim(ft$body$content$content$data)
+  idims <- dim(ft$body$content$data)
 
   # Default values from header
   lapply(ft$header$styles$text,
