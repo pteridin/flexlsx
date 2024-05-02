@@ -1,5 +1,6 @@
 
 
+
 #' Retrieves dims of same style rows within same column
 #'
 #' @description
@@ -24,11 +25,17 @@ get_dim_ranges <- function(df_x) {
     get_dim_colwise()
 
   df_aggregated <- df_colwise |>
-    mutate(dims = paste0(openxlsx2::int2col(.data$col_from), .data$row_from,
-                         ":",
-                         openxlsx2::int2col(.data$col_to), .data$row_to),
-           multi_lines = .data$row_to != .data$row_from |
-             .data$col_to != .data$col_from) |>
+    mutate(
+      dims = paste0(
+        openxlsx2::int2col(.data$col_from),
+        .data$row_from,
+        ":",
+        openxlsx2::int2col(.data$col_to),
+        .data$row_to
+      ),
+      multi_lines = .data$row_to != .data$row_from |
+        .data$col_to != .data$col_from
+    ) |>
     left_join(df_hashes, by = "hash")
 
   return(df_aggregated)
@@ -48,8 +55,12 @@ get_dim_ranges <- function(df_x) {
 #'
 style_to_hash <- function(df_x) {
   df_style_hashed <- df_x |>
-    arrange(across(all_of(c("row_id", "col_id")))) |>
-    group_by(across(-all_of(c("col_id","row_id")))) |>
+    arrange(across(all_of(c(
+      "row_id", "col_id"
+    )))) |>
+    group_by(across(-all_of(c(
+      "col_id", "row_id"
+    )))) |>
     summarize(hash = 1L, .groups = "drop") |>
     mutate(hash = row_number())
 
@@ -75,21 +86,27 @@ style_to_hash <- function(df_x) {
 #'
 get_dim_rowwise <- function(df_x, df_style_hashed) {
   df_rows <- df_x |>
-    left_join(df_style_hashed,
-              by = attr(df_style_hashed,
-                        "cols_to_join")) |>
+    left_join(df_style_hashed, by = attr(df_style_hashed, "cols_to_join")) |>
     select(all_of(c("row_id", "col_id", "hash"))) |>
-    arrange(across(all_of(c("row_id", "col_id")))) |>
+    arrange(across(all_of(c(
+      "row_id", "col_id"
+    )))) |>
     group_by(across(all_of("row_id"))) |>
     mutate(col_change = cumsum(.data$hash !=
-                                        lag(.data$hash,
-                                            default = first(.data$hash)))) |>
-    group_by(across(all_of(c("row_id", "hash", "col_change")))) |>
-    summarize(col_from = first(col_id),
-                     col_to   = last(col_id),
-                     .groups  = "drop") |>
+                                 lag(.data$hash,
+                                     default = first(.data$hash)))) |>
+    group_by(across(all_of(c(
+      "row_id", "hash", "col_change"
+    )))) |>
+    summarize(
+      col_from = first(col_id),
+      col_to   = last(col_id),
+      .groups  = "drop"
+    ) |>
     select(-all_of("col_change")) |>
-    arrange(across(all_of(c("row_id", "col_from"))))
+    arrange(across(all_of(c(
+      "row_id", "col_from"
+    ))))
 
   return(df_rows)
 }
@@ -97,15 +114,27 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
 
 get_dim_colwise <- function(df_rows) {
   df_rows |>
-    arrange(across(all_of(c("col_from", "col_to", "row_id")))) |>
-    group_by(across(all_of(c("col_from", "col_to")))) |>
-    mutate(row_change = row_id != lag(row_id, default = first(row_id)) + 1L,
-              style_change = hash != lag(hash, default = first(hash)),
-              change = cumsum(row_change | style_change)) |>
-    group_by(across(all_of(c("hash", "col_from", "col_to", "change")))) |>
-    summarize(row_from = min(row_id),
-               row_to = max(row_id),
-               .groups = "drop") |>
+    arrange(across(all_of(c(
+      "col_from", "col_to", "row_id"
+    )))) |>
+    group_by(across(all_of(c(
+      "col_from", "col_to"
+    )))) |>
+    mutate(
+      row_change = row_id != lag(row_id, default = first(row_id)) + 1L,
+      style_change = hash != lag(hash, default = first(hash)),
+      change = cumsum(row_change | style_change)
+    ) |>
+    group_by(across(all_of(
+      c("hash", "col_from", "col_to", "change")
+    ))) |>
+    summarize(
+      row_from = min(row_id),
+      row_to = max(row_id),
+      .groups = "drop"
+    ) |>
     select(-all_of("change")) |>
-    arrange(across(all_of(c("row_from", "col_from"))))
+    arrange(across(all_of(c(
+      "row_from", "col_from"
+    ))))
 }
