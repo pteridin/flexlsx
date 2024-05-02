@@ -28,7 +28,8 @@ get_dim_ranges <- function(df_x) {
                          ":",
                          openxlsx2::int2col(.data$col_to), .data$row_to),
            multi_lines = .data$row_to != .data$row_from |
-             .data$col_to != .data$col_from)
+             .data$col_to != .data$col_from) |>
+    left_join(df_hashes, by = "hash")
 
   return(df_aggregated)
 }
