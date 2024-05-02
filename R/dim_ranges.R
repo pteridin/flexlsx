@@ -99,8 +99,8 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
       "row_id", "hash", "col_change"
     )))) |>
     summarize(
-      col_from = first(col_id),
-      col_to   = last(col_id),
+      col_from = min(.data$col_id),
+      col_to   = max(.data$col_id),
       .groups  = "drop"
     ) |>
     select(-all_of("col_change")) |>
@@ -112,6 +112,16 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
 }
 
 
+#' Groups each row with same style each column
+#'
+#' @inheritParams get_dim_rowwise
+#'
+#' @return [tibble][tibble::tibble-package] of column-wise aggregates style
+#'
+#' @importFrom dplyr arrange group_by summarize mutate all_of
+#' @importFrom dplyr across
+#' @importFrom rlang .data
+#'
 get_dim_colwise <- function(df_rows) {
   df_rows |>
     arrange(across(all_of(c(
@@ -121,16 +131,18 @@ get_dim_colwise <- function(df_rows) {
       "col_from", "col_to"
     )))) |>
     mutate(
-      row_change = row_id != lag(row_id, default = first(row_id)) + 1L,
-      style_change = hash != lag(hash, default = first(hash)),
-      change = cumsum(row_change | style_change)
+      row_change = .data$row_id != lag(.data$row_id,
+                                       default = min(.data$row_id)) + 1L,
+      style_change = .data$hash != lag(.data$hash,
+                                       default = min(.data$hash)),
+      change = cumsum(.data$row_change | .data$style_change)
     ) |>
     group_by(across(all_of(
       c("hash", "col_from", "col_to", "change")
     ))) |>
     summarize(
-      row_from = min(row_id),
-      row_to = max(row_id),
+      row_from = min(.data$row_id),
+      row_to = max(.data$row_id),
       .groups = "drop"
     ) |>
     select(-all_of("change")) |>
