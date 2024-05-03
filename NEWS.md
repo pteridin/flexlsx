@@ -1,3 +1,5 @@
+# flexlsx 0.2.0
+
 # flexlsx 0.1.4
 
 * Fixes for CRAN release
