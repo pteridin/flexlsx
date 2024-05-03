@@ -16,7 +16,7 @@ LazyData: true
 Imports: 
     dplyr (>= 1.1.1),
     grDevices,
-    openxlsx2,
+    openxlsx2 (>= 1.0.0),
     purrr,
     rlang,
     stringi,

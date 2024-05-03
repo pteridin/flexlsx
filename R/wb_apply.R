@@ -1,45 +1,3 @@
-
-#' Bugfix for illegal XML chars
-#'
-#' @description
-#' `r lifecycle::badge("experimental")`
-#'
-#' Only applies for openxlsx versions <= 0.8.0.9000! Otherwise return
-#' x
-#'
-#' Adopted from `openxlsx2`
-#'
-#' For Bug reports, see:
-#' - [Bugreport #2](https://github.com/pteridin/flexlsx/issues/2)
-#' - [Upstream](https://github.com/JanMarvin/openxlsx2/pull/757)
-#'
-#' @param x content with potentially "legal" XML chars
-#'
-#' @importFrom stringi stri_replace_all_fixed stri_conv
-#' @importFrom utils packageVersion
-#'
-#' @return a character vector
-#'
-bugfix_openxlsx2_fmt_text <- function(x) {
-
-  if(utils::packageVersion("openxlsx2") <= "0.8.0.9000") {
-    x <- as.character(x)
-    bad <- Encoding(x) != "UTF-8"
-
-    if (any(bad)) {
-      x[bad] <- stringi::stri_conv(x[bad], from = "", to = "UTF-8")
-    }
-
-    legal_chars <- c("&",  "\"", "'",  "<",  ">",  "\a", "\b", "\v", "\f")
-    legal_sub <- c("&amp;",  "&quot;", "&apos;", "&lt;",   "&gt;",   "",       "",       "",       ""      )
-
-    return(stringi::stri_replace_all_fixed(x, legal_chars, legal_sub, vectorize_all = FALSE))
-  }
-
-  return(x)
-}
-
-
 #' Determines the border width
 #'
 #' @description
@@ -456,7 +414,6 @@ wb_apply_content <- function(wb, sheet, df_style) {
   df_content$txt <- gsub("<br *\\/{0,1}>", "\n", df_content$txt)
 
   df_content |>
-    mutate(txt = bugfix_openxlsx2_fmt_text(.data$txt)) |>
     dplyr::rowwise() |>
     dplyr::mutate(txt = paste0(openxlsx2::fmt_txt(
                                     .data$txt,
