@@ -15,11 +15,11 @@
 #'
 #' @return merged styles as a [tibble][tibble::tibble-package]
 get_dim_ranges <- function(df_x) {
-  df_hashes <- df |>
+  df_style_hashed <- df_x |>
     style_to_hash()
 
-  df_rowwise <- df |>
-    get_dim_rowwise(df_hashes)
+  df_rowwise <- df_x |>
+    get_dim_rowwise(df_style_hashed)
 
   df_colwise <- df_rowwise |>
     get_dim_colwise()
@@ -36,7 +36,7 @@ get_dim_ranges <- function(df_x) {
       multi_lines = .data$row_to != .data$row_from |
         .data$col_to != .data$col_from
     ) |>
-    left_join(df_hashes, by = "hash")
+    left_join(df_style_hashed, by = "hash")
 
   return(df_aggregated)
 }
@@ -81,7 +81,7 @@ style_to_hash <- function(df_x) {
 #'
 #' @importFrom dplyr left_join select arrange group_by
 #' @importFrom dplyr mutate summarize first last
-#' @importFrom dplyr all_of first last across
+#' @importFrom dplyr all_of first last across lag
 #' @importFrom rlang .data
 #'
 get_dim_rowwise <- function(df_x, df_style_hashed) {
@@ -119,7 +119,7 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
 #' @return [tibble][tibble::tibble-package] of column-wise aggregates style
 #'
 #' @importFrom dplyr arrange group_by summarize mutate all_of
-#' @importFrom dplyr across
+#' @importFrom dplyr across lag
 #' @importFrom rlang .data
 #'
 get_dim_colwise <- function(df_rows) {
