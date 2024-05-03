@@ -3,12 +3,12 @@
 create_df <- function(m) {
   m |>
     as.data.frame() |>
-    mutate(row_id = 1:n()) |>
-    tidyr::pivot_longer(cols = -row_id,
+    mutate(row_id = 1:dplyr::n()) |>
+    tidyr::pivot_longer(cols = -all_of("row_id"),
                         names_to = "name",
                         values_to = "style") |>
     mutate(col_id = rep(1:ncol(m), nrow(m)), style_other = T) |>
-    select(-name)
+    select(-all_of("name"))
 }
 
 matrix(
