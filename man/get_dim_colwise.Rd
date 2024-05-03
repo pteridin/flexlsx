@@ -6,6 +6,9 @@
 \usage{
 get_dim_colwise(df_rows)
 }
+\arguments{
+\item{df_rows}{\link[tibble:tibble-package]{tibble} of row-wise aggregates style}
+}
 \value{
 \link[tibble:tibble-package]{tibble} of column-wise aggregates style
 }

@@ -123,7 +123,7 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
 #' @description
 #' `r lifecycle::badge("experimental")`
 #'
-#' @inheritParams get_dim_rowwise
+#' @param df_rows [tibble][tibble::tibble-package] of row-wise aggregates style
 #'
 #' @return [tibble][tibble::tibble-package] of column-wise aggregates style
 #'
