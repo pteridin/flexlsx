@@ -13,6 +13,8 @@ style_to_hash(df_x)
 hashed style information as a \link[tibble:tibble-package]{tibble}
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+
 Converts each style to an individual integer hash
 for easy comparison and aggregation.
 }

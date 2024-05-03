@@ -43,6 +43,9 @@ get_dim_ranges <- function(df_x) {
 
 #' Retrieves hashed style information
 #'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#'
 #' Converts each style to an individual integer hash
 #' for easy comparison and aggregation.
 #'
@@ -71,6 +74,9 @@ style_to_hash <- function(df_x) {
 
 
 #' Groups each column with same style each row
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
 #'
 #' @inheritParams get_dim_ranges
 #' @param df_style_hashed [tibble][tibble::tibble-package] of hashed style
@@ -113,6 +119,9 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
 
 
 #' Groups each row with same style each column
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
 #'
 #' @inheritParams get_dim_rowwise
 #'

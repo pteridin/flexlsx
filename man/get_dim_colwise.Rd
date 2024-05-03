@@ -10,5 +10,5 @@ get_dim_colwise(df_rows)
 \link[tibble:tibble-package]{tibble} of column-wise aggregates style
 }
 \description{
-Groups each row with same style each column
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 }

@@ -25,6 +25,7 @@ ft_to_xlsx_border_width <- function(border_width) {
 #' @param border_width a numeric vector determining the border-width
 #'
 #' @return border_width or NULL
+#'
 handle_null_border <- function(border_width) {
   if(border_width == "no border")
     return(NULL)
@@ -634,10 +635,12 @@ wb_change_row_height <- function(wb, sheet, df_style) {
 #' @importFrom openxlsx2 dims_to_rowcol
 #'
 #' @examples
-#' if(requireNamespace("flextable", quietly = TRUE)) {
-#'    ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
-#'    wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
-#'    wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
+#' \dontrun{
+#'   if(requireNamespace("flextable", quietly = TRUE)) {
+#'     ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
+#'     wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+#'     wb_add_flextable(wb, "mtcars", ft)$save("~/text.xlsx")
+#'   }
 #' }
 wb_add_flextable <- function(wb, sheet, ft,
                              start_col = 1,
