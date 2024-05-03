@@ -21,9 +21,9 @@ ftpart_to_style_tibble <- function(ft_part,
                              part = c("header",
                                       "body",
                                       "footer")) {
-  ## map styles to data.frames -----
+  ## map styles to data.frames
 
-  ### Cells --------
+  # Cells
   lapply(ft_part$styles$cells,
          \(x) {
            if("data" %in% names(x))
@@ -33,7 +33,7 @@ ftpart_to_style_tibble <- function(ft_part,
     data.frame() -> df_styles_cells
   df_styles_cells$rowheight <- round(ft_part$rowheights * 91.4400, 0)
 
-  ### Pars --------
+  # Pars
   lapply(ft_part$styles$pars,
          \(x) {
            if("data" %in% names(x))
@@ -42,7 +42,7 @@ ftpart_to_style_tibble <- function(ft_part,
          }) |>
     data.frame() -> df_styles_pars
 
-  ### Text --------
+  # Text
   lapply(ft_part$styles$text,
          \(x) {
            if("data" %in% names(x))
@@ -51,26 +51,26 @@ ftpart_to_style_tibble <- function(ft_part,
          }) |>
     data.frame() -> df_styles_text
 
-  ## Merge -----
+  # Merge
   df_styles <- dplyr::bind_cols(df_styles_cells,
                                 dplyr::rename(df_styles_text, "text.vertical.align" = dplyr::all_of("vertical.align")),
                                 dplyr::select(df_styles_pars, dplyr::all_of("text.align")))
 
-  ## determine spans -------
+  # Determine spans
   df_styles$span.rows <- ft_part$spans$rows |> as.vector()
   df_styles$span.cols <- ft_part$spans$columns |> as.vector()
 
-  ## Add row and col id --------
+  # Add row and col id
   idims <- dim(ft_part$content$data)
   df_styles$col_id <- sort(rep(seq_len(idims[2]), idims[1]))
   df_styles$row_id <- rep(seq_len(idims[1]), idims[2])
 
-  ## Add content --------
+  # Add content
   df_styles$content <- lapply(seq_len(nrow(df_styles)), function(i) {
     ft_part$content$data[[df_styles$row_id[i], df_styles$col_id[i]]]
   })
 
-  ## arrange -----
+  # Arrange
   df_styles <- dplyr::arrange(df_styles, .data$row_id, .data$col_id)
 
   return(df_styles)

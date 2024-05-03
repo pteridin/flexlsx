@@ -1,7 +1,7 @@
 Package: flexlsx
 Type: Package
 Title: Exporting 'flextable' to Excel
-Version: 0.1.4
+Version: 0.2.0
 Authors@R: c(person(given = "Tobias",
                    family = "Heidler",
                    role = c("aut", "cre", "cph"),
@@ -16,20 +16,22 @@ LazyData: true
 Imports: 
     dplyr (>= 1.1.1),
     grDevices,
-    openxlsx2,
+    openxlsx2 (>= 1.0.0),
     purrr,
     rlang,
     stringi,
     tibble,
-    tidyr,
+    tidyr (>= 1.0.0),
     utils
 Suggests: 
     covr,
     gtsummary,
     flextable (>= 0.9.5),
     testthat (>= 3.0.0)
+Depends:
+    R (>= 4.1.0)
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Config/testthat/edition: 3
 URL: https://github.com/pteridin/flexlsx
 BugReports: https://github.com/pteridin/flexlsx/issues
