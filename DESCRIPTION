@@ -7,7 +7,7 @@ Authors@R: person(given = "Tobias",
                     role = c("aut", "cre", "cph"),
                     email = "tobias.heidler@googlemail.com",
                     comment = c(ORCID = "0000-0001-9193-0980"))
-Description: This package exports 'flextable' objects to 'xlsx' files, 
+Description: Exports 'flextable' objects to 'xlsx' files, 
     utilizing functionalities provided by 'flextable' and 'openxlsx2'.
 License: MIT + file LICENSE
 Encoding: UTF-8

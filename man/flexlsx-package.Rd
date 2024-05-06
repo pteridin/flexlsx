@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-This package exports 'flextable' objects to 'xlsx' files, utilizing functionalities provided by 'flextable' and 'openxlsx2'.
+Exports 'flextable' objects to 'xlsx' files, utilizing functionalities provided by 'flextable' and 'openxlsx2'.
 }
 \seealso{
 Useful links:
