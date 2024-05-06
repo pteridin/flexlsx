@@ -1,15 +1,14 @@
 Package: flexlsx
 Type: Package
-Title: Exporting 'flextable' to Excel
+Title: Exporting 'flextable' to 'xlsx' Files
 Version: 0.2.0
 Authors@R: person(given = "Tobias",
                     family = "Heidler",
                     role = c("aut", "cre", "cph"),
                     email = "tobias.heidler@googlemail.com",
                     comment = c(ORCID = "0000-0001-9193-0980"))
-Description: Exports 'flextable' tables to Excel-Sheets using 'openxlsx2'.
-    Objects that can be converted to 'flextable' objects (e.g. 'gtsummary') 
-    can be exported as well.
+Description: This package exports 'flextable' objects to 'xlsx' files, 
+    utilizing functionalities provided by 'flextable' and 'openxlsx2'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
