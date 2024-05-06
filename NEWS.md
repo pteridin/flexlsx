@@ -1,3 +1,5 @@
+# flexlsx 0.2.1
+
 # flexlsx 0.2.0
 
 # flexlsx 0.1.4
