@@ -27,6 +27,12 @@ You can install the development version of `flexlsx` like so:
 remotes::install_github("pteridin/flexlsx")
 ```
 
+Or install the CRAN release like so:
+
+``` r
+install.packages("flexlsx")
+```
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
