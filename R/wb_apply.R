@@ -445,10 +445,27 @@ wb_apply_content <- function(wb, sheet, df_style) {
                  openxlsx2::int2col(max_col_id),
                  max_row_id)
 
+  df <- matrix(df_content$txt,
+               nrow = max_row_id - min_row_id + 1,
+               ncol = max_col_id - min_col_id + 1) |>
+    as.data.frame()
+
+  if (getOption("openxlsx2.string_nums", default = FALSE)) {
+    # convert from styled character to numeric
+    xml_to_num <- function(x) {
+      val <- openxlsx2::xml_value(x, "r", "t")
+      suppressWarnings(got <- as.numeric(val))
+      sel <- as.character(got) == val
+      sel <- !is.na(sel)
+      x[sel] <- got[sel]
+      x
+    }
+
+    df[] <- lapply(df, xml_to_num)
+  }
+
   wb$add_data(sheet = sheet,
-              x = matrix(df_content$txt,
-                         nrow = max_row_id - min_row_id + 1,
-                         ncol = max_col_id - min_col_id + 1),
+              x = df,
               dims = dims,
               col_names = F)
 
