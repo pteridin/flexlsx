@@ -106,7 +106,7 @@ ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L, offset_ca
 
   # Body
   df_body <- ftpart_to_style_tibble(ft$body)
-  df_body$row_id <- df_body$row_id + max(df_header$row_id)
+  df_body$row_id <- df_body$row_id + max(df_header$row_id,0L)
 
   # Footer
   if(has_footer) {
