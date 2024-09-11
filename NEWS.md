@@ -1,6 +1,7 @@
 # flexlsx 0.2.2
 
 * CRAN release :)
+* Added Bugfix: Can't export flextable with no header (#28)
 
 # flexlsx 0.2.1
 
