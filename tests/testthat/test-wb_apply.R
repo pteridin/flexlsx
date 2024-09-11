@@ -1,5 +1,6 @@
 test_that(
   "flextable without header", {
+    skip_if_not_installed("flextable")
 
     sheet <- "iris"
     ft <- datasets::iris |>
