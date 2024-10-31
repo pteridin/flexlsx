@@ -1,5 +1,5 @@
 test_that("option string_num is supported", {
-
+  skip_if_not_installed("flextable")
   library(flextable)
 
   ft <- flextable(airquality[seq_len(10), ])
