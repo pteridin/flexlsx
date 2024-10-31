@@ -64,6 +64,52 @@ test_that("Add with numeric offset", {
                as.numeric(unlist(df2)))
 
   NULL
+})
 
+test_that("Add multi-header", {
+  skip_if_not_installed("flextable")
 
+  typology <- data.frame(
+    col_keys = c(
+      "Sepal.Length", "Sepal.Width", "Petal.Length",
+      "Petal.Width", "Species"
+    ),
+    what = c("Sepal", "Sepal", "Petal", "Petal", "Species"),
+    measure = c("Length", "Width", "Length", "Width", "Species"),
+    stringsAsFactors = FALSE
+  )
+
+  ft_1 <- flextable::flextable(head(iris)) |>
+    flextable::set_header_df(mapping = typology, key = "col_keys") |>
+    flextable::merge_h(part = "header") |>
+    flextable::merge_v( j = "Species", part = "header") |>
+    flextable::theme_vanilla() |>
+    flextable::fix_border_issues() |>
+    flextable::autofit()
+
+  wb <- openxlsx2::wb_workbook()$add_worksheet("multiheader")
+
+  wb <- wb_add_flextable(wb = wb,
+                         ft = ft_1,
+                         sheet = "multiheader",
+                         start_col = 2,
+                         start_row = 2)
+
+  expect_equal(openxlsx2::wb_read(wb,
+                           sheet="multiheader",
+                           start_row = 2,
+                           start_col = 2,
+                           col_names = T) |>
+                colnames(),
+               c("Sepal", "Sepal", "Petal", "Petal", "Species"))
+
+  expect_equal(openxlsx2::wb_read(wb,
+                                  sheet="multiheader",
+                                  start_row = 3,
+                                  start_col = 2,
+                                  col_names = T) |>
+                 colnames(),
+               c("Length", "Width", "Length", "Width", "Species"))
+
+  NULL
 })
