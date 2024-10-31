@@ -13,12 +13,20 @@ test_that("option string_num is supported", {
   ft <- set_caption(ft, caption = "New York Air Quality Measurements")
   ft
 
+  options("openxlsx2.string_nums" = NULL)
   wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
+  wb <- flexlsx::wb_add_flextable(wb, "mtcars", ft, dims = "C2")
 
   options("openxlsx2.string_nums" = TRUE)
-  wb <- flexlsx::wb_add_flextable(wb, "mtcars", ft, dims = "C2")
+  wb <- wb$add_worksheet("mtcars numeric")
+  wb <- flexlsx::wb_add_flextable(wb, "mtcars numeric", ft, dims = "C2")
+
   cc <- wb$worksheets[[1]]$sheet_data$cc
+  expect_equal(cc[cc$r == "C5", "v"], "")
+
+  cc <- wb$worksheets[[2]]$sheet_data$cc
   expect_equal(cc[cc$r == "C5", "v"], "41")
+
   options("openxlsx2.string_nums" = NULL)
 
 })
