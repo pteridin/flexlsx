@@ -1,6 +1,3 @@
-
-
-
 #' Retrieves dims of same style rows within same column
 #'
 #' @description
