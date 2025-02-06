@@ -41,14 +41,7 @@ wb_add_flextable <- function(wb, sheet, ft,
   # Check input
   stopifnot("wbWorkbook" %in% class(wb))
 
-  if (inherits(sheet, "openxlsx2_waiver")) {
-    sheet <- wb$validate_sheet(sheet)
-  }
-
-  stopifnot((is.character(sheet) &&
-              nchar(sheet) > 0) ||
-              is.numeric(sheet) &&
-              sheet == as.integer(sheet))
+  sheet <- wb$validate_sheet(sheet)
   stopifnot("flextable" %in% class(ft))
 
   # Retrieve offsets
