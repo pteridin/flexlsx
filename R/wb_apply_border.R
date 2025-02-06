@@ -80,20 +80,31 @@ wb_apply_border <- function(wb, sheet, df_style) {
 
   for(i in seq_len(nrow(df_borders_aggregated))) {
     crow <- df_borders_aggregated[i,]
-    browser()
 
     crow$border.width.bottom <- handle_null_border(crow$border.width.bottom)
     crow$border.width.left <- handle_null_border(crow$border.width.left)
     crow$border.width.right <- handle_null_border(crow$border.width.right)
     crow$border.width.top <- handle_null_border(crow$border.width.top)
 
-    if(crow$multi_lines) {
+    # Spans across multiple rows
+    if(crow$multi_rows) {
       if(is.null(purrr::pluck(crow,"border.width.bottom"))) {
         hgrid_border <- purrr::pluck(crow,"border.width.top")
         hgrid_color <- openxlsx2::wb_color(crow$border.color.top)
       } else {
         hgrid_border <- purrr::pluck(crow,"border.width.bottom")
         hgrid_color <- openxlsx2::wb_color(crow$border.color.bottom)
+      }
+    }
+
+    # Spans across multiple cols
+    if(crow$multi_cols) {
+      if(is.null(purrr::pluck(crow,"border.width.left"))) {
+        vgrid_border <- purrr::pluck(crow,"border.width.right")
+        vgrid_color <- openxlsx2::wb_color(crow$border.color.right)
+      } else {
+        vgrid_border <- purrr::pluck(crow,"border.width.left")
+        vgrid_color <- openxlsx2::wb_color(crow$border.color.left)
       }
     }
 
@@ -111,8 +122,11 @@ wb_apply_border <- function(wb, sheet, df_style) {
       right_border  = purrr::pluck(crow,"border.width.right"),
       top_border    = purrr::pluck(crow,"border.width.top"),
 
-      inner_hgrid = if(crow$multi_lines) hgrid_border else NULL,
-      inner_hcolor = if(crow$multi_lines) hgrid_color else NULL
+      inner_hgrid = if(crow$multi_rows) hgrid_border else NULL,
+      inner_hcolor = if(crow$multi_rows) hgrid_color else NULL,
+
+      inner_vgrid = if(crow$multi_cols) vgrid_border else NULL,
+      inner_vcolor = if(crow$multi_cols) vgrid_color else NULL
     )
   }
   return(invisible(NULL))
