@@ -49,8 +49,7 @@ handle_null_border <- function(border_width) {
 #'
 wb_apply_border <- function(wb, sheet, df_style) {
 
-  if(!sheet %in% wb$get_sheet_names())
-    stop("sheet '", sheet, "' does not exist in wb!")
+  wb$validate_sheet(sheet)
 
   ## aggregate borders
   df_borders <- df_style |>

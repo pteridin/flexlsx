@@ -17,8 +17,7 @@
 #'
 wb_apply_content <- function(wb, sheet, df_style) {
 
-  if(!sheet %in% wb$get_sheet_names())
-    stop("sheet '", sheet, "' does not exist in wb!")
+  wb$validate_sheet(sheet)
 
   df_content <- dplyr::select(df_style,
                               dplyr::all_of(c("row_id",

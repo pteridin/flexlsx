@@ -13,8 +13,7 @@
 #'
 wb_apply_text_styles <- function(wb, sheet, df_style) {
 
-  if(!sheet %in% wb$get_sheet_names())
-    stop("sheet '", sheet, "' does not exist in wb!")
+  wb$validate_sheet(sheet)
 
   ## aggregate borders
   df_text_styles <- df_style |>
