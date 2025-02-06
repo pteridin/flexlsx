@@ -80,6 +80,7 @@ wb_apply_border <- function(wb, sheet, df_style) {
 
   for(i in seq_len(nrow(df_borders_aggregated))) {
     crow <- df_borders_aggregated[i,]
+    browser()
 
     crow$border.width.bottom <- handle_null_border(crow$border.width.bottom)
     crow$border.width.left <- handle_null_border(crow$border.width.left)
@@ -101,9 +102,9 @@ wb_apply_border <- function(wb, sheet, df_style) {
       dims = crow$dims,
 
       bottom_color = openxlsx2::wb_color(crow$border.color.bottom),
-      left_color   = openxlsx2::wb_color(crow$border.color.bottom),
-      right_color  = openxlsx2::wb_color(crow$border.color.bottom),
-      top_color    = openxlsx2::wb_color(crow$border.color.bottom),
+      left_color   = openxlsx2::wb_color(crow$border.color.left),
+      right_color  = openxlsx2::wb_color(crow$border.color.right),
+      top_color    = openxlsx2::wb_color(crow$border.color.top),
 
       bottom_border = purrr::pluck(crow,"border.width.bottom"),
       left_border   = purrr::pluck(crow,"border.width.left"),
