@@ -130,7 +130,7 @@ test_that("get_dim_ranges works", {
   df_ranges <- df |>
     get_dim_ranges()
 
-  expect_equal(sum(!df_ranges$multi_lines), 2L)
+  expect_equal(sum(!(df_ranges$multi_cols | df_ranges$multi_rows )), 2L)
   expect_true(all(df_ranges$style_other))
   expect_true("style" %in% names(df_ranges))
 })

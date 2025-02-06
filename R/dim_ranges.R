@@ -30,8 +30,8 @@ get_dim_ranges <- function(df_x) {
         openxlsx2::int2col(.data$col_to),
         .data$row_to
       ),
-      multi_lines = .data$row_to != .data$row_from |
-        .data$col_to != .data$col_from
+      multi_rows = .data$row_to != .data$row_from,
+      multi_cols = .data$col_to != .data$col_from
     ) |>
     left_join(df_style_hashed, by = "hash")
 

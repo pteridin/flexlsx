@@ -86,7 +86,8 @@ wb_apply_border <- function(wb, sheet, df_style) {
     crow$border.width.right <- handle_null_border(crow$border.width.right)
     crow$border.width.top <- handle_null_border(crow$border.width.top)
 
-    if(crow$multi_lines) {
+    # Spans across multiple rows
+    if(crow$multi_rows) {
       if(is.null(purrr::pluck(crow,"border.width.bottom"))) {
         hgrid_border <- purrr::pluck(crow,"border.width.top")
         hgrid_color <- openxlsx2::wb_color(crow$border.color.top)
@@ -96,22 +97,36 @@ wb_apply_border <- function(wb, sheet, df_style) {
       }
     }
 
+    # Spans across multiple cols
+    if(crow$multi_cols) {
+      if(is.null(purrr::pluck(crow,"border.width.left"))) {
+        vgrid_border <- purrr::pluck(crow,"border.width.right")
+        vgrid_color <- openxlsx2::wb_color(crow$border.color.right)
+      } else {
+        vgrid_border <- purrr::pluck(crow,"border.width.left")
+        vgrid_color <- openxlsx2::wb_color(crow$border.color.left)
+      }
+    }
+
     wb$add_border(
       sheet = sheet,
       dims = crow$dims,
 
       bottom_color = openxlsx2::wb_color(crow$border.color.bottom),
-      left_color   = openxlsx2::wb_color(crow$border.color.bottom),
-      right_color  = openxlsx2::wb_color(crow$border.color.bottom),
-      top_color    = openxlsx2::wb_color(crow$border.color.bottom),
+      left_color   = openxlsx2::wb_color(crow$border.color.left),
+      right_color  = openxlsx2::wb_color(crow$border.color.right),
+      top_color    = openxlsx2::wb_color(crow$border.color.top),
 
       bottom_border = purrr::pluck(crow,"border.width.bottom"),
       left_border   = purrr::pluck(crow,"border.width.left"),
       right_border  = purrr::pluck(crow,"border.width.right"),
       top_border    = purrr::pluck(crow,"border.width.top"),
 
-      inner_hgrid = if(crow$multi_lines) hgrid_border else NULL,
-      inner_hcolor = if(crow$multi_lines) hgrid_color else NULL
+      inner_hgrid = if(crow$multi_rows) hgrid_border else NULL,
+      inner_hcolor = if(crow$multi_rows) hgrid_color else NULL,
+
+      inner_vgrid = if(crow$multi_cols) vgrid_border else NULL,
+      inner_vcolor = if(crow$multi_cols) vgrid_color else NULL
     )
   }
   return(invisible(NULL))
