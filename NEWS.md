@@ -7,6 +7,7 @@
 (#34, thanks to @JanMarvin)
 * Still, throw an error when sheet does not exist
 * Completely reworked merge logic
+* Added new border types
 
 # flexlsx 0.3.0
 
