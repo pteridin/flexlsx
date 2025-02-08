@@ -6,3 +6,4 @@ R/test.R
 R/ft_debug.R
 *.xlsx
 *.html
+*.rds
