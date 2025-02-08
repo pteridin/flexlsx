@@ -1,9 +1,12 @@
 # flexlsx 0.3.1
 
 * Fix: Border issues (#32, thanks to @MeganMcAuliffe)
+* Fix: Some numbers where not formatted as numbers when 
+`options("openxlsx2.string_nums" = TRUE)` 
 * Implemented: `openxlsx2::current_sheet()` as default for `sheet` parameter
 (#34, thanks to @JanMarvin)
 * Still, throw an error when sheet does not exist
+* Completely reworked merge logic
 
 # flexlsx 0.3.0
 
