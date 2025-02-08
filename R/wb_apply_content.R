@@ -110,10 +110,13 @@ wb_apply_content <- function(wb, sheet, df_style) {
   if (getOption("openxlsx2.string_nums", default = FALSE)) {
     # convert from styled character to numeric
     xml_to_num <- function(x) {
-      val <- openxlsx2::xml_value(x, "r", "t")
+      val <- vapply(x,
+                    \(x) ifelse(x == "", NA_character_,
+                                openxlsx2::xml_value(x, "r", "t")),
+                    FUN.VALUE = character(1),
+                    USE.NAMES = FALSE)
       suppressWarnings(got <- as.numeric(val))
-      sel <- as.character(got) == val
-      sel <- !is.na(sel)
+      sel <- !is.na(val) & !is.na(got)
       x[sel] <- got[sel]
       x
     }
