@@ -33,7 +33,9 @@
 #'   rm(wb)
 #'  }
 #'
-wb_add_flextable <- function(wb, sheet, ft,
+wb_add_flextable <- function(wb,
+                             sheet = openxlsx2::current_sheet(),
+                             ft,
                              start_col = 1,
                              start_row = 1,
                              offset_caption_rows = 0L,
@@ -41,7 +43,12 @@ wb_add_flextable <- function(wb, sheet, ft,
   # Check input
   stopifnot("wbWorkbook" %in% class(wb))
 
-  sheet <- wb$validate_sheet(sheet)
+  sheet_validated <- wb$validate_sheet(sheet)
+  if(is.na(sheet_validated)) {
+    stop("Sheet '", sheet, "' does not exist!")
+  }
+  sheet <- sheet_validated
+
   stopifnot("flextable" %in% class(ft))
 
   # Retrieve offsets

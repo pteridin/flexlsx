@@ -132,4 +132,39 @@ test_that("using openxlsx2::current_sheet() works", {
     c(`Sheet 1` = "Sheet 1")
   )
 
+  openxlsx2::wb_workbook() |>
+    openxlsx2::wb_add_worksheet() |>
+    flexlsx::wb_add_flextable(
+      ft = ft,
+      dims = "A1"
+    ) -> wb
+
+  expect_equal(
+    wb$get_sheet_names(),
+    c(`Sheet 1` = "Sheet 1")
+  )
+
+  expect_equal(names(wb$to_df(sheet  = "Sheet 1")),
+               c("mpg", NA, "cyl", "cyl", "cyl", "cyl"))
+
+})
+
+test_that("When sheet does not exists throws an error", {
+  ft <- flextable::as_flextable(table(mtcars[,1:2]))
+
+  expect_error( openxlsx2::wb_workbook() |>
+                  flexlsx::wb_add_flextable(
+                    sheet = openxlsx2::current_sheet(),
+                    ft = ft,
+                    dims = "C2"
+                  ),
+                regexp = "Sheet 'NA' does not exist!")
+
+  expect_error( openxlsx2::wb_workbook() |>
+                  flexlsx::wb_add_flextable(
+                    sheet = "test",
+                    ft = ft,
+                    dims = "C2"
+                  ),
+                regexp = "Sheet 'test' does not exist!")
 })
