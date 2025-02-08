@@ -80,7 +80,7 @@ merge_resolve_type <- function(df_to_merge) {
 #'
 #' @return df_style tibble
 #'
-#' @importFrom dplyr select all_of mutate filter anti_join overlaps
+#' @importFrom dplyr select all_of mutate filter
 #' @importFrom openxlsx2 wb_color
 #' @importFrom rlang .data
 #'
