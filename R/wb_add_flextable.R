@@ -40,10 +40,8 @@ wb_add_flextable <- function(wb, sheet, ft,
                              dims = NULL) {
   # Check input
   stopifnot("wbWorkbook" %in% class(wb))
-  stopifnot((is.character(sheet) &&
-              nchar(sheet) > 0) ||
-              is.numeric(sheet) &&
-              sheet == as.integer(sheet))
+
+  sheet <- wb$validate_sheet(sheet)
   stopifnot("flextable" %in% class(ft))
 
   # Retrieve offsets

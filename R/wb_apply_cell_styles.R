@@ -14,8 +14,7 @@
 #'
 wb_apply_cell_styles <- function(wb, sheet, df_style) {
 
-  if(!sheet %in% wb$get_sheet_names())
-    stop("sheet '", sheet, "' does not exist in wb!")
+  wb$validate_sheet(sheet)
 
   ## aggregate borders
   df_cell_styles <- df_style |>

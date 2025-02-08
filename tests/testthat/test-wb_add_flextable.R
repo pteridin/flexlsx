@@ -113,3 +113,23 @@ test_that("Add multi-header", {
 
   NULL
 })
+
+test_that("using openxlsx2::current_sheet() works", {
+  skip_if_not_installed("flextable")
+
+  ft <- flextable::as_flextable(table(mtcars[,1:2]))
+
+  openxlsx2::wb_workbook() |>
+    openxlsx2::wb_add_worksheet() |>
+    flexlsx::wb_add_flextable(
+      sheet = openxlsx2::current_sheet(),
+      ft = ft,
+      dims = "C2"
+    ) -> wb
+
+  expect_equal(
+    wb$get_sheet_names(),
+    c(`Sheet 1` = "Sheet 1")
+  )
+
+})
