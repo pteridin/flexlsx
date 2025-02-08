@@ -8,8 +8,6 @@ merge_resolve_type(df_to_merge)
 }
 \arguments{
 \item{df_to_merge}{The data.frame containing information about the cells to merge}
-
-\item{df_merged}{The data.frame containing information about the cells allready merged}
 }
 \value{
 df_to_merge is extended by is_encapsulated and is_need_resolve

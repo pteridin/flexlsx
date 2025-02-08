@@ -179,7 +179,6 @@ test_that("Complex FT", {
   skip_if_not_installed("flextable")
 
   library(flextable)
-  library(officer)
 
   # -----------------------------------------------------------------------------
   # 1. Create a sample data frame.
@@ -261,8 +260,8 @@ test_that("Complex FT", {
 
   # -----------------------------------------------------------------------------
   # 9. Set inner and outer borders with different colors and sizes.
-  outer_border <- fp_border(color = "red", width = 2)
-  inner_border <- fp_border(color = "#3333BB", width = 1)
+  outer_border <- officer::fp_border(color = "red", width = 2)
+  inner_border <- officer::fp_border(color = "#3333BB", width = 1)
   ft <- border_outer(ft, border = outer_border, part = "all")
   ft <- border_inner(ft, border = inner_border, part = "all")
 
@@ -288,9 +287,9 @@ test_that("Complex FT", {
                 value = as_paragraph("Combined"))
 
   # Define new border styles using fp_border:
-  dashed_border <- fp_border(color = "darkgreen", width = 1, style = "dashed")
-  dotted_border <- fp_border(color = "orange", width = 1.5, style = "dotted")
-  double_border <- fp_border(color = "purple", width = 3, style = "double")
+  dashed_border <- officer::fp_border(color = "darkgreen", width = 1, style = "dashed")
+  dotted_border <- officer::fp_border(color = "orange", width = 1.5, style = "dotted")
+  double_border <- officer::fp_border(color = "purple", width = 3, style = "double")
 
   # Apply a double border to the bottom edge of the header row:
   ft <- border(ft, i = 1, border.bottom = double_border, part = "header")
@@ -345,10 +344,10 @@ test_that("Complex FT", {
 
 test_that("MeganMcAuliffe test", {
   skip_if_not_installed("flextable")
-  skip_if(!exists("testsuite5645454652165"))
+  skip_if(Sys.getenv("flexlsxtestdir")=="")
 
 
-  ft <- readRDS(paste0(testsuite5645454652165,
+  ft <- readRDS(paste0(Sys.getenv("flexlsxtestdir"),
                        "ft_list_element.rds")) |>
     flextable::autofit()
 

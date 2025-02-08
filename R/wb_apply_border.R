@@ -3,18 +3,41 @@
 #' @description
 #' `r lifecycle::badge("experimental")`
 #'
+#' @param border_color the color of the border
 #' @param border_width a numeric vector determining the border-width
+#' @param border_style the style of the border
 #'
 #' @return a factor of xlsx border styles
 #'
-ft_to_xlsx_border_width <- function(border_width) {
-  cut(border_width,
-      c(-Inf, 0, .9999, 1.25, Inf),
-      c("no border",
-        "hair",
-        "medium",
-        "thick"))  |>
-    as.character()
+#' @importFrom dplyr case_when
+#'
+ft_to_xlsx_border <- function(border_color,
+                               border_width,
+                               border_style) {
+  dplyr::case_when(
+    border_color == "transparent" |
+      border_style %in% c("none", "nil") |
+      border_width <= 0 ~ "no border",
+
+    border_style == "double" ~ "double", # ?
+    border_style == "dotted" ~ "dotted",
+
+    border_style == "dashed" & border_width < 1.25 ~ "dashed",
+    border_style == "dotDash" & border_width < 1.25 ~ "dashDot",
+
+    border_style == "dashed" & border_width < 1.25 ~ "mediumDashed",
+    border_style == "dotDash" & border_width < 1.25 ~ "mediumDashDot",
+
+    border_style == "dashed" ~ "dashed",
+    border_style == "dotDash" ~ "dashDot",
+
+    border_style == "dotDotDash" ~ "dashedDotDot",
+
+    border_width < .5 ~ "hair",
+    border_width < 1 ~ "thin",
+    border_width < 1.25 ~ "solid",
+    T ~ "thick"
+  )
 }
 
 #' Where there is no border return NULL
@@ -24,12 +47,12 @@ ft_to_xlsx_border_width <- function(border_width) {
 #'
 #' @param border_width a numeric vector determining the border-width
 #'
-#' @return border_width or NULL
+#' @return border_style or NULL
 #'
-handle_null_border <- function(border_width) {
-  if(border_width == "no border")
+handle_null_border <- function(border_style) {
+  if(border_style == "no border")
     return(NULL)
-  return(border_width)
+  return(border_style)
 }
 
 #' Applies the border styles
@@ -56,20 +79,18 @@ wb_apply_border <- function(wb, sheet, df_style) {
     dplyr::select(dplyr::starts_with("border."),
                   dplyr::all_of(c("col_id",
                                   "row_id"))) |>
-    dplyr::mutate(dplyr::across(dplyr::starts_with("border.width"),
-                                ~ ft_to_xlsx_border_width(.x)),
-                  border.width.top = dplyr::if_else(.data$border.color.top == "transparent",
-                                                    "no border",
-                                                    .data$border.width.top),
-                  border.width.bottom = dplyr::if_else(.data$border.color.bottom == "transparent",
-                                                       "no border",
-                                                       .data$border.width.bottom),
-                  border.width.left = dplyr::if_else(.data$border.color.left == "transparent",
-                                                     "no border",
-                                                     .data$border.width.left),
-                  border.width.right = dplyr::if_else(.data$border.color.right == "transparent",
-                                                      "no border",
-                                                      .data$border.width.right),
+    dplyr::mutate(border.style.top = ft_to_xlsx_border(.data$border.color.top,
+                                                       .data$border.width.top,
+                                                       .data$border.style.top),
+                  border.style.bottom = ft_to_xlsx_border(.data$border.color.bottom,
+                                                       .data$border.width.bottom,
+                                                       .data$border.style.bottom),
+                  border.style.left = ft_to_xlsx_border(.data$border.color.left,
+                                                       .data$border.width.left,
+                                                       .data$border.style.left),
+                  border.style.right = ft_to_xlsx_border(.data$border.color.right,
+                                                       .data$border.width.right,
+                                                       .data$border.style.right),
                   dplyr::across(dplyr::starts_with("border.color."),
                                 ~ dplyr::if_else(.x == "transparent",
                                                  "black", .x)))
@@ -80,32 +101,35 @@ wb_apply_border <- function(wb, sheet, df_style) {
   for(i in seq_len(nrow(df_borders_aggregated))) {
     crow <- df_borders_aggregated[i,]
 
-    crow$border.width.bottom <- handle_null_border(crow$border.width.bottom)
-    crow$border.width.left <- handle_null_border(crow$border.width.left)
-    crow$border.width.right <- handle_null_border(crow$border.width.right)
-    crow$border.width.top <- handle_null_border(crow$border.width.top)
+    crow$border.style.top <- handle_null_border(crow$border.style.top)
+    crow$border.style.bottom <- handle_null_border(crow$border.style.bottom)
+    crow$border.style.left <- handle_null_border(crow$border.style.left)
+    crow$border.style.right <- handle_null_border(crow$border.style.right)
+
 
     # Spans across multiple rows
     if(crow$multi_rows) {
-      if(is.null(purrr::pluck(crow,"border.width.bottom"))) {
-        hgrid_border <- purrr::pluck(crow,"border.width.top")
+      if(is.null(purrr::pluck(crow,"border.style.bottom"))) {
+        hgrid_border <- purrr::pluck(crow,"border.style.top")
         hgrid_color <- openxlsx2::wb_color(crow$border.color.top)
       } else {
-        hgrid_border <- purrr::pluck(crow,"border.width.bottom")
+        hgrid_border <- purrr::pluck(crow,"border.style.bottom")
         hgrid_color <- openxlsx2::wb_color(crow$border.color.bottom)
       }
     }
 
     # Spans across multiple cols
     if(crow$multi_cols) {
-      if(is.null(purrr::pluck(crow,"border.width.left"))) {
-        vgrid_border <- purrr::pluck(crow,"border.width.right")
+      if(is.null(purrr::pluck(crow,"border.style.left"))) {
+        vgrid_border <- purrr::pluck(crow,"border.style.right")
         vgrid_color <- openxlsx2::wb_color(crow$border.color.right)
       } else {
-        vgrid_border <- purrr::pluck(crow,"border.width.left")
+        vgrid_border <- purrr::pluck(crow,"border.style.left")
         vgrid_color <- openxlsx2::wb_color(crow$border.color.left)
       }
     }
+
+
 
     wb$add_border(
       sheet = sheet,
@@ -116,10 +140,10 @@ wb_apply_border <- function(wb, sheet, df_style) {
       right_color  = openxlsx2::wb_color(crow$border.color.right),
       top_color    = openxlsx2::wb_color(crow$border.color.top),
 
-      bottom_border = purrr::pluck(crow,"border.width.bottom"),
-      left_border   = purrr::pluck(crow,"border.width.left"),
-      right_border  = purrr::pluck(crow,"border.width.right"),
-      top_border    = purrr::pluck(crow,"border.width.top"),
+      bottom_border = purrr::pluck(crow,"border.style.bottom"),
+      left_border   = purrr::pluck(crow,"border.style.left"),
+      right_border  = purrr::pluck(crow,"border.style.right"),
+      top_border    = purrr::pluck(crow,"border.style.top"),
 
       inner_hgrid = if(crow$multi_rows) hgrid_border else NULL,
       inner_hcolor = if(crow$multi_rows) hgrid_color else NULL,

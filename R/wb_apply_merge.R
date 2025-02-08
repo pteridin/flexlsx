@@ -1,9 +1,11 @@
 #' Determine problematic merges
 #'
 #' @param df_to_merge The data.frame containing information about the cells to merge
-#' @param df_merged The data.frame containing information about the cells allready merged
 #'
 #' @return df_to_merge is extended by is_encapsulated and is_need_resolve
+#'
+#' @importFrom rlang .data
+#' @importFrom dplyr mutate arrange
 #'
 merge_resolve_type <- function(df_to_merge) {
   n_x <- nrow(df_to_merge)
@@ -14,11 +16,11 @@ merge_resolve_type <- function(df_to_merge) {
   df_to_merge <- df_to_merge |>
     dplyr::mutate(merge_type = dplyr::case_when(.data$span.rows > 0 &
                                                   .data$span.cols > 0 ~ 1L,
-                                                .data$span.rows > 0 ~ 2L,
+                                                  .data$span.rows > 0 ~ 2L,
                                                 T ~ 3L)) |>
-    dplyr::arrange(merge_type,
-                   row_id,
-                   col_id)
+    dplyr::arrange(.data$merge_type,
+                   .data$row_id,
+                   .data$col_id)
 
   for(i in seq_len(n_x)) {
     if(i == 1)
@@ -90,8 +92,8 @@ wb_apply_merge <- function(wb, sheet, df_style) {
                   span.cols = pmax(.data$span.cols - 1, 0)) |>
     dplyr::filter(.data$span.rows > 0 |
                   .data$span.cols > 0)  |>
-    dplyr::mutate(row_end = row_id + span.cols,
-                  col_end = col_id + span.rows,
+    dplyr::mutate(row_end = .data$row_id + .data$span.cols,
+                  col_end = .data$col_id + .data$span.rows,
                   dims = paste0(
                     openxlsx2::int2col(.data$col_id), .data$row_id, ":",
                     openxlsx2::int2col(.data$col_end), .data$row_end)) |>
@@ -103,14 +105,14 @@ wb_apply_merge <- function(wb, sheet, df_style) {
                                   "col_end",
                                   "dims"))) |>
     merge_resolve_type() |>
-    dplyr::filter(!is_encapsulated)
+    dplyr::filter(!.data$is_encapsulated)
 
   if(sum(df_merges$is_need_resolve) > 0) {
     warning("Found ", sum(df_merges$is_need_resolve), " overlapping merges!
   Conflicting merges are removed;
   Styling might not fully resemble the flextable!")
     df_merges <- df_merges |>
-      dplyr::filter(!is_need_resolve)
+      dplyr::filter(!.data$is_need_resolve)
   }
 
 
