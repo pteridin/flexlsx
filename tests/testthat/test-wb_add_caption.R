@@ -14,8 +14,6 @@ test_that("flextable with caption works", {
   expect_equal(names(wb$to_df("wo caption")),
                c(NA,
                  names(mtcars)))
-
-
   ## With caption
   wb$add_worksheet("with caption")
   ft <- flextable::set_caption(ft, "This is a caption")
@@ -23,6 +21,8 @@ test_that("flextable with caption works", {
                          ft = ft,
                          sheet = "with caption",
                          dims = "B4")
+
+  test_wb_ft(wb,ft, "caption")
 
   df <- wb$to_df("with caption")
   expect_equal(names(df)[2],
@@ -56,6 +56,7 @@ test_that("flextable with complex caption works", {
                          ft = ft,
                          sheet = "with caption",
                          dims = "B4")
+  test_wb_ft(wb,ft, "complex caption")
 
   df <- wb$to_df("with caption")
   expect_equal(names(df)[2],

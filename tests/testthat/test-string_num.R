@@ -27,6 +27,8 @@ test_that("option string_num is supported", {
   cc <- wb$worksheets[[2]]$sheet_data$cc
   expect_equal(cc[cc$r == "C5", "v"], "41")
 
+  test_wb_ft(wb,ft, "string_num")
+
   options("openxlsx2.string_nums" = NULL)
 
 })
