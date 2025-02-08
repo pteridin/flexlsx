@@ -4,13 +4,13 @@
 \alias{handle_null_border}
 \title{Where there is no border return NULL}
 \usage{
-handle_null_border(border_width)
+handle_null_border(border_style)
 }
 \arguments{
-\item{border_width}{a numeric vector determining the border-width}
+\item{border_style}{the openxlsx2 style of the border}
 }
 \value{
-border_width or NULL
+border_style or NULL
 }
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}

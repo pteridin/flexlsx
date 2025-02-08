@@ -25,7 +25,8 @@ Suggests:
     covr,
     gtsummary,
     flextable (>= 0.9.5),
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    officer
 Depends:
     R (>= 4.1.0)
 Roxygen: list(markdown = TRUE)
