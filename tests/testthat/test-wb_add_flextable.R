@@ -341,3 +341,25 @@ test_that("Complex FT", {
 
 
 })
+
+
+test_that("MeganMcAuliffe test", {
+  skip_if_not_installed("flextable")
+  skip_if(!exists("testsuite5645454652165"))
+
+
+  ft <- readRDS(paste0(testsuite5645454652165,
+                       "ft_list_element.rds")) |>
+    flextable::autofit()
+
+  expect_no_warning(wb <- openxlsx2::wb_workbook() |>
+                      openxlsx2::wb_add_worksheet() |>
+                      flexlsx::wb_add_flextable(
+                        ft = ft,
+                        dims = "B2"
+                      ))
+
+  test_wb_ft(wb,ft, "MeganMcAuliffe ft")
+
+
+})
