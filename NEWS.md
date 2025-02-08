@@ -1,3 +1,10 @@
+# flexlsx 0.3.1
+
+* Fix: Border issues (#32, thanks to @MeganMcAuliffe)
+* Implemented: `openxlsx2::current_sheet()` as default for `sheet` parameter
+(#34, thanks to @JanMarvin)
+* Still, throw an error when sheet does not exist
+
 # flexlsx 0.3.0
 
 * Numerics will be written as numerics unless 
