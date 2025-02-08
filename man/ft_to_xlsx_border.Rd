@@ -2,7 +2,7 @@
 % Please edit documentation in R/wb_apply_border.R
 \name{ft_to_xlsx_border}
 \alias{ft_to_xlsx_border}
-\title{Determines the border width}
+\title{Determines the border style}
 \usage{
 ft_to_xlsx_border(border_color, border_width, border_style)
 }
@@ -11,11 +11,16 @@ ft_to_xlsx_border(border_color, border_width, border_style)
 
 \item{border_width}{a numeric vector determining the border-width}
 
-\item{border_style}{the style of the border}
+\item{border_style}{the flextable style name of the border}
 }
 \value{
 a factor of xlsx border styles
 }
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+}
+\details{
+openxlsx2/Excel does handle borders differently than
+flextable. This function maps the flextable border styles
+to the Excel border styles.
 }

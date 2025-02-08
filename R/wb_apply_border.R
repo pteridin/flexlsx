@@ -1,11 +1,15 @@
-#' Determines the border width
+#' Determines the border style
+#'
+#' openxlsx2/Excel does handle borders differently than
+#' flextable. This function maps the flextable border styles
+#' to the Excel border styles.
 #'
 #' @description
 #' `r lifecycle::badge("experimental")`
 #'
 #' @param border_color the color of the border
 #' @param border_width a numeric vector determining the border-width
-#' @param border_style the style of the border
+#' @param border_style the flextable style name of the border
 #'
 #' @return a factor of xlsx border styles
 #'
@@ -45,7 +49,7 @@ ft_to_xlsx_border <- function(border_color,
 #' @description
 #' `r lifecycle::badge("experimental")`
 #'
-#' @param border_width a numeric vector determining the border-width
+#' @param border_style the openxlsx2 style of the border
 #'
 #' @return border_style or NULL
 #'
