@@ -35,7 +35,7 @@ ft_to_xlsx_border <- function(border_color,
 
     border_width < .5 ~ "hair",
     border_width < 1 ~ "thin",
-    border_width < 1.25 ~ "solid",
+    border_width < 1.25 ~ "medium",
     T ~ "thick"
   )
 }
@@ -128,8 +128,6 @@ wb_apply_border <- function(wb, sheet, df_style) {
         vgrid_color <- openxlsx2::wb_color(crow$border.color.left)
       }
     }
-
-
 
     wb$add_border(
       sheet = sheet,
