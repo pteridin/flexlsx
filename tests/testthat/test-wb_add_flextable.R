@@ -158,7 +158,7 @@ test_that("When sheet does not exists throws an error", {
                     ft = ft,
                     dims = "C2"
                   ),
-                regexp = "Sheet 'NA' does not exist!")
+                regexp = "Sheet 'current_sheet' does not exist!")
 
   expect_error( openxlsx2::wb_workbook() |>
                   flexlsx::wb_add_flextable(

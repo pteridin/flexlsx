@@ -6,7 +6,7 @@
 \usage{
 wb_add_flextable(
   wb,
-  sheet,
+  sheet = openxlsx2::current_sheet(),
   ft,
   start_col = 1,
   start_row = 1,
