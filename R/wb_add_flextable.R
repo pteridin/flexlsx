@@ -18,9 +18,9 @@
 #'
 #' @examples
 #'
-#' if(requireNamespace("flextable", quietly = TRUE)) {
+#' if (requireNamespace("flextable", quietly = TRUE)) {
 #'   # Create a flextable
-#'   ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
+#'   ft <- flextable::as_flextable(table(mtcars[, c("am", "cyl")]))
 #'
 #'   # Create a workbook
 #'   wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
@@ -31,7 +31,7 @@
 #'   # Workbook can now be saved wb$save(),
 #'   # opened wb$open() - or removed
 #'   rm(wb)
-#'  }
+#' }
 #'
 wb_add_flextable <- function(wb,
                              sheet = openxlsx2::current_sheet(),
@@ -44,7 +44,7 @@ wb_add_flextable <- function(wb,
   stopifnot("wbWorkbook" %in% class(wb))
 
   sheet_validated <- wb$validate_sheet(sheet)
-  if(is.na(sheet_validated)) {
+  if (is.na(sheet_validated)) {
     stop("Sheet '", sheet, "' does not exist!")
   }
   sheet <- sheet_validated
@@ -57,36 +57,44 @@ wb_add_flextable <- function(wb,
     offset_cols <- min(dims[[1]]) - 1
     offset_rows <- min(dims[[2]]) - 1
   } else {
-    stopifnot(is.numeric(start_col),
-              start_col >= 1,
-              as.integer(start_col) == start_col,
-              length(start_col) == 1)
-    stopifnot(is.numeric(start_row) &&
-                start_row >= 1 &&
-                as.integer(start_col) == start_col,
-              length(start_col) == 1)
+    stopifnot(
+      is.numeric(start_col),
+      start_col >= 1,
+      as.integer(start_col) == start_col,
+      length(start_col) == 1
+    )
+    stopifnot(
+      is.numeric(start_row) &&
+        start_row >= 1 &&
+        as.integer(start_col) == start_col,
+      length(start_col) == 1
+    )
 
     offset_cols <- start_col - 1
     offset_rows <- start_row - 1
   }
 
   # ignore offset if there is no caption
-  if(length(ft$caption$value) == 0) {
+  if (length(ft$caption$value) == 0) {
     offset_caption_rows <- 0L
   }
 
   wb <- wb$clone()
 
   df_style <- ft_to_style_tibble(ft,
-                                 offset_rows=offset_rows,
-                                 offset_cols=offset_cols,
-                                 offset_caption_rows=offset_caption_rows)
+    offset_rows = offset_rows,
+    offset_cols = offset_cols,
+    offset_caption_rows = offset_caption_rows
+  )
 
   # Apply styles & add content
-  if(length(ft$caption$value) > 0)
-    wb_add_caption(wb, sheet = sheet, ft = ft,
-                   offset_rows=offset_rows,
-                   offset_cols=offset_cols)
+  if (length(ft$caption$value) > 0) {
+    wb_add_caption(wb,
+      sheet = sheet, ft = ft,
+      offset_rows = offset_rows,
+      offset_cols = offset_cols
+    )
+  }
 
   df_style <- wb_apply_merge(wb, sheet, df_style)
   wb_apply_border(wb, sheet, df_style)
@@ -98,6 +106,3 @@ wb_add_flextable <- function(wb,
 
   return(wb)
 }
-
-
-

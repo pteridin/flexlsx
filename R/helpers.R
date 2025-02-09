@@ -11,15 +11,17 @@
 #' @importFrom dplyr if_else
 #'
 prepare_color <- function(color_name) {
-
   color_name <- dplyr::if_else(color_name == "transparent",
-                               NA_character_,
-                               color_name)
+    NA_character_,
+    color_name
+  )
 
-  colors <- grDevices::col2rgb(color_name)/255
-  colors <-  grDevices::rgb(red   = colors[1,],
-                            green = colors[2,],
-                            blue  = colors[3,])
+  colors <- grDevices::col2rgb(color_name) / 255
+  colors <- grDevices::rgb(
+    red = colors[1, ],
+    green = colors[2, ],
+    blue = colors[3, ]
+  )
   colors[is.na(color_name)] <- NA_character_
   return(colors)
 }
