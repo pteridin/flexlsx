@@ -78,11 +78,17 @@ wb_apply_border <- function(wb, sheet, df_style) {
 
   wb$validate_sheet(sheet)
 
-  ## aggregate borders
+  ## Prepare borders
   df_borders <- df_style |>
     dplyr::select(dplyr::starts_with("border."),
                   dplyr::all_of(c("col_id",
                                   "row_id"))) |>
+    # Do not apply empty borders
+    dplyr::filter(.data$border.width.top > 0 |
+                    .data$border.width.bottom > 0 |
+                    .data$border.width.left > 0 |
+                    .data$border.width.right > 0) |>
+    # Restyle
     dplyr::mutate(border.style.top = ft_to_xlsx_border(.data$border.color.top,
                                                        .data$border.width.top,
                                                        .data$border.style.top),
