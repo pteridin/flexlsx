@@ -4,9 +4,9 @@ test_that("ft_to_style_tibble does not break", {
 
   ft <- as_flextable(table(mtcars[, 1:2]))
 
-  flexlsx:::ft_to_style_tibble(ft,
+  x <- flexlsx:::ft_to_style_tibble(ft,
     offset_rows = 0L, offset_cols = 0L, offset_caption_rows = 0L
-  ) -> x
+  )
 
   # Fix some platforms that use other default fonts & row-heights
   x <- x |> select(
@@ -22,9 +22,9 @@ test_that("ft_to_style_tibble does not break with offsets", {
   require("flextable", quietly = TRUE)
 
   ft <- as_flextable(table(mtcars[, 1:2]))
-  flexlsx:::ft_to_style_tibble(ft,
+  y <- flexlsx:::ft_to_style_tibble(ft,
     offset_rows = 5L, offset_cols = 2L, offset_caption_rows = 8L
-  ) -> y
+  )
 
   # Fix some platforms that use other default fonts & row-heights
   y <- y |> select(

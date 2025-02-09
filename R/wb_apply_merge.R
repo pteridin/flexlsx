@@ -1,6 +1,7 @@
 #' Determine problematic merges
 #'
-#' @param df_to_merge The data.frame containing information about the cells to merge
+#' @param df_to_merge The data.frame containing information about the cells to
+#' merge
 #'
 #' @return df_to_merge is extended by is_encapsulated and is_need_resolve
 #'
@@ -18,7 +19,7 @@ merge_resolve_type <- function(df_to_merge) {
       .data$span.rows > 0 &
         .data$span.cols > 0 ~ 1L,
       .data$span.rows > 0 ~ 2L,
-      T ~ 3L
+      TRUE ~ 3L
     )) |>
     dplyr::arrange(
       .data$merge_type,
@@ -51,7 +52,7 @@ merge_resolve_type <- function(df_to_merge) {
         df_current$row_end <= current_check$row_end &&
         df_current$col_id >= current_check$col_id &&
         df_current$col_end <= current_check$col_end) {
-        current_is_encapsulated <- T
+        current_is_encapsulated <- TRUE
         break()
       }
 

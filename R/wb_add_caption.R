@@ -20,7 +20,7 @@ wb_add_caption <- function(wb, sheet,
   idims <- dim(ft$body$content$data)
 
   # Default values from header
-  lapply(
+  df_styles_default <- lapply(
     ft$header$styles$text,
     \(x) {
       if ("default" %in% names(x)) {
@@ -29,7 +29,7 @@ wb_add_caption <- function(wb, sheet,
       return(NULL)
     }
   ) |>
-    data.frame() -> df_styles_default
+    data.frame()
   df_styles_default <- df_styles_default[1, ]
 
   # create content
@@ -50,9 +50,9 @@ wb_add_caption <- function(wb, sheet,
   } else {
     ft$caption$value$txt <- gsub("<br *\\/{0,1}>", "\n", ft$caption$value$txt)
     content <- purrr::map_chr(
-      1:nrow(ft$caption$value),
+      seq_len(nrow(ft$caption$value)),
       \(i) {
-        ft$caption$value[i, ] -> x
+        x <- ft$caption$value[i, ]
         openxlsx2::fmt_txt(
           x$txt,
           bold = x$bold,
@@ -76,7 +76,7 @@ wb_add_caption <- function(wb, sheet,
   if (to_apply_text_wrap > 0) {
     wb$add_cell_style(
       sheet = sheet,
-      wrap_text = T,
+      wrap_text = TRUE,
       dims = paste0(
         int2col(offset_cols + 1),
         offset_rows + 1

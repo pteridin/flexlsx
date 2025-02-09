@@ -34,7 +34,7 @@ ft_to_xlsx_border <- function(border_color,
     border_width < .5 ~ "hair",
     border_width < 1 ~ "thin",
     border_width < 1.25 ~ "medium",
-    T ~ "thick"
+    TRUE ~ "thick"
   )
 }
 

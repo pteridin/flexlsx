@@ -27,7 +27,8 @@ wb_add_flextable(
 
 \item{offset_caption_rows}{number of rows to offset the caption by}
 
-\item{dims}{Spreadsheet dimensions that will determine start_col and start_row: "A1", "A1:B2", "A:B"}
+\item{dims}{Spreadsheet dimensions that will determine start_col and
+start_row: "A1", "A1:B2", "A:B"}
 }
 \value{
 an openxlsx2 workbook
@@ -37,9 +38,9 @@ an openxlsx2 workbook
 }
 \examples{
 
-if(requireNamespace("flextable", quietly = TRUE)) {
+if (requireNamespace("flextable", quietly = TRUE)) {
   # Create a flextable
-  ft <- flextable::as_flextable(table(mtcars[,c("am","cyl")]))
+  ft <- flextable::as_flextable(table(mtcars[, c("am", "cyl")]))
 
   # Create a workbook
   wb <- openxlsx2::wb_workbook()$add_worksheet("mtcars")
@@ -50,6 +51,6 @@ if(requireNamespace("flextable", quietly = TRUE)) {
   # Workbook can now be saved wb$save(),
   # opened wb$open() - or removed
   rm(wb)
- }
+}
 
 }

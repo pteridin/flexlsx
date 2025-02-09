@@ -24,9 +24,9 @@ test_that(
       sheet = sheet,
       start_row = 2,
       start_col = 2,
-      col_names = F
+      col_names = FALSE
     )
-    df$F <- NULL
+    df$`F` <- NULL
     df2 <- datasets::iris |>
       head()
     df2$Species <- NULL
@@ -64,7 +64,7 @@ test_that("Add with numeric offset", {
     sheet = sheet,
     start_row = 2,
     start_col = 2,
-    col_names = T
+    col_names = TRUE
   )
   df2 <- mtcars |>
     head()
@@ -116,7 +116,7 @@ test_that("Add multi-header", {
       sheet = "multiheader",
       start_row = 2,
       start_col = 2,
-      col_names = T
+      col_names = TRUE
     ) |>
       colnames(),
     c("Sepal", NA, "Petal", NA, "Species")
@@ -127,7 +127,7 @@ test_that("Add multi-header", {
       sheet = "multiheader",
       start_row = 3,
       start_col = 2,
-      col_names = T
+      col_names = TRUE
     ) |>
       colnames(),
     c("Length", "Width", "Length", "Width", NA)
@@ -141,25 +141,25 @@ test_that("using openxlsx2::current_sheet() works", {
 
   ft <- flextable::as_flextable(table(mtcars[, 1:2]))
 
-  openxlsx2::wb_workbook() |>
+  wb <- openxlsx2::wb_workbook() |>
     openxlsx2::wb_add_worksheet() |>
     flexlsx::wb_add_flextable(
       sheet = openxlsx2::current_sheet(),
       ft = ft,
       dims = "C2"
-    ) -> wb
+    )
 
   expect_equal(
     wb$get_sheet_names(),
     c(`Sheet 1` = "Sheet 1")
   )
 
-  openxlsx2::wb_workbook() |>
+  wb <- openxlsx2::wb_workbook() |>
     openxlsx2::wb_add_worksheet() |>
     flexlsx::wb_add_flextable(
       ft = ft,
       dims = "A1"
-    ) -> wb
+    )
 
   expect_equal(
     wb$get_sheet_names(),
@@ -204,7 +204,7 @@ test_that("Complex FT", {
 
   library(flextable)
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 1. Create a sample data frame.
   #    Each column name identifies what aspect is being tested.
   df <- data.frame(
@@ -218,11 +218,11 @@ test_that("Complex FT", {
     stringsAsFactors = FALSE
   )
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 2. Create the flextable object from the data frame.
   ft <- flextable(df)
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 3. Set custom column widths (in inches) and row heights.
   ft <- width(ft, j = 1, width = 0.7) # 'id'
   ft <- width(ft, j = 2, width = 2) # 'chunk_test'
@@ -234,14 +234,19 @@ test_that("Complex FT", {
 
   ft <- height(ft, i = 1:4, height = 0.8, part = "body")
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 4. Add a header row (spanning all columns), a caption, and a footer.
-  ft <- add_header_row(ft, values = c("Advanced Test Table"), colwidths = ncol(df))
+  ft <- add_header_row(ft,
+    values = c("Advanced Test Table"),
+    colwidths = ncol(df)
+  )
   ft <- merge_h(ft, part = "header") # Merge the header row into one cell
-  ft <- set_caption(ft, caption = "Advanced Flextable Test: Chunks, Paragraphs, Merges & Borders")
+  ft <- set_caption(ft,
+    caption = "Advanced Flextable Test: Chunks, Paragraphs, Merges & Borders"
+  )
   ft <- add_footer_lines(ft, values = "Footer: End of Advanced Test")
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 5. Use sugar functions to style chunks in the 'chunk_test' column.
   #    Compose a paragraph with multiple formatted chunks.
   ft <- compose(ft,
@@ -262,7 +267,7 @@ test_that("Complex FT", {
     )
   }
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 6. Compose multi-line paragraphs in the 'para_test' column.
   #    Here we mix plain text with formatted chunks.
   ft <- compose(ft,
@@ -274,13 +279,13 @@ test_that("Complex FT", {
     )
   )
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 7. Apply different alignments.
   ft <- align(ft, j = "chunk_test", align = "left", part = "all")
   ft <- align(ft, j = "para_test", align = "center", part = "all")
   ft <- align(ft, j = "h1", align = "right", part = "all")
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 8. Prepend and append content in the 'append_test' column.
   #    Prepend a label and then append a suffix.
   ft <- compose(ft,
@@ -292,40 +297,54 @@ test_that("Complex FT", {
     value = as_chunk(" :Appended")
   )
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 9. Set inner and outer borders with different colors and sizes.
   outer_border <- officer::fp_border(color = "red", width = 2)
   inner_border <- officer::fp_border(color = "#3333BB", width = 1)
   ft <- border_outer(ft, border = outer_border, part = "all")
   ft <- border_inner(ft, border = inner_border, part = "all")
 
-  # -----------------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
   # 10. Set padding and line spacing.
   ft <- padding(ft, padding = 5, part = "all")
   ft <- line_spacing(ft, space = 1.5, part = "all")
 
-  # -----------------------------------------------------------------------------
-  # 11. Merge cells horizontally and vertically.
-  #     a) Horizontal merge in the body:
-  #        In row 1, columns 'h1' and 'h2' share identical content ("Merge") so merge them.
+  #' ---------------------------------------------------------------------------
+  #' 11. Merge cells horizontally and vertically.
+  #'     a) Horizontal merge in the body:
+  #'        In row 1, columns 'h1' and 'h2' share identical content ("Merge")
+  #' so merge them.
   ft <- merge_h(ft, i = 1, part = "body")
 
   #     b) Vertical merge in column 'v1' for rows 2 and 3 (they are identical).
   ft <- merge_v(ft, j = "v1", part = "body")
 
-  #     c) Simultaneous horizontal and vertical merging:
-  #        For demonstration, force rows 2 and 3 in columns 'chunk_test' and 'para_test'
-  #        to have identical content, then merge horizontally (across these two columns)
-  #        and vertically (across rows 2 and 3).
+  #'     c) Simultaneous horizontal and vertical merging:
+  #'        For demonstration, force rows 2 and 3 in columns 'chunk_test' and
+  #' para_test'
+  #'        to have identical content, then merge horizontally (across these
+  #'        two columns) and vertically (across rows 2 and 3).
   ft <- compose(ft,
     i = 2:3, j = c("chunk_test", "para_test"),
     value = as_paragraph("Combined")
   )
 
   # Define new border styles using fp_border:
-  dashed_border <- officer::fp_border(color = "darkgreen", width = 1, style = "dashed")
-  dotted_border <- officer::fp_border(color = "orange", width = 1.5, style = "dotted")
-  double_border <- officer::fp_border(color = "purple", width = 3, style = "double")
+  dashed_border <- officer::fp_border(
+    color = "darkgreen",
+    width = 1,
+    style = "dashed"
+  )
+  dotted_border <- officer::fp_border(
+    color = "orange",
+    width = 1.5,
+    style = "dotted"
+  )
+  double_border <- officer::fp_border(
+    color = "purple",
+    width = 3,
+    style = "double"
+  )
 
   # Apply a double border to the bottom edge of the header row:
   ft <- border(ft, i = 1, border.bottom = double_border, part = "header")
@@ -333,8 +352,13 @@ test_that("Complex FT", {
   # Apply a dashed border on the left side of the "id" column in the body:
   ft <- border(ft, j = "id", border.left = dashed_border, part = "body")
 
-  # Apply a dotted border on the right side of the "append_test" column in the body:
-  ft <- border(ft, j = "append_test", border.right = dotted_border, part = "body")
+  #' Apply a dotted border on the right side of the "append_test" column in
+  #' the body:
+  ft <- border(ft,
+    j = "append_test",
+    border.right = dotted_border,
+    part = "body"
+  )
 
   # Apply a dotted border on the bottom side of the "h1" column in the body:
   ft <- border(ft, j = "h1", border.bottom = dotted_border, part = "body")
@@ -342,8 +366,9 @@ test_that("Complex FT", {
   # Apply a double border on all sides of the "chunk_test" column in the body:
   ft <- border(ft, j = "chunk_test", border = double_border, part = "body")
 
-  # For merged cells in the "chunk_test" and "para_test" columns (rows 2 and 3),
-  # apply a combination: dashed border on the top and dotted border on the bottom.
+  #' For merged cells in the "chunk_test" and "para_test" columns (rows 2 and
+  #' 3), apply a combination: dashed border on the top and dotted border on the
+  #' bottom.
   ft <- border(ft,
     i = 2:3, j = c("chunk_test", "para_test"),
     border.top = dashed_border, border.bottom = dotted_border,

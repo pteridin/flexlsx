@@ -8,7 +8,8 @@
 #' @param ft a flextable
 #' @param start_col a vector specifying the starting column to write to.
 #' @param start_row a vector specifying the starting row to write to.
-#' @param dims Spreadsheet dimensions that will determine start_col and start_row: "A1", "A1:B2", "A:B"
+#' @param dims Spreadsheet dimensions that will determine start_col and
+#' start_row: "A1", "A1:B2", "A:B"
 #' @param offset_caption_rows number of rows to offset the caption by
 #'
 #' @return an openxlsx2 workbook

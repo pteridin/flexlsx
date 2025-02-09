@@ -25,7 +25,7 @@ test_that("rowwise merge works", {
     sheet = sheet,
     start_row = 2,
     start_col = 2,
-    col_names = T
+    col_names = TRUE
   )
 
   df2 <- mtcars |>
@@ -68,7 +68,7 @@ test_that("columnwise merge works", {
     sheet = sheet,
     start_row = 2,
     start_col = 2,
-    col_names = T
+    col_names = TRUE
   )
 
   df2 <- mtcars |>

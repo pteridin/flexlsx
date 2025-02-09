@@ -2,17 +2,17 @@
 create_df <- function(m) {
   m |>
     as.data.frame() |>
-    mutate(row_id = 1:dplyr::n()) |>
+    mutate(row_id = seq_len(dplyr::n())) |>
     tidyr::pivot_longer(
       cols = -all_of("row_id"),
       names_to = "name",
       values_to = "style"
     ) |>
-    mutate(col_id = rep(1:ncol(m), nrow(m)), style_other = T) |>
+    mutate(col_id = rep(seq_len(ncol(m)), nrow(m)), style_other = TRUE) |>
     select(-all_of("name"))
 }
 
-matrix(
+m <- matrix(
   c(
     ".", ".", ".", ".", ".", ".",
     "-", "-", "-", "-", "-", "-",
@@ -26,7 +26,7 @@ matrix(
   ),
   ncol = 6,
   byrow = TRUE
-) -> m
+)
 
 df <- create_df(m)
 
@@ -59,7 +59,10 @@ test_that("style_to_hash works", {
   df_hashes <- df |>
     style_to_hash()
 
-  df_reference <- tibble::tribble(~style, ~style_other, ~hash, "-", T, 1L, ".", T, 2L)
+  df_reference <- tibble::tribble(
+    ~style, ~style_other, ~hash,
+    "-", TRUE, 1L, ".", TRUE, 2L
+  )
 
   attr(df_reference, "cols_to_join") <- c("style", "style_other")
 

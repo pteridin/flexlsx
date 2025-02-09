@@ -39,20 +39,25 @@ wb_change_cell_width <- function(wb, sheet, ft, offset_cols) {
 #'
 wb_change_row_height <- function(wb, sheet, df_style) {
   font_sizes <- vapply(df_style$content,
-    \(x) ifelse(all(is.na(x$font.size)),
-      NA_real_,
-      max(x$font.size, na.rm = T)
-    ),
+    \(x) {
+      ifelse(all(is.na(x$font.size)),
+        NA_real_,
+        max(x$font.size, na.rm = TRUE)
+      )
+    },
     FUN.VALUE = numeric(1)
   )
 
   newline_counts <- vapply(df_style$content,
-    \(x) sum(stringi::stri_count(x$txt, regex = "<br */{0,1}>") +
-      stringi::stri_count(x$txt, regex = "\n")),
+    \(x) {
+      sum(stringi::stri_count(x$txt, regex = "<br */{0,1}>") +
+        stringi::stri_count(x$txt, regex = "\n"))
+    },
     FUN.VALUE = numeric(1)
   ) + 1
 
-  row_heights <- newline_counts * coalesce(font_sizes, df_style$font.size) / 11 * 15
+  row_heights <- newline_counts *
+    coalesce(font_sizes, df_style$font.size) / 11 * 15
 
   df_row_heights <- df_style |>
     dplyr::select(dplyr::all_of("row_id")) |>

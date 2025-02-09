@@ -109,12 +109,18 @@ ftpart_to_style_tibble <- function(ft_part,
 #' @importFrom dplyr bind_rows
 #' @importFrom openxlsx2 int2col
 #'
-ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L, offset_caption_rows = 0L) {
+ft_to_style_tibble <- function(ft, offset_rows = 0L,
+                               offset_cols = 0L,
+                               offset_caption_rows = 0L) {
   has_caption <- length(ft$caption$value) > 0
   has_footer <- length(ft$footer$content) > 0
 
   # Caption
-  df_caption <- if (has_caption) tibble::tibble(row_id = 1, col_id = 1) else tibble::tibble()
+  df_caption <- if (has_caption) {
+    tibble::tibble(row_id = 1, col_id = 1)
+  } else {
+    tibble::tibble()
+  }
 
   # Header
   df_header <- ftpart_to_style_tibble(ft$header)

@@ -67,15 +67,17 @@ wb_apply_content <- function(wb, sheet, df_style) {
       .data$underlined.x
     ),
 
-    # colors, font-size, font-family & vertical align will only be applied when different from the default
+    # colors, font-size, font-family & vertical align will only be applied when
+    # different from the default
     dplyr::across(
       dplyr::all_of(c("color.x", "color.y")),
       ~ prepare_color(.x)
     ),
     color.y = dplyr::coalesce(.data$color.y, .data$color.x),
-    color.y = dplyr::if_else(.data$color.y == "#000000" & .data$color.x == "#000000",
-      NA_character_,
-      .data$color.y
+    color.y = dplyr::if_else(.data$color.y == "#000000" &
+      .data$color.x == "#000000",
+    NA_character_,
+    .data$color.y
     )
   )
 
@@ -86,17 +88,33 @@ wb_apply_content <- function(wb, sheet, df_style) {
   # Replace <br> in flextables with newlines
   df_content$txt <- gsub("<br *\\/{0,1}>", "\n", df_content$txt)
 
-  df_content |>
+  df_content <- df_content |>
     dplyr::rowwise() |>
     dplyr::mutate(txt = paste0(openxlsx2::fmt_txt(
       .data$txt,
       bold = .data$bold.y,
       italic = .data$italic.y,
       underline = .data$underlined.y,
-      size = if (is.na(.data$font.size.y)) NULL else .data$font.size.y[[1]],
-      color = if (is.na(.data$color.y)) NULL else openxlsx2::wb_color(.data$color.y[[1]]),
-      font = if (is.na(.data$font.family.y)) NULL else .data$font.family.y[[1]],
-      vert_align = if (is.na(.data$vertical.align.y)) NULL else .data$vertical.align.y[[1]]
+      size = if (is.na(.data$font.size.y)) {
+        NULL
+      } else {
+        .data$font.size.y[[1]]
+      },
+      color = if (is.na(.data$color.y)) {
+        NULL
+      } else {
+        openxlsx2::wb_color(.data$color.y[[1]])
+      },
+      font = if (is.na(.data$font.family.y)) {
+        NULL
+      } else {
+        .data$font.family.y[[1]]
+      },
+      vert_align = if (is.na(.data$vertical.align.y)) {
+        NULL
+      } else {
+        .data$vertical.align.y[[1]]
+      }
     ))) |>
     dplyr::ungroup() |>
     dplyr::mutate(txt = ifelse(.data$span.rows == 0 | .data$span.cols == 0,
@@ -106,10 +124,10 @@ wb_apply_content <- function(wb, sheet, df_style) {
     dplyr::summarize(
       txt = paste0(.data$txt, collapse = ""),
       max_font_size = max(coalesce(.data$font.size.y, .data$font.size.x),
-        na.rm = T
+        na.rm = TRUE
       ),
       .groups = "drop"
-    ) -> df_content
+    )
 
   min_col_id <- min(df_content$col_id)
   max_col_id <- max(df_content$col_id)
@@ -133,9 +151,11 @@ wb_apply_content <- function(wb, sheet, df_style) {
     # convert from styled character to numeric
     xml_to_num <- function(x) {
       val <- vapply(x,
-        \(x) ifelse(x == "", NA_character_,
-          openxlsx2::xml_value(x, "r", "t")
-        ),
+        \(x) {
+          ifelse(x == "", NA_character_,
+            openxlsx2::xml_value(x, "r", "t")
+          )
+        },
         FUN.VALUE = character(1),
         USE.NAMES = FALSE
       )
@@ -152,7 +172,7 @@ wb_apply_content <- function(wb, sheet, df_style) {
     sheet = sheet,
     x = df,
     dims = dims,
-    col_names = F
+    col_names = FALSE
   )
 
   wb$add_ignore_error(dims = dims, number_stored_as_text = TRUE)
