@@ -17,6 +17,7 @@ Imports:
     grDevices,
     openxlsx2 (>= 1.0.0),
     purrr,
+    Rcpp,
     rlang,
     stringi,
     tibble,
@@ -34,3 +35,5 @@ RoxygenNote: 7.3.2
 Config/testthat/edition: 3
 URL: https://github.com/pteridin/flexlsx
 BugReports: https://github.com/pteridin/flexlsx/issues
+LinkingTo: 
+    Rcpp
