@@ -1,4 +1,4 @@
-# flexlsx 0.3.3
+# flexlsx 0.3.4
 
 * Hotfix for #40 - Export to Excel not working
 
