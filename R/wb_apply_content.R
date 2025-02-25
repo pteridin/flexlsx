@@ -114,7 +114,7 @@ wb_apply_content <- function(wb, sheet, df_style) {
       font = apply_sub_or_parent(.data$font.family.y,
                                   .data$font.family.x),
       vert_align = apply_sub_or_parent(.data$vertical.align.y,
-                                       .data$vertical.align.x)
+                                       .data$vertical.align.y)
     ))) |>
     dplyr::ungroup() |>
     dplyr::mutate(txt = ifelse(.data$span.rows == 0 | .data$span.cols == 0,
