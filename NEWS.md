@@ -1,3 +1,7 @@
+# flexlsx 0.3.3
+
+* Hotfix for #40 - Export to Excel not working
+
 # flexlsx 0.3.2
 
 * Improved performance of wb_apply_border
