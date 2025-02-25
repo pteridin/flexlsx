@@ -109,7 +109,7 @@ test_that("Add multi-header", {
     start_col = 2,
     start_row = 2
   )
-  test_wb_ft(wb, ft, "multi_header")
+  test_wb_ft(wb, ft_1, "multi_header")
 
   expect_equal(
     openxlsx2::wb_read(wb,
