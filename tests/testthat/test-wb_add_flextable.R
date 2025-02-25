@@ -423,3 +423,30 @@ test_that("MeganMcAuliffe test", {
 
   test_wb_ft(wb, ft, "MeganMcAuliffe ft")
 })
+
+
+test_that("bold test", {
+  skip_if_not_installed("flextable")
+  skip_if(Sys.getenv("flexlsxtestdir") == "")
+
+
+  library(flextable)
+  library(flexlsx)
+
+  # flextable
+  ft <- flextable(head(iris)) |>
+    separate_header(split = "[.]") |>
+    font(fontname="Times New Roman", part="all") |>
+    fontsize(i=1, size=13, part="header") |>
+    bold(bold=TRUE, part="header") # bold() is the issue here
+
+
+  expect_no_warning(wb <- openxlsx2::wb_workbook() |>
+                      openxlsx2::wb_add_worksheet() |>
+                      flexlsx::wb_add_flextable(
+                        ft = ft,
+                        dims = "B2"
+                      ))
+
+  test_wb_ft(wb, ft, "bold ft")
+})

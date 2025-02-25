@@ -1,3 +1,15 @@
+
+apply_sub_or_parent <- function(sub, parent, .fn = identity) {
+  if(is.na(sub) &&
+      is.na(parent))
+    return(NULL)
+
+  if (!is.na(sub))
+    return(.fn(sub))
+  return(.fn(parent))
+}
+
+
 #' Applies the content
 #'
 #' @description
@@ -81,10 +93,6 @@ wb_apply_content <- function(wb, sheet, df_style) {
     )
   )
 
-
-
-
-
   # Replace <br> in flextables with newlines
   df_content$txt <- gsub("<br *\\/{0,1}>", "\n", df_content$txt)
 
@@ -92,29 +100,21 @@ wb_apply_content <- function(wb, sheet, df_style) {
     dplyr::rowwise() |>
     dplyr::mutate(txt = paste0(openxlsx2::fmt_txt(
       .data$txt,
-      bold = .data$bold.y,
-      italic = .data$italic.y,
-      underline = .data$underlined.y,
-      size = if (is.na(.data$font.size.y)) {
-        NULL
-      } else {
-        .data$font.size.y[[1]]
-      },
-      color = if (is.na(.data$color.y)) {
-        NULL
-      } else {
-        openxlsx2::wb_color(.data$color.y[[1]])
-      },
-      font = if (is.na(.data$font.family.y)) {
-        NULL
-      } else {
-        .data$font.family.y[[1]]
-      },
-      vert_align = if (is.na(.data$vertical.align.y)) {
-        NULL
-      } else {
-        .data$vertical.align.y[[1]]
-      }
+      bold = apply_sub_or_parent(.data$bold.y,
+                                 .data$bold.x),
+      italic = apply_sub_or_parent(.data$italic.y,
+                                   .data$italic.x),
+      underline = apply_sub_or_parent(.data$underlined.y,
+                                      .data$underlined.x),
+      size = apply_sub_or_parent(.data$font.size.y,
+                                 .data$font.size.x),
+      color = apply_sub_or_parent(.data$color.y,
+                                  .data$color.x,
+                                  .fn = openxlsx2::wb_color),
+      font = apply_sub_or_parent(.data$font.family.y,
+                                  .data$font.family.x),
+      vert_align = apply_sub_or_parent(.data$vertical.align.y,
+                                       .data$vertical.align.x)
     ))) |>
     dplyr::ungroup() |>
     dplyr::mutate(txt = ifelse(.data$span.rows == 0 | .data$span.cols == 0,
