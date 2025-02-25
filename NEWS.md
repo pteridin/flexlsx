@@ -1,3 +1,7 @@
+# flexlsx (development version)
+
+* Improved performance of wb_apply_border
+
 # flexlsx 0.3.1
 
 * Fix: Border issues (#32, thanks to @MeganMcAuliffe)

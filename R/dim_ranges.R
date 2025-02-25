@@ -96,8 +96,9 @@ get_dim_rowwise <- function(df_x, df_style_hashed) {
     )))) |>
     group_by(across(all_of("row_id"))) |>
     mutate(col_change = cumsum(.data$hash !=
-                                 lag(.data$hash,
-                                     default = first(.data$hash)))) |>
+      lag(.data$hash,
+        default = first(.data$hash)
+      ))) |>
     group_by(across(all_of(c(
       "row_id", "hash", "col_change"
     )))) |>
@@ -138,9 +139,11 @@ get_dim_colwise <- function(df_rows) {
     )))) |>
     mutate(
       row_change = .data$row_id != lag(.data$row_id,
-                                       default = min(.data$row_id)) + 1L,
+        default = min(.data$row_id)
+      ) + 1L,
       style_change = .data$hash != lag(.data$hash,
-                                       default = min(.data$hash)),
+        default = min(.data$hash)
+      ),
       change = cumsum(.data$row_change | .data$style_change)
     ) |>
     group_by(across(all_of(

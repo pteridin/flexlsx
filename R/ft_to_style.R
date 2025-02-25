@@ -1,5 +1,3 @@
-
-
 #' Converts a flextable-part to a tibble styles
 #'
 #' @description
@@ -18,43 +16,63 @@
 #' @importFrom rlang .data
 #'
 ftpart_to_style_tibble <- function(ft_part,
-                             part = c("header",
-                                      "body",
-                                      "footer")) {
+                                   part = c(
+                                     "header",
+                                     "body",
+                                     "footer"
+                                   )) {
   ## map styles to data.frames
 
   # Cells
-  lapply(ft_part$styles$cells,
-         \(x) {
-           if("data" %in% names(x))
-             return(as.vector(x$data))
-           return(NULL)
-         }) |>
-    data.frame() -> df_styles_cells
+  df_styles_cells <- lapply(
+    ft_part$styles$cells,
+    \(x) {
+      if ("data" %in% names(x)) {
+        return(as.vector(x$data))
+      }
+      return(NULL)
+    }
+  ) |>
+    data.frame()
   df_styles_cells$rowheight <- round(ft_part$rowheights * 91.4400, 0)
 
   # Pars
-  lapply(ft_part$styles$pars,
-         \(x) {
-           if("data" %in% names(x))
-             return(as.vector(x$data))
-           return(NULL)
-         }) |>
-    data.frame() -> df_styles_pars
+  df_styles_pars <- lapply(
+    ft_part$styles$pars,
+    \(x) {
+      if ("data" %in% names(x)) {
+        return(as.vector(x$data))
+      }
+      return(NULL)
+    }
+  ) |>
+    data.frame()
 
   # Text
-  lapply(ft_part$styles$text,
-         \(x) {
-           if("data" %in% names(x))
-             return(as.vector(x$data))
-           return(NULL)
-         }) |>
-    data.frame() -> df_styles_text
+  df_styles_text <- lapply(
+    ft_part$styles$text,
+    \(x) {
+      if ("data" %in% names(x)) {
+        return(as.vector(x$data))
+      }
+      return(NULL)
+    }
+  ) |>
+    data.frame()
 
   # Merge
-  df_styles <- dplyr::bind_cols(df_styles_cells,
-                                dplyr::rename(df_styles_text, "text.vertical.align" = dplyr::all_of("vertical.align")),
-                                dplyr::select(df_styles_pars, dplyr::all_of("text.align")))
+  df_styles <- dplyr::bind_cols(
+    df_styles_cells,
+    dplyr::rename(
+      df_styles_text,
+      "text.vertical.align" =
+        dplyr::all_of("vertical.align")
+    ),
+    dplyr::select(
+      df_styles_pars,
+      dplyr::all_of("text.align")
+    )
+  )
 
   # Determine spans
   df_styles$span.rows <- ft_part$spans$rows |> as.vector()
@@ -91,45 +109,57 @@ ftpart_to_style_tibble <- function(ft_part,
 #' @importFrom dplyr bind_rows
 #' @importFrom openxlsx2 int2col
 #'
-ft_to_style_tibble <- function(ft, offset_rows = 0L, offset_cols = 0L, offset_caption_rows = 0L) {
+ft_to_style_tibble <- function(ft, offset_rows = 0L,
+                               offset_cols = 0L,
+                               offset_caption_rows = 0L) {
   has_caption <- length(ft$caption$value) > 0
   has_footer <- length(ft$footer$content) > 0
 
   # Caption
-  df_caption <- if(has_caption) tibble::tibble(row_id = 1, col_id = 1) else tibble::tibble()
+  df_caption <- if (has_caption) {
+    tibble::tibble(row_id = 1, col_id = 1)
+  } else {
+    tibble::tibble()
+  }
 
   # Header
   df_header <- ftpart_to_style_tibble(ft$header)
   # Offset row-id based on caption rows
-  if(has_caption)
+  if (has_caption) {
     df_header$row_id <- df_header$row_id + max(df_caption$row_id)
+  }
 
   # Body
   df_body <- ftpart_to_style_tibble(ft$body)
-  df_body$row_id <- df_body$row_id + max(df_header$row_id,0L)
+  df_body$row_id <- df_body$row_id + max(df_header$row_id, 0L)
 
   # Footer
-  if(has_footer) {
+  if (has_footer) {
     df_footer <- ftpart_to_style_tibble(ft$footer)
     df_footer$row_id <- df_footer$row_id + max(df_body$row_id)
   } else {
     df_footer <- tibble::tibble()
   }
 
-  df_style <- dplyr::bind_rows(df_caption,
-                                 df_header,
-                                 df_body,
-                                 df_footer)
+  df_style <- dplyr::bind_rows(
+    df_caption,
+    df_header,
+    df_body,
+    df_footer
+  )
 
   # offset the rows
   df_style$row_id <- df_style$row_id + offset_rows + offset_caption_rows
   df_style$col_id <- df_style$col_id + offset_cols
 
-  df_style$col_name <- paste0(openxlsx2::int2col(df_style$col_id),
-                            df_style$row_id)
+  df_style$col_name <- paste0(
+    openxlsx2::int2col(df_style$col_id),
+    df_style$row_id
+  )
 
-  if(has_caption)
-    df_style <- df_style[-1,]
+  if (has_caption) {
+    df_style <- df_style[-1, ]
+  }
 
   return(df_style)
 }

@@ -1,28 +1,32 @@
-
 ## Create a test dataset
 create_df <- function(m) {
   m |>
     as.data.frame() |>
-    mutate(row_id = 1:dplyr::n()) |>
-    tidyr::pivot_longer(cols = -all_of("row_id"),
-                        names_to = "name",
-                        values_to = "style") |>
-    mutate(col_id = rep(1:ncol(m), nrow(m)), style_other = T) |>
+    mutate(row_id = seq_len(dplyr::n())) |>
+    tidyr::pivot_longer(
+      cols = -all_of("row_id"),
+      names_to = "name",
+      values_to = "style"
+    ) |>
+    mutate(col_id = rep(seq_len(ncol(m)), nrow(m)), style_other = TRUE) |>
     select(-all_of("name"))
 }
 
-matrix(
-  c(".",".",".",".",".",".",
-    "-","-","-","-","-","-",
-    "-",".",".",".",".","-",
-    "-",".",".",".",".","-",
-    "-",".",".",".",".","-",
-    "-","-","-","-","-","-",
-    "-",".","-","-",".","-",
-    "-",".","-","-",".","-",
-    ".","-",".",".",".","."),
+m <- matrix(
+  c(
+    ".", ".", ".", ".", ".", ".",
+    "-", "-", "-", "-", "-", "-",
+    "-", ".", ".", ".", ".", "-",
+    "-", ".", ".", ".", ".", "-",
+    "-", ".", ".", ".", ".", "-",
+    "-", "-", "-", "-", "-", "-",
+    "-", ".", "-", "-", ".", "-",
+    "-", ".", "-", "-", ".", "-",
+    ".", "-", ".", ".", ".", "."
+  ),
   ncol = 6,
-  byrow = TRUE) -> m
+  byrow = TRUE
+)
 
 df <- create_df(m)
 
@@ -40,8 +44,9 @@ recreate_matrix <- function(df, df_hashes) {
 
 
   m2 <- matrix(NA_character_,
-               nrow = max(df$row_to),
-               ncol = max(df$col_to))
+    nrow = max(df$row_to),
+    ncol = max(df$col_to)
+  )
   for (i in seq_len(nrow(df))) {
     m2[df$row_from[i]:df$row_to[i], df$col_from[i]:df$col_to[i]] <- df$hash[i]
   }
@@ -54,7 +59,10 @@ test_that("style_to_hash works", {
   df_hashes <- df |>
     style_to_hash()
 
-  df_reference <- tibble::tribble(~ style, ~ style_other, ~ hash, "-", T, 1L, ".", T, 2L)
+  df_reference <- tibble::tribble(
+    ~style, ~style_other, ~hash,
+    "-", TRUE, 1L, ".", TRUE, 2L
+  )
 
   attr(df_reference, "cols_to_join") <- c("style", "style_other")
 
@@ -123,15 +131,13 @@ test_that("get_dim_colwise works", {
 
     expect_equal(recreate_matrix(df_colwise, df_hashes), m2)
   }
-
 })
 
 test_that("get_dim_ranges works", {
   df_ranges <- df |>
     get_dim_ranges()
 
-  expect_equal(sum(!(df_ranges$multi_cols | df_ranges$multi_rows )), 2L)
+  expect_equal(sum(!(df_ranges$multi_cols | df_ranges$multi_rows)), 2L)
   expect_true(all(df_ranges$style_other))
   expect_true("style" %in% names(df_ranges))
 })
-
