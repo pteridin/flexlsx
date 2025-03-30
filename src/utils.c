@@ -18,8 +18,8 @@ SEXP R_merge_resolve_type(SEXP df_to_merge) {
   SEXP is_need_resolve = PROTECT(allocVector(LGLSXP, length));
 
   // Initialize all values to FALSE (0)
-  memset(LOGICAL(is_encapsulated), 0, length * sizeof(int));
-  memset(LOGICAL(is_need_resolve), 0, length * sizeof(int));
+  memset(LOGICAL(is_encapsulated), 0, sizeof(int) * (size_t)length);
+  memset(LOGICAL(is_need_resolve), 0, sizeof(int) * (size_t)length);
 
   for (R_xlen_t i = 0; i < length; i++) {
     if (REAL(span_rows)[i] > 1 && REAL(span_cols)[i] > 1) {
@@ -84,9 +84,9 @@ SEXP R_merge_resolve_type(SEXP df_to_merge) {
   SET_STRING_ELT(result_names, 9, mkChar("is_need_resolve"));
   setAttrib(result, R_NamesSymbol, result_names);
 
-  SEXP row_names = PROTECT(allocVector(INTSXP, 2));
-  INTEGER(row_names)[0] = NA_INTEGER;
-  INTEGER(row_names)[1] = -length;
+  SEXP row_names = PROTECT(allocVector(REALSXP, 2));
+  REAL(row_names)[0] = NA_REAL;
+  REAL(row_names)[1] = (double)-length;
   setAttrib(result, R_RowNamesSymbol, row_names);
 
   setAttrib(result, R_ClassSymbol, mkString("data.frame"));
