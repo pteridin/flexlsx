@@ -25,3 +25,10 @@ prepare_color <- function(color_name) {
   colors[is.na(color_name)] <- NA_character_
   return(colors)
 }
+
+c_merge_resolve_type <- function(df_to_merge) {
+  # make sure that the variables are in the expected order
+  cols <- c("span.rows", "span.cols", "row_id", "row_end",
+            "col_id", "col_end", "dims", "merge_type")
+  .Call(R_merge_resolve_type, df_to_merge[cols])
+}

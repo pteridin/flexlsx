@@ -23,7 +23,7 @@ merge_resolve_type <- function(df_to_merge) {
       .data$col_id
     )
 
-  df_to_merge <- cpp_merge_resolve_type(df_to_merge)
+  df_to_merge <- c_merge_resolve_type(df_to_merge)
 
   return(df_to_merge)
 }
