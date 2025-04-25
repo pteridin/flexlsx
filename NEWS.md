@@ -1,3 +1,8 @@
+# flexlsx 0.3.5
+
+* Use snake_case in openxlsx2 arguments (#42, thanks to @JanMarvin)
+
+
 # flexlsx 0.3.4
 
 * Hotfix for #40 - Export to Excel not working
