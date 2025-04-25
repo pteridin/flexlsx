@@ -46,8 +46,8 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
       dims = crow$dims,
       horizontal = crow$text.align,
       vertical = crow$vertical.align,
-      textRotation = crow$text.direction,
-      wrapText = "1"
+      text_rotation = crow$text.direction,
+      wrap_text = "1"
     )
 
     if (crow$background.color != "transparent") {
