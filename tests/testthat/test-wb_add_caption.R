@@ -14,11 +14,8 @@ test_that("flextable with caption works", {
   )
 
   expect_equal(
-    names(wb$to_df("wo caption")),
-    c(
-      NA,
-      names(mtcars)
-    )
+    names(wb$to_df("wo caption", skip_empty_cols = TRUE)),
+    names(mtcars)
   )
   ## With caption
   wb$add_worksheet("with caption")
@@ -32,19 +29,16 @@ test_that("flextable with caption works", {
 
   test_wb_ft(wb, ft, "caption")
 
-  df <- wb$to_df("with caption")
+  df <- wb$to_df("with caption", skip_empty_cols = TRUE)
   expect_equal(
-    names(df)[2],
+    names(df)[1],
     "This is a caption"
   )
 
   expect_equal(
     unlist(df[1, ]) |>
       as.vector(),
-    c(
-      NA,
-      names(mtcars)
-    )
+    names(mtcars)
   )
 })
 
@@ -78,18 +72,15 @@ test_that("flextable with complex caption works", {
   )
   test_wb_ft(wb, ft, "complex caption")
 
-  df <- wb$to_df("with caption")
+  df <- wb$to_df("with caption", skip_empty_cols = TRUE)
   expect_equal(
-    names(df)[2],
+    names(df)[1],
     "This is a complex caption"
   )
 
   expect_equal(
     unlist(df[1, ]) |>
       as.vector(),
-    c(
-      NA,
       names(mtcars)
-    )
   )
 })
