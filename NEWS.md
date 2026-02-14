@@ -1,6 +1,7 @@
 # flexlsx 1.0.0
 
 * Implemented changes for new releases of openxlsx2 and flextable (#44, thanks to @JanMarvin)
+* Bumped openxlsx2 minimal version (>= 1.23)
 * Release, since "it works"
 
 # flexlsx 0.3.5

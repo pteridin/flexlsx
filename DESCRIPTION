@@ -1,7 +1,7 @@
 Package: flexlsx
 Type: Package
 Title: Exporting 'flextable' to 'xlsx' Files
-Version: 0.3.6
+Version: 1.0.0
 Authors@R: person(given = "Tobias",
                     family = "Heidler",
                     role = c("aut", "cre", "cph"),
@@ -15,7 +15,7 @@ LazyData: true
 Imports:
     dplyr (>= 1.1.1),
     grDevices,
-    openxlsx2 (>= 1.0.0),
+    openxlsx2 (>= 1.23),
     purrr,
     Rcpp,
     rlang,
@@ -25,7 +25,7 @@ Imports:
 Suggests:
     covr,
     gtsummary,
-    flextable (>= 0.9.5),
+    flextable (>= 0.9.11),
     testthat (>= 3.0.0),
     officer
 Depends:
