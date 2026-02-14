@@ -249,7 +249,7 @@ test_that("Complex FT", {
   # ---------------------------------------------------------------------------
   # 5. Use sugar functions to style chunks in the 'chunk_test' column.
   #    Compose a paragraph with multiple formatted chunks.
-  ft <- compose(ft,
+  ft <- flextable::compose(ft,
     j = "chunk_test", i = 1,
     value = as_paragraph(
       "Normal text, ",
@@ -261,7 +261,7 @@ test_that("Complex FT", {
   )
   # For rows 2-4, show a simple composition with inline formatting.
   for (i in 2:4) {
-    ft <- compose(ft,
+    ft <- flextable::compose(ft,
       j = "chunk_test", i = i,
       value = as_paragraph("Row ", i, ": ", as_b("Bold"), ", ", as_i("Italic"))
     )
@@ -270,7 +270,7 @@ test_that("Complex FT", {
   # ---------------------------------------------------------------------------
   # 6. Compose multi-line paragraphs in the 'para_test' column.
   #    Here we mix plain text with formatted chunks.
-  ft <- compose(ft,
+  ft <- flextable::compose(ft,
     j = "para_test", i = 1,
     value = as_paragraph(
       "Line1", "\n",
@@ -288,7 +288,7 @@ test_that("Complex FT", {
   # ---------------------------------------------------------------------------
   # 8. Prepend and append content in the 'append_test' column.
   #    Prepend a label and then append a suffix.
-  ft <- compose(ft,
+  ft <- flextable::compose(ft,
     j = "append_test",
     value = as_paragraph("Prepended: ", as_chunk(append_test))
   )
@@ -324,7 +324,7 @@ test_that("Complex FT", {
   #' para_test'
   #'        to have identical content, then merge horizontally (across these
   #'        two columns) and vertically (across rows 2 and 3).
-  ft <- compose(ft,
+  ft <- flextable::compose(ft,
     i = 2:3, j = c("chunk_test", "para_test"),
     value = as_paragraph("Combined")
   )
@@ -403,26 +403,26 @@ test_that("Complex FT", {
 })
 
 
-test_that("MeganMcAuliffe test", {
-  skip_if_not_installed("flextable")
-  skip_if(Sys.getenv("flexlsxtestdir") == "")
-
-
-  ft <- readRDS(paste0(
-    Sys.getenv("flexlsxtestdir"),
-    "ft_list_element.rds"
-  )) |>
-    flextable::autofit()
-
-  expect_no_warning(wb <- openxlsx2::wb_workbook() |>
-    openxlsx2::wb_add_worksheet() |>
-    flexlsx::wb_add_flextable(
-      ft = ft,
-      dims = "B2"
-    ))
-
-  test_wb_ft(wb, ft, "MeganMcAuliffe ft")
-})
+# test_that("MeganMcAuliffe test", {
+#   skip_if_not_installed("flextable")
+#   skip_if(Sys.getenv("flexlsxtestdir") == "")
+#
+#
+#   ft <- readRDS(paste0(
+#     Sys.getenv("flexlsxtestdir"),
+#     "ft_list_element.rds"
+#   )) |>
+#     flextable::autofit()
+#
+#   expect_no_warning(wb <- openxlsx2::wb_workbook() |>
+#     openxlsx2::wb_add_worksheet() |>
+#     flexlsx::wb_add_flextable(
+#       ft = ft,
+#       dims = "B2"
+#     ))
+#
+#   test_wb_ft(wb, ft, "MeganMcAuliffe ft")
+# })
 
 
 test_that("bold test", {

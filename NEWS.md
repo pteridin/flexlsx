@@ -1,7 +1,11 @@
+# flexlsx 1.0.0
+
+* Implemented changes for new releases of openxlsx2 and flextable (#44, thanks to @JanMarvin)
+* Release, since "it works"
+
 # flexlsx 0.3.5
 
 * Use snake_case in openxlsx2 arguments (#42, thanks to @JanMarvin)
-
 
 # flexlsx 0.3.4
 
