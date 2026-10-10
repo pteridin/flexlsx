@@ -25,3 +25,21 @@ prepare_color <- function(color_name) {
   colors[is.na(color_name)] <- NA_character_
   return(colors)
 }
+
+#' Prepares a color for a fill or border
+#'
+#' Like [prepare_color()], but keeps `"transparent"` (and `NA`) as
+#' `"transparent"` so callers can still test for it. Excel reads an
+#' eight-digit hex color as `AARRGGBB`, while R writes `#RRGGBBAA`, so an
+#' R color with an alpha channel must be reduced to its opaque `#RRGGBB`
+#' value before it reaches [openxlsx2::wb_color()].
+#'
+#' @param color_name The name of the color
+#'
+#' @return The hexadecimal RGB-value, or `"transparent"`
+#'
+#' @importFrom dplyr coalesce
+#'
+prepare_fill_color <- function(color_name) {
+  dplyr::coalesce(prepare_color(color_name), "transparent")
+}

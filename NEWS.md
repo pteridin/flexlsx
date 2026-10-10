@@ -1,3 +1,12 @@
+# flexlsx (development version)
+
+* Bugfix: cell fills and border colors with an alpha channel (`#RRGGBBAA`, as
+`grDevices::adjustcolor()` and `scales::alpha()` produce) were passed to Excel
+unchanged. Excel reads eight hex digits as `AARRGGBB`, so the alpha byte became
+the red channel and, for example, a translucent yellow exported as purple. Such
+colors are now reduced to their opaque `#RRGGBB` value, as font colors already
+were.
+
 # flexlsx 1.1.0
 
 * Bugfix: text rotated bottom-to-top kept no rotation in the exported xlsx. The

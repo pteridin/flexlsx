@@ -17,9 +17,11 @@ wb_apply_cell_styles <- function(wb, sheet, df_style) {
   ## aggregate borders
   df_cell_styles <- df_style |>
     dplyr::mutate(
-      background.color = ifelse(.data$shading.color != "transparent",
-        .data$shading.color,
-        .data$background.color
+      background.color = prepare_fill_color(
+        ifelse(.data$shading.color != "transparent",
+          .data$shading.color,
+          .data$background.color
+        )
       ),
       text.direction = dplyr::case_when(
         .data$text.direction == "tbrl" ~ "180",

@@ -110,9 +110,9 @@ wb_apply_border <- function(wb, sheet, df_style) {
       ),
       dplyr::across(
         dplyr::starts_with("border.color."),
-        ~ dplyr::if_else(.x == "transparent",
+        ~ prepare_color(dplyr::if_else(.x == "transparent",
           "black", .x
-        )
+        ))
       )
     )
 
