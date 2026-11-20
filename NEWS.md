@@ -1,3 +1,5 @@
+# flexlsx (development version)
+
 # flexlsx 1.1.1
 
 * Bugfix: cell fills and border colors with an alpha channel (`#RRGGBBAA`, as
